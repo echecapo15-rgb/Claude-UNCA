@@ -775,9 +775,9 @@
   },
   "renders": {
     "latest": {
-      "id": "a688d280-598b-4a01-8b8b-f3fdb7b75aca",
-      "completedAt": 1795647758969,
-      "output": "/home/user/Claude-UNCA/video-unidad3/unidad3-draft.mp4",
+      "id": "38ae96ce-fa91-4eeb-83de-7f00c8c89929",
+      "completedAt": 1795648795080,
+      "output": "/home/user/Claude-UNCA/video-unidad3/unidad3-final-raw.mp4",
       "status": "completed",
       "revision": "5340f0e1-00f1-4b22-9d1a-32140a473ee6"
     },
