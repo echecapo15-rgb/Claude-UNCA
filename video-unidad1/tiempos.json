@@ -1,0 +1,492 @@
+[
+ {
+  "n": 1,
+  "cap": "intro",
+  "ini": 0.0,
+  "fin": 1.47,
+  "texto": "¿Qué es la hacienda pública?"
+ },
+ {
+  "n": 2,
+  "cap": "intro",
+  "ini": 1.77,
+  "fin": 6.27,
+  "texto": "Esto es la Unidad 1 de Administración y Contabilidad Pública. Vamos por partes."
+ },
+ {
+  "n": 3,
+  "cap": "c1",
+  "ini": 7.07,
+  "fin": 9.42,
+  "texto": "Capítulo uno: concepto y características."
+ },
+ {
+  "n": 4,
+  "cap": "c1",
+  "ini": 9.72,
+  "fin": 15.54,
+  "texto": "Si el Estado produce bienes, contrata personal y tiene deudas, ¿en qué se diferencia de una empresa privada?"
+ },
+ {
+  "n": 5,
+  "cap": "c1",
+  "ini": 15.84,
+  "fin": 16.53,
+  "texto": "En el fin."
+ },
+ {
+  "n": 6,
+  "cap": "c1",
+  "ini": 16.83,
+  "fin": 20.71,
+  "texto": "La hacienda pública es el conjunto de actividades económicas del Estado."
+ },
+ {
+  "n": 7,
+  "cap": "c1",
+  "ini": 21.01,
+  "fin": 25.36,
+  "texto": "Busca satisfacer necesidades colectivas. No busca ganancias para repartir."
+ },
+ {
+  "n": 8,
+  "cap": "c1",
+  "ini": 25.66,
+  "fin": 27.3,
+  "texto": "Tiene seis características."
+ },
+ {
+  "n": 9,
+  "cap": "c1",
+  "ini": 27.6,
+  "fin": 29.97,
+  "texto": "Es erogativa: gasta para cumplir sus fines."
+ },
+ {
+  "n": 10,
+  "cap": "c1",
+  "ini": 30.27,
+  "fin": 33.71,
+  "texto": "Es coactiva: puede cobrar tributos aunque no quieras pagarlos."
+ },
+ {
+  "n": 11,
+  "cap": "c1",
+  "ini": 34.01,
+  "fin": 36.99,
+  "texto": "Es perdurable: no se termina cuando cambia el gobierno."
+ },
+ {
+  "n": 12,
+  "cap": "c1",
+  "ini": 37.29,
+  "fin": 40.79,
+  "texto": "Es dependiente: forma parte del Estado y sirve a sus tres poderes."
+ },
+ {
+  "n": 13,
+  "cap": "c1",
+  "ini": 41.09,
+  "fin": 44.33,
+  "texto": "Es formal: todo queda por escrito, en normas y expedientes."
+ },
+ {
+  "n": 14,
+  "cap": "c1",
+  "ini": 44.63,
+  "fin": 50.27,
+  "texto": "Y es divisa: se divide en partes, como ministerios y programas, para atender mejor cada necesidad."
+ },
+ {
+  "n": 15,
+  "cap": "c1",
+  "ini": 50.57,
+  "fin": 55.24,
+  "texto": "El ejemplo del apunte: la Provincia cobra Ingresos Brutos y paga sueldos docentes."
+ },
+ {
+  "n": 16,
+  "cap": "c1",
+  "ini": 55.54,
+  "fin": 61.15,
+  "texto": "Obtiene recursos de forma coactiva y los aplica a una necesidad colectiva. Eso es hacienda pública."
+ },
+ {
+  "n": 17,
+  "cap": "c2",
+  "ini": 61.95,
+  "fin": 65.38,
+  "texto": "Capítulo dos: las acciones de la hacienda pública. Son cuatro."
+ },
+ {
+  "n": 18,
+  "cap": "c2",
+  "ini": 65.68,
+  "fin": 68.5,
+  "texto": "Regulación: el Estado fija reglas para la economía."
+ },
+ {
+  "n": 19,
+  "cap": "c2",
+  "ini": 68.8,
+  "fin": 71.81,
+  "texto": "Por ejemplo, te exige un permiso para abrir un comercio."
+ },
+ {
+  "n": 20,
+  "cap": "c2",
+  "ini": 72.11,
+  "fin": 75.97,
+  "texto": "Producción de bienes y servicios: escuelas, hospitales, agua potable."
+ },
+ {
+  "n": 21,
+  "cap": "c2",
+  "ini": 76.27,
+  "fin": 81.18,
+  "texto": "Inversión física: obras que duran muchos años, como una ruta o un edificio escolar."
+ },
+ {
+  "n": 22,
+  "cap": "c2",
+  "ini": 81.48,
+  "fin": 83.8,
+  "texto": "Y financiamiento: de dónde sale el dinero."
+ },
+ {
+  "n": 23,
+  "cap": "c2",
+  "ini": 84.1,
+  "fin": 87.49,
+  "texto": "Primero, los tributos. Si no alcanzan, el crédito público."
+ },
+ {
+  "n": 24,
+  "cap": "c2",
+  "ini": 87.79,
+  "fin": 91.46,
+  "texto": "Y en casos extremos, emitir moneda, con costos como la inflación."
+ },
+ {
+  "n": 25,
+  "cap": "c3",
+  "ini": 92.26,
+  "fin": 94.44,
+  "texto": "Capítulo tres: los órganos del Estado."
+ },
+ {
+  "n": 26,
+  "cap": "c3",
+  "ini": 94.74,
+  "fin": 100.01,
+  "texto": "El Poder Legislativo es el órgano volitivo. Volitivo viene de voluntad: decide qué se hace."
+ },
+ {
+  "n": 27,
+  "cap": "c3",
+  "ini": 100.31,
+  "fin": 103.81,
+  "texto": "Sanciona leyes, y aprueba el presupuesto y la cuenta de inversión."
+ },
+ {
+  "n": 28,
+  "cap": "c3",
+  "ini": 104.11,
+  "fin": 107.5,
+  "texto": "Lo dice el artículo ciento diez de la Constitución de Catamarca."
+ },
+ {
+  "n": 29,
+  "cap": "c3",
+  "ini": 107.8,
+  "fin": 111.51,
+  "texto": "El Poder Ejecutivo es el órgano directivo. Ejecuta lo decidido."
+ },
+ {
+  "n": 30,
+  "cap": "c3",
+  "ini": 111.81,
+  "fin": 114.8,
+  "texto": "Administra, cobra, paga y propone el presupuesto."
+ },
+ {
+  "n": 31,
+  "cap": "c3",
+  "ini": 115.1,
+  "fin": 122.05,
+  "texto": "El ejemplo: la Legislatura aprueba la ley de presupuesto. Y el Ejecutivo la ejecuta: cobra los recursos y paga los gastos."
+ },
+ {
+  "n": 32,
+  "cap": "c4",
+  "ini": 122.85,
+  "fin": 125.03,
+  "texto": "Capítulo cuatro: los tipos de Estado."
+ },
+ {
+  "n": 33,
+  "cap": "c4",
+  "ini": 125.33,
+  "fin": 130.9,
+  "texto": "El liberal o gendarme interviene lo mínimo. Cuida el orden y la propiedad, y deja el resto al mercado."
+ },
+ {
+  "n": 34,
+  "cap": "c4",
+  "ini": 131.2,
+  "fin": 134.5,
+  "texto": "El subsidiario interviene solo cuando el particular no puede."
+ },
+ {
+  "n": 35,
+  "cap": "c4",
+  "ini": 134.8,
+  "fin": 139.52,
+  "texto": "El de bienestar garantiza derechos sociales: salud, educación, seguridad social."
+ },
+ {
+  "n": 36,
+  "cap": "c4",
+  "ini": 139.82,
+  "fin": 142.72,
+  "texto": "Y el socialista planifica y controla la producción."
+ },
+ {
+  "n": 37,
+  "cap": "c4",
+  "ini": 143.02,
+  "fin": 145.88,
+  "texto": "El ejemplo del apunte: en un pueblo falta una escuela."
+ },
+ {
+  "n": 38,
+  "cap": "c4",
+  "ini": 146.18,
+  "fin": 148.05,
+  "texto": "El Estado liberal no interviene."
+ },
+ {
+  "n": 39,
+  "cap": "c4",
+  "ini": 148.35,
+  "fin": 151.64,
+  "texto": "El subsidiario interviene solo si ningún privado la construye."
+ },
+ {
+  "n": 40,
+  "cap": "c4",
+  "ini": 151.94,
+  "fin": 155.52,
+  "texto": "El de bienestar la construye y la financia como derecho social."
+ },
+ {
+  "n": 41,
+  "cap": "c4",
+  "ini": 155.82,
+  "fin": 158.41,
+  "texto": "Y el socialista planifica toda la educación."
+ },
+ {
+  "n": 42,
+  "cap": "c5",
+  "ini": 159.21,
+  "fin": 161.68,
+  "texto": "Capítulo cinco: la administración pública."
+ },
+ {
+  "n": 43,
+  "cap": "c5",
+  "ini": 161.98,
+  "fin": 165.65,
+  "texto": "Es el conjunto de organismos que ejecutan las decisiones del Estado."
+ },
+ {
+  "n": 44,
+  "cap": "c5",
+  "ini": 165.95,
+  "fin": 171.37,
+  "texto": "La contabilidad pública registra y expone sus operaciones, para decidir, informar y controlar."
+ },
+ {
+  "n": 45,
+  "cap": "c5",
+  "ini": 171.67,
+  "fin": 173.67,
+  "texto": "¿Cómo se organiza? Hay tres formas."
+ },
+ {
+  "n": 46,
+  "cap": "c5",
+  "ini": 173.97,
+  "fin": 178.5,
+  "texto": "Centralización: todo depende del poder central. Hay una sola cabeza que decide."
+ },
+ {
+  "n": 47,
+  "cap": "c5",
+  "ini": 178.8,
+  "fin": 182.93,
+  "texto": "Desconcentración: el poder central pasa funciones a órganos internos."
+ },
+ {
+  "n": 48,
+  "cap": "c5",
+  "ini": 183.23,
+  "fin": 187.29,
+  "texto": "Pero siguen bajo su jerarquía, y no tienen personalidad jurídica propia."
+ },
+ {
+  "n": 49,
+  "cap": "c5",
+  "ini": 187.59,
+  "fin": 194.39,
+  "texto": "Ejemplo: el Ministerio abre oficinas en el interior para resolver trámites. Esas oficinas siguen siendo del Ministerio."
+ },
+ {
+  "n": 50,
+  "cap": "c5",
+  "ini": 194.69,
+  "fin": 199.75,
+  "texto": "Descentralización: las competencias pasan a un ente separado de la administración central."
+ },
+ {
+  "n": 51,
+  "cap": "c5",
+  "ini": 200.05,
+  "fin": 205.02,
+  "texto": "Ejemplo: la Provincia crea por ley un ente con patrimonio propio, como el i pe ve o la OSEP."
+ },
+ {
+  "n": 52,
+  "cap": "c5",
+  "ini": 205.32,
+  "fin": 208.84,
+  "texto": "El Ejecutivo ya no le da órdenes jerárquicas. Solo lo controla."
+ },
+ {
+  "n": 53,
+  "cap": "c5",
+  "ini": 209.14,
+  "fin": 212.49,
+  "texto": "Y ojo: autarquía es administrarse a sí mismo, como el i pe ve."
+ },
+ {
+  "n": 54,
+  "cap": "c5",
+  "ini": 212.79,
+  "fin": 217.03,
+  "texto": "Autonomía es dictar sus propias normas, como un municipio con sus ordenanzas."
+ },
+ {
+  "n": 55,
+  "cap": "c6",
+  "ini": 217.83,
+  "fin": 220.67,
+  "texto": "Capítulo seis: gestión pública y modernización."
+ },
+ {
+  "n": 56,
+  "cap": "c6",
+  "ini": 220.97,
+  "fin": 223.49,
+  "texto": "La gestión pública tiene cinco principios."
+ },
+ {
+  "n": 57,
+  "cap": "c6",
+  "ini": 223.79,
+  "fin": 228.31,
+  "texto": "El apunte los explica con una campaña de vacunación que planificó diez mil dosis."
+ },
+ {
+  "n": 58,
+  "cap": "c6",
+  "ini": 228.61,
+  "fin": 233.18,
+  "texto": "Economía, gastar menos: comprar las vacunas al menor precio, sin perder calidad."
+ },
+ {
+  "n": 59,
+  "cap": "c6",
+  "ini": 233.48,
+  "fin": 238.23,
+  "texto": "Eficiencia, gastar bien: cuántas dosis se aplican por cada peso y por cada enfermero."
+ },
+ {
+  "n": 60,
+  "cap": "c6",
+  "ini": 238.53,
+  "fin": 244.25,
+  "texto": "Eficacia, gastar sabiamente: se aplicaron nueve mil de las diez mil. El noventa por ciento de la meta."
+ },
+ {
+  "n": 61,
+  "cap": "c6",
+  "ini": 244.55,
+  "fin": 248.37,
+  "texto": "Ejecutividad, gastar a tiempo: las dosis llegaron antes del invierno."
+ },
+ {
+  "n": 62,
+  "cap": "c6",
+  "ini": 248.67,
+  "fin": 254.3,
+  "texto": "Efectividad, gastar satisfactoriamente: bajó la enfermedad en la población que necesitaba protección."
+ },
+ {
+  "n": 63,
+  "cap": "c6",
+  "ini": 254.6,
+  "fin": 259.42,
+  "texto": "El modelo burocrático mira procedimientos. El gerencial público mira resultados."
+ },
+ {
+  "n": 64,
+  "cap": "c6",
+  "ini": 259.72,
+  "fin": 264.65,
+  "texto": "En vez de contar cuántas recetas firmó un hospital, se mide cuántos pacientes mejoraron."
+ },
+ {
+  "n": 65,
+  "cap": "c6",
+  "ini": 264.95,
+  "fin": 272.27,
+  "texto": "¿Y la modernización? Catamarca adhirió al plan nacional con el Decreto Acuerdo novecientos ochenta y cuatro, del año dos mil dieciséis."
+ },
+ {
+  "n": 66,
+  "cap": "c6",
+  "ini": 272.57,
+  "fin": 280.61,
+  "texto": "Sus ejes: gobierno digital y abierto; gestión integral de recursos humanos y calidad; y gestión por resultados y planificación estratégica."
+ },
+ {
+  "n": 67,
+  "cap": "c6",
+  "ini": 280.91,
+  "fin": 284.45,
+  "texto": "El órgano coordinador es la Secretaría General de Gobernación."
+ },
+ {
+  "n": 68,
+  "cap": "cierre",
+  "ini": 285.25,
+  "fin": 287.11,
+  "texto": "Te dejo una pregunta del apunte."
+ },
+ {
+  "n": 69,
+  "cap": "cierre",
+  "ini": 287.41,
+  "fin": 294.56,
+  "texto": "Un hospital público gasta el presupuesto completo, pero atiende a la mitad de los pacientes previstos. ¿Qué principio de gestión falla?"
+ },
+ {
+  "n": 70,
+  "cap": "cierre",
+  "ini": 294.86,
+  "fin": 298.29,
+  "texto": "Respondé en los comentarios. Y guardá este video para el examen."
+ }
+]
