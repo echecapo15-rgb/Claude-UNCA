@@ -4,3 +4,4 @@ node_modules/
 **/work-*-*/
 **/*-raw.mp4
 **/.hyperframes/artifacts/
+__pycache__/
