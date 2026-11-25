@@ -1,2 +1,5 @@
 video-estudio/proyecto/.hyperframes/
 node_modules/
+**/.*.hf-transaction-*/
+**/work-*-*/
+**/*-raw.mp4
