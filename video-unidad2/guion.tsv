@@ -1,0 +1,72 @@
+intro	Si el Estado no tiene ley de presupuesto, ¿puede gastar?
+intro	No. Todo lo que va a gastar tiene que estar en la ley de presupuesto.
+intro	Por eso el presupuesto es la columna vertebral de la hacienda pública. Esto es la Unidad 2.
+c1	Capítulo uno: qué es el presupuesto.
+c1	Desde lo financiero, es el plan del gobierno expresado en términos financieros.
+c1	Desde lo político, muestra qué bienes y servicios se producen, y cuánto cuestan los programas.
+c1	Es un acto administrativo-legislativo: el Ejecutivo lo prepara y lo ejecuta. El Legislativo lo aprueba.
+c1	Tiene fuerza de ley, y rige por un año.
+c1	Los recursos son estimativos: no se sabe exactamente cuánto se va a recaudar.
+c1	Los gastos, en cambio, son una autorización máxima.
+c1	Un tope de cuánto se gasta, y de en qué se gasta.
+c1	El ejemplo del apunte: el crédito para útiles escolares no sirve para pagar sueldos.
+c1	Y separa gastos y recursos por clasificaciones. Eso es la especificidad.
+c2	Capítulo dos: las seis etapas.
+c2	Uno: determinación de la política. Se fijan el nivel del presupuesto, las prioridades y el financiamiento.
+c2	Dos: confección del proyecto. La Dirección Provincial de Programación Presupuestaria arma el proyecto de ley.
+c2	Y el Ejecutivo lo aprueba en acuerdo de ministros.
+c2	Tres: autorización legal. La Legislatura lo discute, puede modificarlo, y lo convierte en ley.
+c2	Cuatro: ejecución. Se cobran los recursos y se hacen los gastos autorizados.
+c2	Cinco: registración y control. Cada hecho se anota mientras ocurre, no después.
+c2	Y se controla que no se pague nada fuera del presupuesto.
+c2	Seis: evaluación y juzgamiento. Se compara lo hecho con lo previsto.
+c3	Capítulo tres: los principios presupuestarios.
+c3	Legalidad: no hay presupuesto sin ley. Así se limita la arbitrariedad del gobierno.
+c3	Equilibrio: recursos y gastos deben igualarse.
+c3	El ejemplo del apunte: recursos por cien pesos y gastos por cien. Está equilibrado.
+c3	Si se autorizan ciento veinte, hay un déficit de veinte, que hay que financiar, por ejemplo con deuda.
+c3	Exactitud: usar los mejores métodos para estimar el futuro.
+c3	Por ejemplo, con lo que se recaudó en años anteriores, se estima cuánto se va a recaudar el año próximo.
+c3	Universalidad: todos los gastos y recursos, por su monto completo, sin compensar.
+c3	Una oficina cobra cien mil pesos de tasas, y gasta ochenta mil en papel.
+c3	El presupuesto muestra cien mil de recurso y ochenta mil de gasto. No un neto de veinte mil.
+c3	Unidad: todos los recursos financian todos los gastos.
+c3	Lo que se cobra de Ingresos Brutos no está reservado para sueldos docentes. Entra a una masa común, salvo que una ley lo afecte.
+c3	Unidad de caja: un solo órgano central recibe todos los fondos.
+c3	La dirección que cobra un impuesto no lo usa para sus gastos. Lo deposita en la cuenta de la Tesorería.
+c3	Publicidad: el presupuesto no es secreto. Cualquier persona puede saber en qué se gasta.
+c3	Claridad: tiene que entenderlo alguien sin formación contable, sin perder precisión técnica.
+c3	Especificación: cada autorización tiene un fin claro. El crédito para Personal no sirve para comprar vehículos.
+c3	Anualidad: el año financiero va del uno de enero al treinta y uno de diciembre.
+c3	Lo que no se gastó en ese año no pasa solo al siguiente.
+c3	Precedencia: se aprueba antes de que empiece el año.
+c3	El presupuesto de dos mil veintisiete tiene que estar aprobado antes del uno de enero. No en marzo, para cubrir lo gastado en enero.
+c4	Capítulo cuatro: estructura y clasificadores.
+c4	El presupuesto es un cuadro. De un lado, los ingresos probables. Del otro, los gastos.
+c4	Los recursos se fijan en otras leyes. Los gastos, en el presupuesto, como límite.
+c4	Los clasificadores agrupan recursos y gastos con criterios comunes. Se aprueban por decreto acuerdo, cada año.
+c4	Por carácter económico: corrientes, de capital y financieros.
+c4	Por procedencia: el recurso puede ser provincial, nacional o de otros orígenes. Ingresos Brutos, que cobra la Provincia, es provincial.
+c4	Por objeto del gasto hay nueve incisos. Uno, personal. Dos, bienes de consumo. Cuatro, bienes de uso. Y así hasta el nueve.
+c4	Por finalidad y función: qué servicios presta el Estado a la comunidad.
+c4	Y una misma cuenta puede estar en varios clasificadores a la vez.
+c4	El ejemplo del apunte: el sueldo de un docente.
+c4	Por objeto, es personal. Por carácter económico, gasto corriente. Por finalidad, servicios sociales, educación.
+c4	Comprar una ambulancia es bienes de uso, gasto de capital, y salud.
+c5	Capítulo cinco: los sistemas presupuestarios. Cómo se reparte el dinero.
+c5	El tradicional, o incremental, asigna sobre la base del año anterior.
+c5	Si una dirección tuvo cien pesos, y la inflación fue del veinte por ciento, este año recibe ciento veinte. Sin discutir qué hizo con lo anterior.
+c5	El presupuesto por programas asigna según lo que se quiere producir.
+c5	En vez de sueldos tanto y útiles tanto, se asigna al programa Alfabetización lo que necesita para su resultado: alumnos que aprenden a leer.
+c5	Por programas en base cero: cada año se arranca de cero, y cada gasto se justifica.
+c5	Aunque un programa exista hace diez años, cada año justifica todo de nuevo. Su desventaja es el trabajo que lleva.
+c5	Y por resultados: pone el foco en indicadores de resultado e impacto.
+c5	El programa de vacunación se evalúa por cuánta población quedó protegida, no solo por cuántas dosis se compraron.
+c6	Capítulo seis: los indicadores de gestión.
+c6	Ningún indicador explica solo el desempeño de un programa. Por eso se usan varios.
+c6	El ejemplo del apunte: una escuela.
+c6	La cantidad de docentes es un insumo. Los alumnos atendidos son el producto. Y la tasa de egreso es el resultado.
+c6	También se mide la calidad de lo producido, y el impacto en un ámbito mayor.
+cierre	Te dejo una pregunta del apunte.
+cierre	Un programa de vacunación informa cuántas dosis aplicó, pero no si bajó la mortalidad infantil. ¿Qué tipo de indicador falta?
+cierre	Respondé en los comentarios, y guardá este video.
