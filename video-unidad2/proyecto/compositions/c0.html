@@ -1,0 +1,170 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: Nunito, sans-serif; }
+    .h { opacity: 0; }
+    .brd { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; overflow: hidden; border-radius: 22px; }
+    .brd svg { position: absolute; left: 0; top: 0; width: 880px; height: 470px; overflow: hidden; }
+    .brd text { font-family: Nunito, sans-serif; }
+    .b { font-weight: 900; }
+    .m { font-weight: 700; }
+    .ttl { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; border-radius: 22px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      color: #ffffff; text-align: center; overflow: hidden; }
+    .ttl-n { font-size: 40px; font-weight: 700; letter-spacing: 0.06em; opacity: 0.9; }
+    .ttl-t { font-size: 66px; font-weight: 900; line-height: 1.05; max-width: 760px; }
+    .pill-slot { position: absolute; left: 0; right: 0; top: 300px; display: flex; justify-content: center; }
+    .pill { display: flex; align-items: center; gap: 14px; padding: 12px 28px; border-radius: 999px;
+      background: rgba(16, 18, 42, 0.82); color: #ffffff; font-size: 34px; font-weight: 900; max-width: 840px; }
+    .pill-n { font-size: 30px; font-weight: 900; padding: 3px 14px; border-radius: 999px; color: #10122a; }
+    .ej { position: absolute; left: 130px; top: 396px; padding: 8px 20px; border-radius: 12px;
+      font-size: 28px; font-weight: 900; letter-spacing: 0.04em; box-shadow: 0 5px 0 rgba(0, 0, 0, 0.18); }
+    .ej-a { background: #ffd166; color: #2d2200; }
+    .ej-p { background: #a5d8ff; color: #0b2540; }
+
+    .acc { fill: #5b4bd6; }
+  </style>
+  <div id="root" data-composition-id="c0" data-width="1080" data-height="1920">
+    <div class="brd"><svg viewBox="0 0 880 470" xmlns="http://www.w3.org/2000/svg"><defs><marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2d3436" /></marker></defs>
+      <g id="c0-a">
+        <text x="440" y="62" font-size="44" class="b" text-anchor="middle" fill="#5b4bd6" >¿Puede gastar sin ley?</text>
+        <g id="c0-pila"><circle id="c0-p1" class="" cx="130" cy="330" r="30" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" /><circle id="c0-p2" class="" cx="170" cy="300" r="30" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" /><circle id="c0-p3" class="" cx="120" cy="280" r="30" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" /><circle id="c0-p4" class="" cx="160" cy="250" r="30" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" /></g>
+        <g><rect x="650" y="240" width="190" height="100" rx="16" fill="#636e72" /><text x="745.0" y="301.9" font-size="34" class="b" text-anchor="middle" fill="#ffffff" >GASTO</text></g>
+        <path id="c0-flecha" d="M220,290 L630,290" fill="none" stroke="#b2bec3" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" />
+        <circle id="c0-m0" class="h" cx="220" cy="290" r="16" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" /><circle id="c0-m1" class="h" cx="220" cy="290" r="16" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" /><circle id="c0-m2" class="h" cx="220" cy="290" r="16" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" />
+        <g id="c0-candado" class="h">
+          <rect x="390" y="270" width="70" height="58" rx="10" fill="#d63031" />
+          <path d="M403,272 L403,250 A22,22 0 0,1 447,250 L447,272" fill="none" stroke="#d63031" stroke-width="10" />
+        </g>
+        <g id="c0-no" class="h" transform="rotate(-10 440 160)">
+          <rect x="300" y="110" width="280" height="96" rx="14" fill="none" stroke="#d63031" stroke-width="8" />
+          <text x="440" y="176" font-size="52" class="b" text-anchor="middle" fill="#d63031" >¡NO!</text>
+        </g>
+        <g id="c0-ley" class="h">
+          <rect x="350" y="200" width="180" height="180" rx="12" fill="#ffffff" stroke="#5b4bd6" stroke-width="7" />
+          <text x="440" y="268" font-size="30" class="b" text-anchor="middle" fill="#5b4bd6" >LEY DE</text>
+          <text x="440" y="306" font-size="30" class="b" text-anchor="middle" fill="#5b4bd6" >PRESUPUESTO</text>
+          <path d="M380,336 L500,336 M380,356 L470,356" stroke="#b2bec3" stroke-width="6" />
+        </g>
+      </g>
+      <g id="c0-b" class="h">
+        <g id="c0-col"><rect id="c0-v0" class="h" x="150" y="400" width="120" height="34" rx="14" fill="#8f84ec" /><rect id="c0-v1" class="h" x="144" y="356" width="132" height="34" rx="14" fill="#5b4bd6" /><rect id="c0-v2" class="h" x="150" y="312" width="120" height="34" rx="14" fill="#8f84ec" /><rect id="c0-v3" class="h" x="144" y="268" width="132" height="34" rx="14" fill="#5b4bd6" /><rect id="c0-v4" class="h" x="150" y="224" width="120" height="34" rx="14" fill="#8f84ec" /><rect id="c0-v5" class="h" x="144" y="180" width="132" height="34" rx="14" fill="#5b4bd6" /><rect id="c0-v6" class="h" x="150" y="136" width="120" height="34" rx="14" fill="#8f84ec" /><rect id="c0-v7" class="h" x="144" y="92" width="132" height="34" rx="14" fill="#5b4bd6" /></g>
+        <g id="c0-tit" class="h">
+          <rect x="420" y="120" width="220" height="58" rx="29" fill="#5b4bd6" />
+          <text x="530" y="160" font-size="34" class="b" text-anchor="middle" fill="#ffffff" >UNIDAD 2</text>
+          <text x="620" y="250" font-size="56" class="b" text-anchor="middle" fill="#2d3436" >El presupuesto</text>
+          <text x="620" y="318" font-size="56" class="b" text-anchor="middle" fill="#5b4bd6" >público</text>
+          <text x="620" y="380" font-size="30" class="m" text-anchor="middle" fill="#636e72" >la columna vertebral de la hacienda</text>
+        </g>
+      </g>
+    </svg></div>
+    <div class="pill-slot"><div id="c0-pill" class="pill h">Unidad 2</div></div>
+    <div id="c0-ej" class="ej ej-a h">EJEMPLO DEL APUNTE</div>
+    <div id="c0-pe" class="ej ej-p h">PARA ENTENDERLO</div>
+  </div>
+  <script>
+    const T0 = 0;
+    const tl = gsap.timeline({ paused: true });
+    const A = (t) => Math.max(0, +(t - T0).toFixed(3));
+    const C = "50% 50%";
+    function show(s, t, d) {
+      tl.set(s, { scale: 0.85, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: d || 0.35, ease: "back.out(2)" }, A(t));
+    }
+    function pop(s, t) {
+      tl.set(s, { scale: 0, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(3)" }, A(t));
+    }
+    function hide(s, t) { tl.to(s, { opacity: 0, duration: 0.25, ease: "power2.in" }, A(t - 0.25)); }
+    function slideIn(s, t) {
+      tl.set(s, { x: 90 }, A(t));
+      tl.to(s, { x: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, A(t));
+    }
+    function slideOut(s, t) { tl.to(s, { x: -90, opacity: 0, duration: 0.35, ease: "power2.in" }, A(t - 0.35)); }
+    function drop(s, t) {
+      tl.set(s, { y: -160 }, A(t));
+      tl.to(s, { y: 0, opacity: 1, duration: 0.55, ease: "bounce.out" }, A(t));
+    }
+    function draw(s, t, d) { tl.to(s, { strokeDashoffset: 0, duration: d || 0.8, ease: "power1.inOut" }, A(t)); }
+    function grow(s, t, d, origin) {
+      tl.set(s, { scaleX: 0, transformOrigin: origin || "0% 50%" }, A(t));
+      tl.to(s, { scaleX: 1, opacity: 1, duration: d || 0.8, ease: "power2.out" }, A(t));
+    }
+    function growY(s, t, d) {
+      tl.set(s, { scaleY: 0, transformOrigin: "50% 100%" }, A(t));
+      tl.to(s, { scaleY: 1, opacity: 1, duration: d || 0.8, ease: "power2.out" }, A(t));
+    }
+    function pulse(s, t) { tl.to(s, { scale: 1.12, transformOrigin: C, duration: 0.18, yoyo: true, repeat: 1, ease: "sine.inOut" }, A(t)); }
+    function reps(span, per) { const n = Math.max(1, Math.floor(span / per)); return n % 2 ? n : n - 1; }
+    function bob(s, t0, t1, amp, per) {
+      per = per || 0.8;
+      tl.to(s, { y: -(amp || 8), duration: per / 2, ease: "sine.inOut", yoyo: true, repeat: reps(t1 - t0, per / 2) }, A(t0));
+    }
+    function wob(s, t0, t1, deg, per, origin) {
+      per = per || 0.8;
+      tl.fromTo(s, { rotation: -(deg || 6), transformOrigin: origin || C }, { rotation: deg || 6, duration: per / 2, ease: "sine.inOut", yoyo: true, repeat: reps(t1 - t0, per / 2) }, A(t0));
+    }
+    function flow(s, t0, t1, speed) {
+      tl.to(s, { strokeDashoffset: -(speed || 60) * (t1 - t0), duration: t1 - t0, ease: "none" }, A(t0));
+    }
+    function spin(s, t0, t1, deg) { tl.to(s, { rotation: deg || 360, transformOrigin: C, duration: t1 - t0, ease: "none" }, A(t0)); }
+    function money(v) { return "$" + Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+    function count(sel, a, b, t, d, fmt) {
+      const el = document.querySelector(sel);
+      const o = { v: a };
+      fmt = fmt || money;
+      tl.to(o, { v: b, duration: d || 1, ease: "power1.out", onUpdate: () => { el.textContent = fmt(o.v); } }, A(t));
+    }
+    function travel(s, t, dx, dy, d, arc) {
+      tl.to(s, { x: dx, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+      if (arc) {
+        tl.to(s, { y: arc, duration: (d || 0.8) / 2, ease: "sine.out" }, A(t));
+        tl.to(s, { y: dy, duration: (d || 0.8) / 2, ease: "sine.in" }, A(t + (d || 0.8) / 2));
+      } else {
+        tl.to(s, { y: dy, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+      }
+    }
+    // Varias monedas que circulan en fila, en loop finito
+    function stream(prefix, n, t0, t1, dx, dy, per) {
+      for (let i = 0; i < n; i++) {
+        const s = prefix + i;
+        const st = t0 + (i * per) / n;
+        const loops = Math.max(0, Math.floor((t1 - st - per) / per));
+        tl.set(s, { x: 0, y: 0, opacity: 1 }, A(st));
+        tl.to(s, { x: dx, y: dy, duration: per, ease: "none", repeat: loops }, A(st));
+        tl.to(s, { opacity: 0, duration: 0.15 }, A(st + per * (loops + 1) - 0.15));
+      }
+    }
+
+
+    bob("#c0-pila", 0, 3.0, 6, 0.9);
+    flow("#c0-flecha", 0, 6.7, 50);
+    tl.set("#c0-m0", { opacity: 1 }, 0.2);
+    travel("#c0-m0", 0.3, 160, 0, 1.2);
+    drop("#c0-candado", 1.4);
+    tl.to("#c0-m0", { x: 120, duration: 0.25, ease: "power2.out" }, A(1.75));
+    tl.to("#c0-m0", { opacity: 0, duration: 0.2 }, A(2.6));
+    wob("#c0-candado", 2.0, 3.6, 8, 0.3);
+    tl.set("#c0-no", { scale: 2, transformOrigin: C }, A(3.14));
+    tl.to("#c0-no", { opacity: 1, scale: 1, duration: 0.2, ease: "power4.in" }, A(3.14));
+    hide("#c0-no", 4.82);
+    hide("#c0-candado", 4.65);
+    drop("#c0-ley", 4.48);
+    bob("#c0-ley", 5.15, 6.7, 5, 1.0);
+    stream("#c0-m", 3, 5.32, 6.7, 410, 0, 1.2);
+    slideOut("#c0-a", 6.79);
+    tl.set("#c0-b", { opacity: 1 }, A(6.79));
+    drop("#c0-v0", 6.89);
+    drop("#c0-v1", 7.17);
+    drop("#c0-v2", 7.45);
+    drop("#c0-v3", 7.73);
+    drop("#c0-v4", 8.01);
+    drop("#c0-v5", 8.29);
+    drop("#c0-v6", 8.57);
+    drop("#c0-v7", 8.85);
+    tl.to("#c0-col", { x: 6, duration: 0.5, ease: "sine.inOut", yoyo: true, repeat: 5 }, A(9.3));
+    slideIn("#c0-tit", 9.77);
+    pulse("#c0-tit", 11.2);
+    tl.set({}, {}, 12.16);
+    window.__timelines["c0"] = tl;
+  </script>
+</template>

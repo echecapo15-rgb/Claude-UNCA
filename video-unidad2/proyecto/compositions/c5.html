@@ -1,0 +1,199 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: Nunito, sans-serif; }
+    .h { opacity: 0; }
+    .brd { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; overflow: hidden; border-radius: 22px; }
+    .brd svg { position: absolute; left: 0; top: 0; width: 880px; height: 470px; overflow: hidden; }
+    .brd text { font-family: Nunito, sans-serif; }
+    .b { font-weight: 900; }
+    .m { font-weight: 700; }
+    .ttl { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; border-radius: 22px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      color: #ffffff; text-align: center; overflow: hidden; }
+    .ttl-n { font-size: 40px; font-weight: 700; letter-spacing: 0.06em; opacity: 0.9; }
+    .ttl-t { font-size: 66px; font-weight: 900; line-height: 1.05; max-width: 760px; }
+    .pill-slot { position: absolute; left: 0; right: 0; top: 300px; display: flex; justify-content: center; }
+    .pill { display: flex; align-items: center; gap: 14px; padding: 12px 28px; border-radius: 999px;
+      background: rgba(16, 18, 42, 0.82); color: #ffffff; font-size: 34px; font-weight: 900; max-width: 840px; }
+    .pill-n { font-size: 30px; font-weight: 900; padding: 3px 14px; border-radius: 999px; color: #10122a; }
+    .ej { position: absolute; left: 130px; top: 396px; padding: 8px 20px; border-radius: 12px;
+      font-size: 28px; font-weight: 900; letter-spacing: 0.04em; box-shadow: 0 5px 0 rgba(0, 0, 0, 0.18); }
+    .ej-a { background: #ffd166; color: #2d2200; }
+    .ej-p { background: #a5d8ff; color: #0b2540; }
+
+    .acc { fill: #c2405f; }
+  </style>
+  <div id="root" data-composition-id="c5" data-width="1080" data-height="1920">
+    <div class="brd"><svg viewBox="0 0 880 470" xmlns="http://www.w3.org/2000/svg"><defs><marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2d3436" /></marker></defs>
+      <g id="c5-a" class="h">
+        <text x="440" y="52" font-size="36" class="b" text-anchor="middle" fill="#c2405f" >Tradicional o incremental</text>
+        <text x="440" y="96" font-size="28" class="m" text-anchor="middle" fill="#636e72" >sobre la base del año anterior</text>
+        <text x="60" y="180" font-size="30" class="b" text-anchor="start" fill="#2d3436" >año pasado</text>
+        <rect id="c5-b1" x="260" y="150" width="300" height="50" rx="12" fill="#b2bec3" /><text x="600" y="186" font-size="34" class="b" text-anchor="start" fill="#2d3436" >$100</text>
+        <text x="60" y="280" font-size="30" class="b" text-anchor="start" fill="#2d3436" >este año</text>
+        <rect id="c5-b2" x="260" y="250" width="300" height="50" rx="12" fill="#c2405f" />
+        <text id="c5-v2" x="600" y="286" font-size="34" class="b" text-anchor="start" fill="#c2405f">$100</text>
+        <g id="c5-inf" class="h"><g><rect x="300" y="206" width="230" height="40" rx="20" fill="#c0392b" /><text x="415.0" y="235.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >inflación +20 %</text></g></g>
+        <g id="c5-nota" class="h"><rect x="200" y="340" width="480" height="64" rx="12" fill="#ffeaa7" /><text x="440" y="382" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >¿qué hizo con lo anterior?</text><path id="c5-notax" d="M210,372 L670,372" fill="none" stroke="#d63031" stroke-width="8" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" /></g>
+      </g>
+      <g id="c5-b" class="h">
+        <text x="440" y="52" font-size="38" class="b" text-anchor="middle" fill="#c2405f" >Por programas</text>
+        <g id="c5-l1"><g><rect x="30" y="140" width="210" height="56" rx="16" fill="#636e72" /><text x="135.0" y="177.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >sueldos $X</text></g></g>
+        <g id="c5-l2"><g><rect x="30" y="220" width="210" height="56" rx="16" fill="#636e72" /><text x="135.0" y="257.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >útiles $Y</text></g></g>
+        <rect x="290" y="130" width="280" height="200" rx="20" fill="#fde4ea" stroke="#c2405f" stroke-width="6" />
+        <text x="430" y="180" font-size="28" class="b" text-anchor="middle" fill="#c2405f" >Programa</text><text x="430" y="216" font-size="30" class="b" text-anchor="middle" fill="#c2405f" >Alfabetización</text>
+        <path id="c5-ar" d="M580,230 L650,230" fill="none" stroke="#c2405f" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" />
+        <g id="c5-k0" class="h"><g transform="translate(700 170) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/><rect x="-18" y="-2" width="36" height="22" rx="3" fill="#ffffff" stroke="#2d3436" stroke-width="3"/></g></g><g id="c5-k1" class="h"><g transform="translate(790 170) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/><rect x="-18" y="-2" width="36" height="22" rx="3" fill="#ffffff" stroke="#2d3436" stroke-width="3"/></g></g><g id="c5-k2" class="h"><g transform="translate(700 280) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/><rect x="-18" y="-2" width="36" height="22" rx="3" fill="#ffffff" stroke="#2d3436" stroke-width="3"/></g></g><g id="c5-k3" class="h"><g transform="translate(790 280) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/><rect x="-18" y="-2" width="36" height="22" rx="3" fill="#ffffff" stroke="#2d3436" stroke-width="3"/></g></g>
+        <text x="440" y="400" font-size="28" class="b" text-anchor="middle" fill="#c2405f" >insumo → producto: alumnos que aprenden a leer</text>
+      </g>
+      <g id="c5-c" class="h">
+        <text x="440" y="52" font-size="38" class="b" text-anchor="middle" fill="#c2405f" >Por programas en base cero</text>
+        <g id="c5-badge"><g><rect x="600" y="80" width="250" height="50" rx="16" fill="#636e72" /><text x="725.0" y="114.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >hace 10 años</text></g></g>
+        <rect id="c5-z0" x="100" y="200" width="100" height="200" rx="10" fill="#c2405f" /><g id="c5-zc0" class="h"><circle cx="150" cy="170" r="22" fill="#00b894" /><path d="M140.1,170 L147.8,177.7 L161.0,162.3" stroke="#ffffff" stroke-width="5.5" fill="none" stroke-linecap="round" /></g><rect id="c5-z1" x="250" y="160" width="100" height="240" rx="10" fill="#c2405f" /><g id="c5-zc1" class="h"><circle cx="300" cy="170" r="22" fill="#00b894" /><path d="M290.1,170 L297.8,177.7 L311.0,162.3" stroke="#ffffff" stroke-width="5.5" fill="none" stroke-linecap="round" /></g><rect id="c5-z2" x="400" y="230" width="100" height="170" rx="10" fill="#c2405f" /><g id="c5-zc2" class="h"><circle cx="450" cy="170" r="22" fill="#00b894" /><path d="M440.1,170 L447.8,177.7 L461.0,162.3" stroke="#ffffff" stroke-width="5.5" fill="none" stroke-linecap="round" /></g>
+        <text id="c5-anio" x="720" y="230" font-size="40" class="b" text-anchor="middle" fill="#c2405f">año 1</text>
+        <g id="c5-pap"><rect id="c5-pp0" class="h" x="640" y="400" width="160" height="14" rx="3" fill="#ffffff" stroke="#b2bec3" stroke-width="3" /><rect id="c5-pp1" class="h" x="648" y="382" width="160" height="14" rx="3" fill="#ffffff" stroke="#b2bec3" stroke-width="3" /><rect id="c5-pp2" class="h" x="640" y="364" width="160" height="14" rx="3" fill="#ffffff" stroke="#b2bec3" stroke-width="3" /><rect id="c5-pp3" class="h" x="648" y="346" width="160" height="14" rx="3" fill="#ffffff" stroke="#b2bec3" stroke-width="3" /><rect id="c5-pp4" class="h" x="640" y="328" width="160" height="14" rx="3" fill="#ffffff" stroke="#b2bec3" stroke-width="3" /><rect id="c5-pp5" class="h" x="648" y="310" width="160" height="14" rx="3" fill="#ffffff" stroke="#b2bec3" stroke-width="3" /><rect id="c5-pp6" class="h" x="640" y="292" width="160" height="14" rx="3" fill="#ffffff" stroke="#b2bec3" stroke-width="3" /><rect id="c5-pp7" class="h" x="648" y="274" width="160" height="14" rx="3" fill="#ffffff" stroke="#b2bec3" stroke-width="3" /></g>
+      </g>
+      <g id="c5-d" class="h">
+        <text x="440" y="52" font-size="38" class="b" text-anchor="middle" fill="#c2405f" >Por resultados</text>
+        <text x="440" y="96" font-size="28" class="m" text-anchor="middle" fill="#636e72" >indicadores de resultado e impacto</text>
+        <g id="c5-dos"><g id="c5-j0" class="h"><rect x="60" y="170" width="22" height="70" rx="5" fill="#dfe6e9" /><rect x="64" y="186" width="14" height="44" fill="#74b9ff" /></g><g id="c5-j1" class="h"><rect x="120" y="170" width="22" height="70" rx="5" fill="#dfe6e9" /><rect x="124" y="186" width="14" height="44" fill="#74b9ff" /></g><g id="c5-j2" class="h"><rect x="180" y="170" width="22" height="70" rx="5" fill="#dfe6e9" /><rect x="184" y="186" width="14" height="44" fill="#74b9ff" /></g><g id="c5-j3" class="h"><rect x="60" y="260" width="22" height="70" rx="5" fill="#dfe6e9" /><rect x="64" y="276" width="14" height="44" fill="#74b9ff" /></g><g id="c5-j4" class="h"><rect x="120" y="260" width="22" height="70" rx="5" fill="#dfe6e9" /><rect x="124" y="276" width="14" height="44" fill="#74b9ff" /></g><g id="c5-j5" class="h"><rect x="180" y="260" width="22" height="70" rx="5" fill="#dfe6e9" /><rect x="184" y="276" width="14" height="44" fill="#74b9ff" /></g>
+          <text x="150" y="400" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >dosis compradas</text></g>
+        <circle id="c5-esc" cx="620" cy="270" r="180" fill="#00b894" opacity="0.18" />
+        <g id="c5-pe0"><g transform="translate(500 230) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/></g></g><g id="c5-pe1"><g transform="translate(580 230) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/></g></g><g id="c5-pe2"><g transform="translate(660 230) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/></g></g><g id="c5-pe3"><g transform="translate(740 230) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/></g></g><g id="c5-pe4"><g transform="translate(500 330) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/></g></g><g id="c5-pe5"><g transform="translate(580 330) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/></g></g><g id="c5-pe6"><g transform="translate(660 330) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/></g></g><g id="c5-pe7"><g transform="translate(740 330) scale(1.2)"><circle cy="-26" r="16" fill="#f5c9a0"/><path d="M-22,20 Q-22,-6 0,-6 Q22,-6 22,20 Z" fill="#74b9ff"/></g></g>
+        <text x="620" y="450" font-size="28" class="b" text-anchor="middle" fill="#00b894" >población protegida</text>
+        <rect id="c5-foco" x="40" y="140" width="240" height="290" rx="20" fill="none" stroke="#d63031" stroke-width="7" />
+      </g>
+    </svg></div>
+    <div id="c5-ttl" class="ttl" style="background: #c2405f"><div class="ttl-n">Capítulo 5</div><div class="ttl-t">Sistemas presupuestarios</div></div>
+    <div class="pill-slot"><div id="c5-pill" class="pill h"><span class="pill-n" style="background: #ffc2d1">Cap. 5/6</span>Sistemas presupuestarios</div></div>
+    <div id="c5-ej" class="ej ej-a h">EJEMPLO DEL APUNTE</div>
+    <div id="c5-pe" class="ej ej-p h">PARA ENTENDERLO</div>
+  </div>
+  <script>
+    const T0 = 258.26;
+    const tl = gsap.timeline({ paused: true });
+    const A = (t) => Math.max(0, +(t - T0).toFixed(3));
+    const C = "50% 50%";
+    function show(s, t, d) {
+      tl.set(s, { scale: 0.85, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: d || 0.35, ease: "back.out(2)" }, A(t));
+    }
+    function pop(s, t) {
+      tl.set(s, { scale: 0, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(3)" }, A(t));
+    }
+    function hide(s, t) { tl.to(s, { opacity: 0, duration: 0.25, ease: "power2.in" }, A(t - 0.25)); }
+    function slideIn(s, t) {
+      tl.set(s, { x: 90 }, A(t));
+      tl.to(s, { x: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, A(t));
+    }
+    function slideOut(s, t) { tl.to(s, { x: -90, opacity: 0, duration: 0.35, ease: "power2.in" }, A(t - 0.35)); }
+    function drop(s, t) {
+      tl.set(s, { y: -160 }, A(t));
+      tl.to(s, { y: 0, opacity: 1, duration: 0.55, ease: "bounce.out" }, A(t));
+    }
+    function draw(s, t, d) { tl.to(s, { strokeDashoffset: 0, duration: d || 0.8, ease: "power1.inOut" }, A(t)); }
+    function grow(s, t, d, origin) {
+      tl.set(s, { scaleX: 0, transformOrigin: origin || "0% 50%" }, A(t));
+      tl.to(s, { scaleX: 1, opacity: 1, duration: d || 0.8, ease: "power2.out" }, A(t));
+    }
+    function growY(s, t, d) {
+      tl.set(s, { scaleY: 0, transformOrigin: "50% 100%" }, A(t));
+      tl.to(s, { scaleY: 1, opacity: 1, duration: d || 0.8, ease: "power2.out" }, A(t));
+    }
+    function pulse(s, t) { tl.to(s, { scale: 1.12, transformOrigin: C, duration: 0.18, yoyo: true, repeat: 1, ease: "sine.inOut" }, A(t)); }
+    function reps(span, per) { const n = Math.max(1, Math.floor(span / per)); return n % 2 ? n : n - 1; }
+    function bob(s, t0, t1, amp, per) {
+      per = per || 0.8;
+      tl.to(s, { y: -(amp || 8), duration: per / 2, ease: "sine.inOut", yoyo: true, repeat: reps(t1 - t0, per / 2) }, A(t0));
+    }
+    function wob(s, t0, t1, deg, per, origin) {
+      per = per || 0.8;
+      tl.fromTo(s, { rotation: -(deg || 6), transformOrigin: origin || C }, { rotation: deg || 6, duration: per / 2, ease: "sine.inOut", yoyo: true, repeat: reps(t1 - t0, per / 2) }, A(t0));
+    }
+    function flow(s, t0, t1, speed) {
+      tl.to(s, { strokeDashoffset: -(speed || 60) * (t1 - t0), duration: t1 - t0, ease: "none" }, A(t0));
+    }
+    function spin(s, t0, t1, deg) { tl.to(s, { rotation: deg || 360, transformOrigin: C, duration: t1 - t0, ease: "none" }, A(t0)); }
+    function money(v) { return "$" + Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+    function count(sel, a, b, t, d, fmt) {
+      const el = document.querySelector(sel);
+      const o = { v: a };
+      fmt = fmt || money;
+      tl.to(o, { v: b, duration: d || 1, ease: "power1.out", onUpdate: () => { el.textContent = fmt(o.v); } }, A(t));
+    }
+    function travel(s, t, dx, dy, d, arc) {
+      tl.to(s, { x: dx, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+      if (arc) {
+        tl.to(s, { y: arc, duration: (d || 0.8) / 2, ease: "sine.out" }, A(t));
+        tl.to(s, { y: dy, duration: (d || 0.8) / 2, ease: "sine.in" }, A(t + (d || 0.8) / 2));
+      } else {
+        tl.to(s, { y: dy, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+      }
+    }
+    // Varias monedas que circulan en fila, en loop finito
+    function stream(prefix, n, t0, t1, dx, dy, per) {
+      for (let i = 0; i < n; i++) {
+        const s = prefix + i;
+        const st = t0 + (i * per) / n;
+        const loops = Math.max(0, Math.floor((t1 - st - per) / per));
+        tl.set(s, { x: 0, y: 0, opacity: 1 }, A(st));
+        tl.to(s, { x: dx, y: dy, duration: per, ease: "none", repeat: loops }, A(st));
+        tl.to(s, { opacity: 0, duration: 0.15 }, A(st + per * (loops + 1) - 0.15));
+      }
+    }
+
+    tl.fromTo("#c5-ttl", { opacity: 1, clipPath: "inset(0% 0% 0% 0% round 22px)" }, { opacity: 1, clipPath: "inset(0% 0% 0% 0% round 22px)", duration: 0.1 }, 0);
+    tl.fromTo("#c5-ttl .ttl-t", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(2)" }, 0.1);
+    tl.to("#c5-ttl", { clipPath: "inset(0% 0% 0% 100% round 22px)", duration: 0.5, ease: "power3.inOut" }, A(262.16));
+    show("#c5-pill", 262.56);
+    hide("#c5-pill", 310.07);
+    show("#c5-ej", 267.3);
+    hide("#c5-ej", 275.11);
+    show("#c5-ej", 279.4);
+    hide("#c5-ej", 287.21);
+    show("#c5-ej", 292.57);
+    hide("#c5-ej", 298.97);
+    show("#c5-ej", 303.41);
+    hide("#c5-ej", 310.07);
+
+    slideIn("#c5-a", 263.12);
+    grow("#c5-b1", 265.06, 0.7);
+    grow("#c5-b2", 267.69, 0.7);
+    pop("#c5-inf", 269.64);
+    wob("#c5-inf", 270.03, 275.11, 4, 0.5);
+    tl.to("#c5-b2", { scaleX: 1.2, transformOrigin: "0% 50%", duration: 1.0, ease: "back.out(1.5)" }, A(271.21));
+    tl.to("#c5-v2", { x: 60, duration: 1.0, ease: "back.out(1.5)" }, A(271.21));
+    count("#c5-v2", 100, 120, 271.21, 1.0);
+    show("#c5-nota", 272.92);
+    draw("#c5-notax", 273.94, 0.4);
+    slideOut("#c5-a", 275.41);
+    slideIn("#c5-b", 275.41);
+    bob("#c5-l1", 275.41, 281.74, 6, 0.8);
+    bob("#c5-l2", 276.15, 281.74, 6, 0.9);
+    tl.to("#c5-l1", { x: 290, y: 50, scale: 0.5, opacity: 0, transformOrigin: C, duration: 0.6, ease: "power2.in" }, A(282.13));
+    tl.to("#c5-l2", { x: 290, y: -30, scale: 0.5, opacity: 0, transformOrigin: C, duration: 0.6, ease: "power2.in" }, A(282.68));
+    pulse("#c5-b rect:nth-of-type(1)", 283.3);
+    flow("#c5-ar", 283.3, 287.21, 60);
+    pop("#c5-k0", 284.24); bob("#c5-k0", 284.87, 287.21, 6, 0.7);pop("#c5-k1", 284.64); bob("#c5-k1", 285.27, 287.21, 6, 0.7);pop("#c5-k2", 285.04); bob("#c5-k2", 285.67, 287.21, 6, 0.7);pop("#c5-k3", 285.44); bob("#c5-k3", 286.07, 287.21, 6, 0.7);
+    slideOut("#c5-b", 287.51);
+    slideIn("#c5-c", 287.51);
+    tl.to("#c5-z0", { scaleY: 0, transformOrigin: "50% 100%", duration: 0.5, ease: "power2.in" }, A(289.18));tl.to("#c5-z1", { scaleY: 0, transformOrigin: "50% 100%", duration: 0.5, ease: "power2.in" }, A(289.18));tl.to("#c5-z2", { scaleY: 0, transformOrigin: "50% 100%", duration: 0.5, ease: "power2.in" }, A(289.18));
+    pop("#c5-zc0", 290.13); tl.to("#c5-z0", { scaleY: 1, transformOrigin: "50% 100%", duration: 0.6, ease: "back.out(1.5)" }, A(290.37));pop("#c5-zc1", 290.63); tl.to("#c5-z1", { scaleY: 1, transformOrigin: "50% 100%", duration: 0.6, ease: "back.out(1.5)" }, A(290.87));pop("#c5-zc2", 291.13); tl.to("#c5-z2", { scaleY: 1, transformOrigin: "50% 100%", duration: 0.6, ease: "back.out(1.5)" }, A(291.37));
+    pop("#c5-badge", 292.57);
+    count("#c5-anio", 1, 10, 293.21, 3.0, (v) => "año " + Math.round(v));
+    tl.to("#c5-z0", { scaleY: 0.05, transformOrigin: "50% 100%", duration: 0.25, yoyo: true, repeat: 5, ease: "power1.inOut" }, A(293.53));tl.to("#c5-z1", { scaleY: 0.05, transformOrigin: "50% 100%", duration: 0.25, yoyo: true, repeat: 5, ease: "power1.inOut" }, A(293.63));tl.to("#c5-z2", { scaleY: 0.05, transformOrigin: "50% 100%", duration: 0.25, yoyo: true, repeat: 5, ease: "power1.inOut" }, A(293.73));
+    drop("#c5-pp0", 296.41);drop("#c5-pp1", 296.61);drop("#c5-pp2", 296.81);drop("#c5-pp3", 297.01);drop("#c5-pp4", 297.21);drop("#c5-pp5", 297.41);drop("#c5-pp6", 297.61);drop("#c5-pp7", 297.81);
+    wob("#c5-pap", 297.37, 298.97, 2, 0.3);
+    slideOut("#c5-c", 299.27);
+    slideIn("#c5-d", 299.27);
+    pop("#c5-j0", 300.42);pop("#c5-j1", 300.67);pop("#c5-j2", 300.92);pop("#c5-j3", 301.17);pop("#c5-j4", 301.42);pop("#c5-j5", 301.67);
+    tl.set("#c5-esc", { scale: 0.1, transformOrigin: C }, A(299.27));
+    tl.to("#c5-esc", { scale: 1, duration: 2.6, ease: "power1.out" }, A(304.67));
+    tl.to("#c5-pe0 path", { fill: "#00b894", duration: 0.3 }, A(304.99));tl.to("#c5-pe1 path", { fill: "#00b894", duration: 0.3 }, A(305.24));tl.to("#c5-pe2 path", { fill: "#00b894", duration: 0.3 }, A(305.49));tl.to("#c5-pe3 path", { fill: "#00b894", duration: 0.3 }, A(305.74));tl.to("#c5-pe4 path", { fill: "#00b894", duration: 0.3 }, A(305.99));tl.to("#c5-pe5 path", { fill: "#00b894", duration: 0.3 }, A(306.24));tl.to("#c5-pe6 path", { fill: "#00b894", duration: 0.3 }, A(306.49));tl.to("#c5-pe7 path", { fill: "#00b894", duration: 0.3 }, A(306.74));
+    tl.to("#c5-foco", { x: 400, width: 420, duration: 0.8, ease: "power3.inOut" }, A(305.3));
+    tl.to("#c5-foco", { scale: 1.03, transformOrigin: C, duration: 0.4, yoyo: true, repeat: 5, ease: "sine.inOut" }, A(306.25));
+    tl.set({}, {}, 51.86);
+    window.__timelines["c5"] = tl;
+  </script>
+</template>

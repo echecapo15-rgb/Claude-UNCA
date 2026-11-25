@@ -1,0 +1,278 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: Nunito, sans-serif; }
+    .h { opacity: 0; }
+    .brd { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; overflow: hidden; border-radius: 22px; }
+    .brd svg { position: absolute; left: 0; top: 0; width: 880px; height: 470px; overflow: hidden; }
+    .brd text { font-family: Nunito, sans-serif; }
+    .b { font-weight: 900; }
+    .m { font-weight: 700; }
+    .ttl { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; border-radius: 22px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      color: #ffffff; text-align: center; overflow: hidden; }
+    .ttl-n { font-size: 40px; font-weight: 700; letter-spacing: 0.06em; opacity: 0.9; }
+    .ttl-t { font-size: 66px; font-weight: 900; line-height: 1.05; max-width: 760px; }
+    .pill-slot { position: absolute; left: 0; right: 0; top: 300px; display: flex; justify-content: center; }
+    .pill { display: flex; align-items: center; gap: 14px; padding: 12px 28px; border-radius: 999px;
+      background: rgba(16, 18, 42, 0.82); color: #ffffff; font-size: 34px; font-weight: 900; max-width: 840px; }
+    .pill-n { font-size: 30px; font-weight: 900; padding: 3px 14px; border-radius: 999px; color: #10122a; }
+    .ej { position: absolute; left: 130px; top: 396px; padding: 8px 20px; border-radius: 12px;
+      font-size: 28px; font-weight: 900; letter-spacing: 0.04em; box-shadow: 0 5px 0 rgba(0, 0, 0, 0.18); }
+    .ej-a { background: #ffd166; color: #2d2200; }
+    .ej-p { background: #a5d8ff; color: #0b2540; }
+
+    .acc { fill: #6c5ce7; }
+  </style>
+  <div id="root" data-composition-id="c1" data-width="1080" data-height="1920">
+    <div class="brd"><svg viewBox="0 0 880 470" xmlns="http://www.w3.org/2000/svg"><defs><marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2d3436" /></marker></defs>
+      <g id="c1-a" class="h">
+        <text x="440" y="56" font-size="38" class="b" text-anchor="middle" fill="#6c5ce7" >Desde lo financiero</text>
+        <g transform="translate(160 260)"><rect x="-40" y="-52" width="80" height="104" rx="8" fill="#ffffff" stroke="#2d3436" stroke-width="5"/><path d="M-24,-24 L24,-24 M-24,-4 L24,-4 M-24,16 L10,16" stroke="#b2bec3" stroke-width="6"/></g>
+        <text x="160" y="360" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >plan del gobierno</text>
+        <path id="c1-a-ar" d="M240,250 L390,250" fill="none" stroke="#6c5ce7" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" />
+        <g id="c1-a-r0" class="h"><text x="430" y="168" font-size="34" class="b" text-anchor="middle" fill="#6c5ce7" >$</text><rect id="c1-a-b0" x="460" y="142" width="300" height="34" rx="17" fill="#c9c2f8" /></g><g id="c1-a-r1" class="h"><text x="430" y="230" font-size="34" class="b" text-anchor="middle" fill="#6c5ce7" >$</text><rect id="c1-a-b1" x="460" y="204" width="220" height="34" rx="17" fill="#c9c2f8" /></g><g id="c1-a-r2" class="h"><text x="430" y="292" font-size="34" class="b" text-anchor="middle" fill="#6c5ce7" >$</text><rect id="c1-a-b2" x="460" y="266" width="340" height="34" rx="17" fill="#c9c2f8" /></g><g id="c1-a-r3" class="h"><text x="430" y="354" font-size="34" class="b" text-anchor="middle" fill="#6c5ce7" >$</text><rect id="c1-a-b3" x="460" y="328" width="180" height="34" rx="17" fill="#c9c2f8" /></g>
+      </g>
+      <g id="c1-b" class="h">
+        <text x="440" y="56" font-size="38" class="b" text-anchor="middle" fill="#6c5ce7" >Desde lo político</text>
+        <g id="c1-fab">
+          <rect x="60" y="200" width="170" height="140" fill="#636e72" />
+          <path d="M60,200 L60,160 L117,200 L117,160 L174,200 L174,120 L230,120 L230,200 Z" fill="#636e72" />
+          <circle id="c1-humo1" cx="202" cy="100" r="16" fill="#dfe6e9" /><circle id="c1-humo2" cx="214" cy="80" r="12" fill="#dfe6e9" />
+          <text x="145" y="385" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >bienes y servicios</text>
+        </g>
+        <path id="c1-b-ar" d="M245,270 L330,270" fill="none" stroke="#6c5ce7" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" />
+        <g id="c1-esc" class="h"><g transform="translate(440 250)"><path d="M-70,-20 L0,-62 L70,-20 Z" fill="#e17055"/><rect x="-58" y="-20" width="116" height="80" fill="#fdcb6e"/><rect x="-14" y="18" width="28" height="42" fill="#a86e45"/><rect x="-46" y="-6" width="22" height="20" fill="#ffffff"/><rect x="24" y="-6" width="22" height="20" fill="#ffffff"/></g></g>
+        <g id="c1-hos" class="h"><g transform="translate(680 250)"><rect x="-60" y="-56" width="120" height="116" fill="#ffffff" stroke="#2d3436" stroke-width="5"/><rect x="-12" y="-42" width="24" height="64" fill="#d63031"/><rect x="-32" y="-22" width="64" height="24" fill="#d63031"/><rect x="-16" y="30" width="32" height="30" fill="#74b9ff"/></g></g>
+        <g id="c1-tag1" class="h"><rect x="360" y="340" width="160" height="40" rx="20" fill="#efeafe" /><rect id="c1-tag1f" x="360" y="340" width="160" height="40" rx="20" fill="#6c5ce7" /><text x="440" y="371" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >costo</text></g>
+        <g id="c1-tag2" class="h"><rect x="600" y="340" width="160" height="40" rx="20" fill="#efeafe" /><rect id="c1-tag2f" x="600" y="340" width="160" height="40" rx="20" fill="#6c5ce7" /><text x="680" y="371" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >costo</text></g>
+      </g>
+      <g id="c1-c" class="h">
+        <text x="440" y="56" font-size="36" class="b" text-anchor="middle" fill="#6c5ce7" >Acto administrativo-legislativo</text>
+        <g transform="translate(170 200)"><path d="M-88,0 L0,-44 L88,0 Z" fill="#636e72"/><rect x="-80" y="0" width="160" height="70" fill="#dfe6e9" stroke="#2d3436" stroke-width="5"/><rect x="-62" y="10" width="18" height="60" fill="#b2bec3"/><rect x="-26" y="10" width="18" height="60" fill="#b2bec3"/><rect x="10" y="10" width="18" height="60" fill="#b2bec3"/><rect x="46" y="10" width="18" height="60" fill="#b2bec3"/></g>
+        <text x="170" y="312" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Ejecutivo</text>
+        <g id="c1-c-e1" class="h"><text x="170" y="352" font-size="28" class="b" text-anchor="middle" fill="#6c5ce7" >prepara</text></g>
+        <g id="c1-c-e2" class="h"><text x="170" y="390" font-size="28" class="b" text-anchor="middle" fill="#6c5ce7" >y ejecuta</text></g>
+        <g transform="translate(710 200)"><rect x="-80" y="0" width="160" height="62" fill="#dfe6e9" stroke="#2d3436" stroke-width="5"/><path d="M-46,0 A46,46 0 0,1 46,0 Z" fill="#3d8bd9"/><rect x="-62" y="12" width="14" height="50" fill="#b2bec3"/><rect x="-26" y="12" width="14" height="50" fill="#b2bec3"/><rect x="12" y="12" width="14" height="50" fill="#b2bec3"/><rect x="48" y="12" width="14" height="50" fill="#b2bec3"/></g>
+        <text x="710" y="312" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Legislativo</text>
+        <g id="c1-c-l1" class="h"><text x="710" y="352" font-size="28" class="b" text-anchor="middle" fill="#3d8bd9" >aprueba</text></g>
+        <path id="c1-c-ar1" d="M280,150 Q440,90 600,150" fill="none" stroke="#6c5ce7" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" />
+        <path id="c1-c-ar2" d="M600,280 Q440,340 280,280" fill="none" stroke="#3d8bd9" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" />
+        <g id="c1-c-doc"><g transform="translate(300 150) scale(0.6)"><rect x="-40" y="-52" width="80" height="104" rx="8" fill="#ffffff" stroke="#2d3436" stroke-width="5"/><path d="M-24,-24 L24,-24 M-24,-4 L24,-4 M-24,16 L10,16" stroke="#b2bec3" stroke-width="6"/></g></g>
+        <g id="c1-c-sello" class="h" transform="rotate(-12 600 150)"><rect x="548" y="128" width="104" height="44" rx="8" fill="none" stroke="#d63031" stroke-width="6" /><text x="600" y="162" font-size="30" class="b" text-anchor="middle" fill="#d63031" >LEY</text></g>
+        <g id="c1-c-gear" class="h"><circle cx="270" cy="230" r="22" fill="none" stroke="#6c5ce7" stroke-width="12" stroke-dasharray="9 7" /></g>
+      </g>
+      <g id="c1-d" class="h">
+        <g id="c1-mart" transform="translate(230 250)"><rect x="-12" y="-6" width="90" height="16" rx="6" fill="#a86e45" transform="rotate(-30)"/><rect x="-40" y="-34" width="56" height="40" rx="8" fill="#6d4c41" transform="rotate(-30)"/></g>
+        <rect x="150" y="300" width="160" height="30" rx="8" fill="#6d4c41" />
+        <text x="230" y="390" font-size="32" class="b" text-anchor="middle" fill="#6c5ce7" >fuerza de ley</text>
+        <rect x="500" y="110" width="260" height="240" rx="18" fill="#ffffff" stroke="#2d3436" stroke-width="6" />
+        <rect x="500" y="110" width="260" height="70" rx="16" fill="#6c5ce7" />
+        <text id="c1-mes" x="630" y="290" font-size="76" class="b" text-anchor="middle" fill="#2d3436">ENE</text>
+        <text x="630" y="160" font-size="30" class="b" text-anchor="middle" fill="#ffffff" >rige 1 año</text>
+        <rect x="500" y="370" width="260" height="20" rx="10" fill="#efeafe" />
+        <rect id="c1-anio" x="500" y="370" width="260" height="20" rx="10" fill="#6c5ce7" />
+      </g>
+      <g id="c1-e" class="h">
+        <text x="440" y="56" font-size="38" class="b" text-anchor="middle" fill="#6c5ce7" >Recursos: estimativos</text>
+        <path d="M200,380 A240,240 0 0,1 680,380" fill="none" stroke="#efeafe" stroke-width="40" />
+        <path d="M200,380 A240,240 0 0,1 330,170" fill="none" stroke="#fab1a0" stroke-width="40" />
+        <path d="M550,170 A240,240 0 0,1 680,380" fill="none" stroke="#55efc4" stroke-width="40" />
+        <path d="M440,140 L440,190" stroke="#2d3436" stroke-width="6" />
+        <text x="440" y="125" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >lo estimado</text>
+        <text x="215" y="430" font-size="30" class="b" text-anchor="middle" fill="#d63031" >menos</text>
+        <text x="665" y="430" font-size="30" class="b" text-anchor="middle" fill="#00b894" >más</text>
+        <g id="c1-aguja"><path d="M440,380 L440,190" stroke="#2d3436" stroke-width="10" stroke-linecap="round" /><circle cx="440" cy="380" r="20" fill="#2d3436" /></g>
+      </g>
+      <g id="c1-f" class="h">
+        <text x="440" y="52" font-size="34" class="b" text-anchor="middle" fill="#6c5ce7" >Gastos: autorización máxima</text>
+        <text x="440" y="92" font-size="28" class="m" text-anchor="middle" fill="#636e72" >presupuesto de una escuela</text>
+        <g>
+          <rect x="120" y="140" width="200" height="250" rx="20" fill="#f1f2f6" stroke="#2d3436" stroke-width="6" />
+          <rect id="c1-j1" x="126" y="216" width="188" height="168" rx="14" fill="#fdcb6e" />
+          <text x="220" y="430" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Útiles escolares</text>
+          <rect x="560" y="140" width="200" height="250" rx="20" fill="#f1f2f6" stroke="#2d3436" stroke-width="6" />
+          <rect id="c1-j2" x="566" y="216" width="188" height="168" rx="14" fill="#74b9ff" />
+          <text x="660" y="430" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Sueldos</text>
+          <path d="M100,214 L340,214 M540,214 L780,214" stroke="#d63031" stroke-width="6" stroke-dasharray="14 8" />
+          <g id="c1-tope" class="h"><text x="440" y="222" font-size="30" class="b" text-anchor="middle" fill="#d63031" >← tope →</text></g>
+        </g>
+        <g id="c1-cuanto" class="h"><g><rect x="370" y="120" width="140" height="50" rx="16" fill="#d63031" /><text x="440.0" y="154.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >cuánto</text></g></g>
+        <g id="c1-enque" class="h"><g><rect x="370" y="290" width="140" height="50" rx="16" fill="#d63031" /><text x="440.0" y="324.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >en qué</text></g></g>
+        <circle id="c1-mon" class="h" cx="220" cy="200" r="24" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" />
+        <rect id="c1-muro" class="h" x="430" y="120" width="20" height="280" rx="8" fill="#d63031" />
+        <g id="c1-x" class="h"><circle cx="440" cy="110" r="30" fill="#d63031" /><path d="M428.0,98.0 L452.0,122.0 M452.0,98.0 L428.0,122.0" stroke="#ffffff" stroke-width="7.5" stroke-linecap="round" /></g>
+      </g>
+      <g id="c1-g" class="h">
+        <text x="440" y="52" font-size="38" class="b" text-anchor="middle" fill="#6c5ce7" >Especificidad</text>
+        <text x="440" y="94" font-size="28" class="m" text-anchor="middle" fill="#636e72" >gastos y recursos, por clasificaciones</text>
+        <g><rect x="120" y="330" width="280" height="90" rx="16" fill="#e17055" /><text x="260.0" y="386.9" font-size="34" class="b" text-anchor="middle" fill="#ffffff" >Gastos</text></g>
+        <g><rect x="480" y="330" width="280" height="90" rx="16" fill="#00b894" /><text x="620.0" y="386.9" font-size="34" class="b" text-anchor="middle" fill="#ffffff" >Recursos</text></g>
+        <g id="c1-it0" class="h"><rect x="220" y="120" width="80" height="50" rx="10" fill="#e17055" /><text x="260.0" y="155.5" font-size="30" class="b" text-anchor="middle" fill="#ffffff" ></text></g><g id="c1-it1" class="h"><rect x="580" y="120" width="80" height="50" rx="10" fill="#00b894" /><text x="620.0" y="155.5" font-size="30" class="b" text-anchor="middle" fill="#ffffff" ></text></g><g id="c1-it2" class="h"><rect x="220" y="120" width="80" height="50" rx="10" fill="#e17055" /><text x="260.0" y="155.5" font-size="30" class="b" text-anchor="middle" fill="#ffffff" ></text></g><g id="c1-it3" class="h"><rect x="580" y="120" width="80" height="50" rx="10" fill="#00b894" /><text x="620.0" y="155.5" font-size="30" class="b" text-anchor="middle" fill="#ffffff" ></text></g><g id="c1-it4" class="h"><rect x="220" y="120" width="80" height="50" rx="10" fill="#e17055" /><text x="260.0" y="155.5" font-size="30" class="b" text-anchor="middle" fill="#ffffff" ></text></g><g id="c1-it5" class="h"><rect x="580" y="120" width="80" height="50" rx="10" fill="#00b894" /><text x="620.0" y="155.5" font-size="30" class="b" text-anchor="middle" fill="#ffffff" ></text></g>
+      </g>
+    </svg></div>
+    <div id="c1-ttl" class="ttl" style="background: #6c5ce7"><div class="ttl-n">Capítulo 1</div><div class="ttl-t">Qué es el presupuesto</div></div>
+    <div class="pill-slot"><div id="c1-pill" class="pill h"><span class="pill-n" style="background: #c3baff">Cap. 1/6</span>Qué es el presupuesto</div></div>
+    <div id="c1-ej" class="ej ej-a h">EJEMPLO DEL APUNTE</div>
+    <div id="c1-pe" class="ej ej-p h">PARA ENTENDERLO</div>
+  </div>
+  <script>
+    const T0 = 12.16;
+    const tl = gsap.timeline({ paused: true });
+    const A = (t) => Math.max(0, +(t - T0).toFixed(3));
+    const C = "50% 50%";
+    function show(s, t, d) {
+      tl.set(s, { scale: 0.85, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: d || 0.35, ease: "back.out(2)" }, A(t));
+    }
+    function pop(s, t) {
+      tl.set(s, { scale: 0, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(3)" }, A(t));
+    }
+    function hide(s, t) { tl.to(s, { opacity: 0, duration: 0.25, ease: "power2.in" }, A(t - 0.25)); }
+    function slideIn(s, t) {
+      tl.set(s, { x: 90 }, A(t));
+      tl.to(s, { x: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, A(t));
+    }
+    function slideOut(s, t) { tl.to(s, { x: -90, opacity: 0, duration: 0.35, ease: "power2.in" }, A(t - 0.35)); }
+    function drop(s, t) {
+      tl.set(s, { y: -160 }, A(t));
+      tl.to(s, { y: 0, opacity: 1, duration: 0.55, ease: "bounce.out" }, A(t));
+    }
+    function draw(s, t, d) { tl.to(s, { strokeDashoffset: 0, duration: d || 0.8, ease: "power1.inOut" }, A(t)); }
+    function grow(s, t, d, origin) {
+      tl.set(s, { scaleX: 0, transformOrigin: origin || "0% 50%" }, A(t));
+      tl.to(s, { scaleX: 1, opacity: 1, duration: d || 0.8, ease: "power2.out" }, A(t));
+    }
+    function growY(s, t, d) {
+      tl.set(s, { scaleY: 0, transformOrigin: "50% 100%" }, A(t));
+      tl.to(s, { scaleY: 1, opacity: 1, duration: d || 0.8, ease: "power2.out" }, A(t));
+    }
+    function pulse(s, t) { tl.to(s, { scale: 1.12, transformOrigin: C, duration: 0.18, yoyo: true, repeat: 1, ease: "sine.inOut" }, A(t)); }
+    function reps(span, per) { const n = Math.max(1, Math.floor(span / per)); return n % 2 ? n : n - 1; }
+    function bob(s, t0, t1, amp, per) {
+      per = per || 0.8;
+      tl.to(s, { y: -(amp || 8), duration: per / 2, ease: "sine.inOut", yoyo: true, repeat: reps(t1 - t0, per / 2) }, A(t0));
+    }
+    function wob(s, t0, t1, deg, per, origin) {
+      per = per || 0.8;
+      tl.fromTo(s, { rotation: -(deg || 6), transformOrigin: origin || C }, { rotation: deg || 6, duration: per / 2, ease: "sine.inOut", yoyo: true, repeat: reps(t1 - t0, per / 2) }, A(t0));
+    }
+    function flow(s, t0, t1, speed) {
+      tl.to(s, { strokeDashoffset: -(speed || 60) * (t1 - t0), duration: t1 - t0, ease: "none" }, A(t0));
+    }
+    function spin(s, t0, t1, deg) { tl.to(s, { rotation: deg || 360, transformOrigin: C, duration: t1 - t0, ease: "none" }, A(t0)); }
+    function money(v) { return "$" + Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+    function count(sel, a, b, t, d, fmt) {
+      const el = document.querySelector(sel);
+      const o = { v: a };
+      fmt = fmt || money;
+      tl.to(o, { v: b, duration: d || 1, ease: "power1.out", onUpdate: () => { el.textContent = fmt(o.v); } }, A(t));
+    }
+    function travel(s, t, dx, dy, d, arc) {
+      tl.to(s, { x: dx, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+      if (arc) {
+        tl.to(s, { y: arc, duration: (d || 0.8) / 2, ease: "sine.out" }, A(t));
+        tl.to(s, { y: dy, duration: (d || 0.8) / 2, ease: "sine.in" }, A(t + (d || 0.8) / 2));
+      } else {
+        tl.to(s, { y: dy, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+      }
+    }
+    // Varias monedas que circulan en fila, en loop finito
+    function stream(prefix, n, t0, t1, dx, dy, per) {
+      for (let i = 0; i < n; i++) {
+        const s = prefix + i;
+        const st = t0 + (i * per) / n;
+        const loops = Math.max(0, Math.floor((t1 - st - per) / per));
+        tl.set(s, { x: 0, y: 0, opacity: 1 }, A(st));
+        tl.to(s, { x: dx, y: dy, duration: per, ease: "none", repeat: loops }, A(st));
+        tl.to(s, { opacity: 0, duration: 0.15 }, A(st + per * (loops + 1) - 0.15));
+      }
+    }
+
+    tl.fromTo("#c1-ttl", { opacity: 1, clipPath: "inset(0% 0% 0% 0% round 22px)" }, { opacity: 1, clipPath: "inset(0% 0% 0% 0% round 22px)", duration: 0.1 }, 0);
+    tl.fromTo("#c1-ttl .ttl-t", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(2)" }, 0.1);
+    tl.to("#c1-ttl", { clipPath: "inset(0% 0% 0% 100% round 22px)", duration: 0.5, ease: "power3.inOut" }, A(14.3));
+    show("#c1-pill", 14.700000000000001);
+    hide("#c1-pill", 54.46);
+    show("#c1-ej", 44.57);
+    hide("#c1-ej", 49.5);
+    show("#c1-pe", 38.46);
+    hide("#c1-pe", 44.47);
+
+    slideIn("#c1-a", 14.93);
+    flow("#c1-a-ar", 14.93, 19.34, 60);
+    show("#c1-a-r0", 16.25); grow("#c1-a-b0", 16.25, 0.9);show("#c1-a-r1", 16.65); grow("#c1-a-b1", 16.65, 0.9);show("#c1-a-r2", 17.05); grow("#c1-a-b2", 17.05, 0.9);show("#c1-a-r3", 17.45); grow("#c1-a-b3", 17.45, 0.9);
+    tl.to("#c1-a-b0", { scaleX: 1.08, duration: 0.7, ease: "sine.inOut", yoyo: true, repeat: 3 }, A(17.58));tl.to("#c1-a-b1", { scaleX: 0.9, duration: 0.7, ease: "sine.inOut", yoyo: true, repeat: 3 }, A(17.68));tl.to("#c1-a-b2", { scaleX: 1.05, duration: 0.7, ease: "sine.inOut", yoyo: true, repeat: 3 }, A(17.78));tl.to("#c1-a-b3", { scaleX: 0.92, duration: 0.7, ease: "sine.inOut", yoyo: true, repeat: 3 }, A(17.88));
+    slideOut("#c1-a", 19.64);
+    slideIn("#c1-b", 19.64);
+    bob("#c1-humo1", 19.64, 24.72, 14, 1.0);
+    bob("#c1-humo2", 20.15, 24.72, 12, 0.8);
+    flow("#c1-b-ar", 19.64, 24.72, 60);
+    tl.set("#c1-esc", { x: -200 }, A(20.66));
+    tl.to("#c1-esc", { x: 0, opacity: 1, duration: 0.6, ease: "back.out(1.5)" }, A(20.66));
+    tl.set("#c1-hos", { x: -440 }, A(21.77));
+    tl.to("#c1-hos", { x: 0, opacity: 1, duration: 0.8, ease: "back.out(1.5)" }, A(21.77));
+    show("#c1-tag1", 22.79); grow("#c1-tag1f", 22.79, 1.4);
+    show("#c1-tag2", 23.45); grow("#c1-tag2f", 23.45, 1.4);
+    slideOut("#c1-b", 25.02);
+    slideIn("#c1-c", 25.02);
+    flow("#c1-c-ar1", 25.02, 30.97, 60);
+    flow("#c1-c-ar2", 25.02, 30.97, 60);
+    show("#c1-c-e1", 27.52);
+    travel("#c1-c-doc", 27.7, 300, 0, 1.0, -40);
+    show("#c1-c-l1", 29.66);
+    tl.set("#c1-c-sello", { scale: 2, transformOrigin: C }, A(29.78));
+    tl.to("#c1-c-sello", { opacity: 1, scale: 1, duration: 0.18, ease: "power4.in" }, A(29.78));
+    show("#c1-c-e2", 28.71);
+    pop("#c1-c-gear", 28.71);
+    spin("#c1-c-gear", 28.71, 30.97, 400);
+    slideOut("#c1-c", 31.27);
+    slideIn("#c1-d", 31.27);
+    tl.fromTo("#c1-mart", { rotation: -25, transformOrigin: "100% 100%" }, { rotation: 12, duration: 0.18, ease: "power4.in", yoyo: true, repeat: 3, transformOrigin: "100% 100%" }, A(31.48));
+    count("#c1-mes", 0, 11, 32.23, 1.07, (v) => ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"][Math.round(v)]);
+    grow("#c1-anio", 32.23, 1.07);
+    slideOut("#c1-d", 33.71);
+    slideIn("#c1-e", 33.71);
+    tl.fromTo("#c1-aguja", { rotation: -30, svgOrigin: "440 380" }, { rotation: 30, svgOrigin: "440 380", duration: 0.7, ease: "sine.inOut", yoyo: true, repeat: 5 }, A(34.16));
+    slideOut("#c1-e", 38.46);
+    slideIn("#c1-f", 38.46);
+    growY("#c1-j1", 39.33, 0.9);
+    growY("#c1-j2", 39.91, 0.9);
+    tl.to(["#c1-j1", "#c1-j2"], { scaleY: 0.96, duration: 0.25, yoyo: true, repeat: 5, ease: "sine.inOut", transformOrigin: "50% 100%" }, A(41.67));
+    show("#c1-tope", 41.8);
+    pop("#c1-cuanto", 42.06);
+    pop("#c1-enque", 43.23);
+    hide("#c1-cuanto", 44.57);
+    hide("#c1-enque", 44.57);
+    tl.set("#c1-mon", { opacity: 1 }, A(46.24));
+    pop("#c1-mon", 46.24);
+    show("#c1-muro", 46.72);
+    travel("#c1-mon", 47.2, 190, 0, 0.5, -90);
+    tl.to("#c1-mon", { x: 40, y: 60, duration: 0.5, ease: "power2.out" }, A(47.7));
+    pop("#c1-x", 47.72);
+    wob("#c1-muro", 47.72, 48.87, 3, 0.15);
+    slideOut("#c1-f", 49.65);
+    slideIn("#c1-g", 49.65);
+    tl.set("#c1-it0", { opacity: 1, y: -60 }, A(50.32));
+    tl.to("#c1-it0", { y: 230, duration: 0.55, ease: "bounce.out" }, A(50.32));
+    tl.to("#c1-it0", { opacity: 0, duration: 0.15 }, A(50.92));
+    tl.set("#c1-it1", { opacity: 1, y: -60 }, A(50.77));
+    tl.to("#c1-it1", { y: 230, duration: 0.55, ease: "bounce.out" }, A(50.77));
+    tl.to("#c1-it1", { opacity: 0, duration: 0.15 }, A(51.37));
+    tl.set("#c1-it2", { opacity: 1, y: -60 }, A(51.22));
+    tl.to("#c1-it2", { y: 230, duration: 0.55, ease: "bounce.out" }, A(51.22));
+    tl.to("#c1-it2", { opacity: 0, duration: 0.15 }, A(51.82));
+    tl.set("#c1-it3", { opacity: 1, y: -60 }, A(51.67));
+    tl.to("#c1-it3", { y: 230, duration: 0.55, ease: "bounce.out" }, A(51.67));
+    tl.to("#c1-it3", { opacity: 0, duration: 0.15 }, A(52.27));
+    tl.set("#c1-it4", { opacity: 1, y: -60 }, A(52.12));
+    tl.to("#c1-it4", { y: 230, duration: 0.55, ease: "bounce.out" }, A(52.12));
+    tl.to("#c1-it4", { opacity: 0, duration: 0.15 }, A(52.72));
+    tl.set("#c1-it5", { opacity: 1, y: -60 }, A(52.57));
+    tl.to("#c1-it5", { y: 230, duration: 0.55, ease: "bounce.out" }, A(52.57));
+    tl.to("#c1-it5", { opacity: 0, duration: 0.15 }, A(53.17));
+    
+    tl.set({}, {}, 42.35);
+    window.__timelines["c1"] = tl;
+  </script>
+</template>

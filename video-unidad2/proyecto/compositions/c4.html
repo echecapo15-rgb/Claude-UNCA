@@ -1,0 +1,235 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: Nunito, sans-serif; }
+    .h { opacity: 0; }
+    .brd { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; overflow: hidden; border-radius: 22px; }
+    .brd svg { position: absolute; left: 0; top: 0; width: 880px; height: 470px; overflow: hidden; }
+    .brd text { font-family: Nunito, sans-serif; }
+    .b { font-weight: 900; }
+    .m { font-weight: 700; }
+    .ttl { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; border-radius: 22px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      color: #ffffff; text-align: center; overflow: hidden; }
+    .ttl-n { font-size: 40px; font-weight: 700; letter-spacing: 0.06em; opacity: 0.9; }
+    .ttl-t { font-size: 66px; font-weight: 900; line-height: 1.05; max-width: 760px; }
+    .pill-slot { position: absolute; left: 0; right: 0; top: 300px; display: flex; justify-content: center; }
+    .pill { display: flex; align-items: center; gap: 14px; padding: 12px 28px; border-radius: 999px;
+      background: rgba(16, 18, 42, 0.82); color: #ffffff; font-size: 34px; font-weight: 900; max-width: 840px; }
+    .pill-n { font-size: 30px; font-weight: 900; padding: 3px 14px; border-radius: 999px; color: #10122a; }
+    .ej { position: absolute; left: 130px; top: 396px; padding: 8px 20px; border-radius: 12px;
+      font-size: 28px; font-weight: 900; letter-spacing: 0.04em; box-shadow: 0 5px 0 rgba(0, 0, 0, 0.18); }
+    .ej-a { background: #ffd166; color: #2d2200; }
+    .ej-p { background: #a5d8ff; color: #0b2540; }
+
+    .acc { fill: #d9761e; }
+  </style>
+  <div id="root" data-composition-id="c4" data-width="1080" data-height="1920">
+    <div class="brd"><svg viewBox="0 0 880 470" xmlns="http://www.w3.org/2000/svg"><defs><marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2d3436" /></marker></defs>
+      <g id="c4-a" class="h">
+        <text x="440" y="52" font-size="36" class="b" text-anchor="middle" fill="#d9761e" >Un cuadro de contabilidad preventiva</text>
+        <rect x="40" y="80" width="800" height="70" rx="14" fill="#fff1e3" />
+        <text x="240" y="126" font-size="30" class="b" text-anchor="middle" fill="#00b894" >Ingresos probables</text><text x="640" y="126" font-size="30" class="b" text-anchor="middle" fill="#e17055" >Gastos</text>
+        <path d="M440,80 L440,420" stroke="#2d3436" stroke-width="5" />
+        <rect id="c4-ri0" x="80" y="180" width="280" height="30" rx="15" fill="#55efc4" /><rect id="c4-rg0" x="480" y="180" width="300" height="30" rx="15" fill="#fab1a0" /><rect id="c4-tp0" class="h" x="786" y="172" width="10" height="46" rx="4" fill="#d63031" /><rect id="c4-ri1" x="80" y="240" width="220" height="30" rx="15" fill="#55efc4" /><rect id="c4-rg1" x="480" y="240" width="240" height="30" rx="15" fill="#fab1a0" /><rect id="c4-tp1" class="h" x="726" y="232" width="10" height="46" rx="4" fill="#d63031" /><rect id="c4-ri2" x="80" y="300" width="250" height="30" rx="15" fill="#55efc4" /><rect id="c4-rg2" x="480" y="300" width="200" height="30" rx="15" fill="#fab1a0" /><rect id="c4-tp2" class="h" x="686" y="292" width="10" height="46" rx="4" fill="#d63031" /><g id="c4-ld0" class="h"><g transform="translate(70 430) scale(0.4)"><rect x="-40" y="-52" width="80" height="104" rx="8" fill="#ffffff" stroke="#2d3436" stroke-width="5"/><path d="M-24,-24 L24,-24 M-24,-4 L24,-4 M-24,16 L10,16" stroke="#b2bec3" stroke-width="6"/></g></g><g id="c4-ld1" class="h"><g transform="translate(110 430) scale(0.4)"><rect x="-40" y="-52" width="80" height="104" rx="8" fill="#ffffff" stroke="#2d3436" stroke-width="5"/><path d="M-24,-24 L24,-24 M-24,-4 L24,-4 M-24,16 L10,16" stroke="#b2bec3" stroke-width="6"/></g></g><g id="c4-ld2" class="h"><g transform="translate(150 430) scale(0.4)"><rect x="-40" y="-52" width="80" height="104" rx="8" fill="#ffffff" stroke="#2d3436" stroke-width="5"/><path d="M-24,-24 L24,-24 M-24,-4 L24,-4 M-24,16 L10,16" stroke="#b2bec3" stroke-width="6"/></g></g>
+        <g id="c4-otras" class="h"><text x="250" y="440" font-size="28" class="b" text-anchor="middle" fill="#00b894" >← otras leyes</text></g>
+        <g id="c4-lim" class="h"><text x="640" y="440" font-size="28" class="b" text-anchor="middle" fill="#d63031" >límite</text></g>
+      </g>
+      <g id="c4-b" class="h">
+        <text x="440" y="52" font-size="38" class="b" text-anchor="middle" fill="#d9761e" >Clasificadores</text>
+        <path d="M340,80 L540,80 L480,180 L400,180 Z" fill="#636e72" />
+        <rect x="380" y="180" width="120" height="60" fill="#2d3436" />
+        <g><rect x="25" y="330" width="196" height="90" rx="16" fill="#fff1e3" /><text x="123.0" y="384.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" ></text></g><text x="123" y="366" font-size="28" class="b" text-anchor="middle" fill="#d9761e" >carácter</text><text x="123" y="400" font-size="28" class="b" text-anchor="middle" fill="#d9761e" >económico</text><g><rect x="237" y="330" width="196" height="90" rx="16" fill="#fff1e3" /><text x="335.0" y="384.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" ></text></g><text x="335" y="366" font-size="28" class="b" text-anchor="middle" fill="#d9761e" >procedencia</text><text x="335" y="400" font-size="28" class="b" text-anchor="middle" fill="#d9761e" ></text><g><rect x="449" y="330" width="196" height="90" rx="16" fill="#fff1e3" /><text x="547.0" y="384.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" ></text></g><text x="547" y="366" font-size="28" class="b" text-anchor="middle" fill="#d9761e" >objeto</text><text x="547" y="400" font-size="28" class="b" text-anchor="middle" fill="#d9761e" >del gasto</text><g><rect x="661" y="330" width="196" height="90" rx="16" fill="#fff1e3" /><text x="759.0" y="384.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" ></text></g><text x="759" y="366" font-size="28" class="b" text-anchor="middle" fill="#d9761e" >finalidad</text><text x="759" y="400" font-size="28" class="b" text-anchor="middle" fill="#d9761e" >y función</text><rect id="c4-cd0" class="h" x="415" y="200" width="50" height="34" rx="6" fill="#e17055" /><rect id="c4-cd1" class="h" x="415" y="200" width="50" height="34" rx="6" fill="#00b894" /><rect id="c4-cd2" class="h" x="415" y="200" width="50" height="34" rx="6" fill="#74b9ff" /><rect id="c4-cd3" class="h" x="415" y="200" width="50" height="34" rx="6" fill="#fdcb6e" />
+        <g id="c4-dec" class="h"><g><rect x="560" y="110" width="290" height="56" rx="16" fill="#d9761e" /><text x="705.0" y="147.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >decreto acuerdo · cada año</text></g></g>
+      </g>
+      <g id="c4-c" class="h">
+        <text x="440" y="52" font-size="38" class="b" text-anchor="middle" fill="#d9761e" >Por carácter económico</text>
+        <path d="M60,250 L100,420 L260,420 L300,250" fill="#fff1e3" stroke="#d9761e" stroke-width="6" /><text x="180" y="395" font-size="30" class="b" text-anchor="middle" fill="#d9761e" >corrientes</text><path d="M340,250 L380,420 L540,420 L580,250" fill="#fff1e3" stroke="#d9761e" stroke-width="6" /><text x="460" y="395" font-size="30" class="b" text-anchor="middle" fill="#d9761e" >de capital</text><path d="M620,250 L660,420 L820,420 L860,250" fill="#fff1e3" stroke="#d9761e" stroke-width="6" /><text x="740" y="395" font-size="30" class="b" text-anchor="middle" fill="#d9761e" >financieros</text><g id="c4-ce0" class="h"><g><rect x="80" y="110" width="200" height="56" rx="16" fill="#636e72" /><text x="180.0" y="147.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >personal</text></g></g><g id="c4-ce1" class="h"><g><rect x="360" y="110" width="200" height="56" rx="16" fill="#636e72" /><text x="460.0" y="147.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >ambulancia</text></g></g><g id="c4-ce2" class="h"><g><rect x="640" y="110" width="200" height="56" rx="16" fill="#636e72" /><text x="740.0" y="147.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >amortización</text></g></g>
+      </g>
+      <g id="c4-d" class="h">
+        <text x="440" y="52" font-size="38" class="b" text-anchor="middle" fill="#d9761e" >Por procedencia u origen</text>
+        <g transform="translate(720 260)"><rect x="-70" y="-64" width="140" height="128" rx="14" fill="#636e72"/><circle r="38" fill="#b2bec3" stroke="#2d3436" stroke-width="6"/><path d="M0,-26 L0,26 M-26,0 L26,0" stroke="#2d3436" stroke-width="6"/></g><text x="720" y="370" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >recursos</text>
+        <path id="c4-o1" d="M200,150 Q450,150 630,230" fill="none" stroke="#00b894" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" /><path id="c4-o2" d="M200,260 L630,260" fill="none" stroke="#0984e3" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" /><path id="c4-o3" d="M200,370 Q450,370 630,290" fill="none" stroke="#636e72" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" />
+        <text x="110" y="160" font-size="30" class="b" text-anchor="middle" fill="#00b894" >provincial</text><text x="110" y="270" font-size="30" class="b" text-anchor="middle" fill="#0984e3" >nacional</text><text x="110" y="362" font-size="28" class="b" text-anchor="middle" fill="#636e72" >otros</text><text x="110" y="394" font-size="28" class="b" text-anchor="middle" fill="#636e72" >orígenes</text>
+        <g id="c4-iibb" class="h"><circle id="c4-ic" class="" cx="220" cy="150" r="28" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" /><text x="220" y="110" font-size="28" class="b" text-anchor="middle" fill="#00b894" >Ingresos Brutos</text></g>
+      </g>
+      <g id="c4-e" class="h">
+        <text x="440" y="50" font-size="36" class="b" text-anchor="middle" fill="#d9761e" >Por objeto del gasto: 9 incisos</text>
+        <g id="c4-i0" class="h"><rect x="20" y="76" width="410" height="64" rx="12" fill="#fff1e3" /><circle cx="56" cy="108" r="22" fill="#d9761e" /><text x="56" y="118" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >1</text><text x="92" y="118" font-size="28" class="b" text-anchor="start" fill="#2d3436" >personal</text></g><g id="c4-i1" class="h"><rect x="20" y="152" width="410" height="64" rx="12" fill="#fff1e3" /><circle cx="56" cy="184" r="22" fill="#d9761e" /><text x="56" y="194" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >2</text><text x="92" y="194" font-size="28" class="b" text-anchor="start" fill="#2d3436" >bienes de consumo</text></g><g id="c4-i2" class="h"><rect x="20" y="228" width="410" height="64" rx="12" fill="#fff1e3" /><circle cx="56" cy="260" r="22" fill="#d9761e" /><text x="56" y="270" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >3</text><text x="92" y="270" font-size="28" class="b" text-anchor="start" fill="#2d3436" >servicios no personales</text></g><g id="c4-i3" class="h"><rect x="20" y="304" width="410" height="64" rx="12" fill="#fff1e3" /><circle cx="56" cy="336" r="22" fill="#d9761e" /><text x="56" y="346" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >4</text><text x="92" y="346" font-size="28" class="b" text-anchor="start" fill="#2d3436" >bienes de uso</text></g><g id="c4-i4" class="h"><rect x="20" y="380" width="410" height="64" rx="12" fill="#fff1e3" /><circle cx="56" cy="412" r="22" fill="#d9761e" /><text x="56" y="422" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >5</text><text x="92" y="422" font-size="28" class="b" text-anchor="start" fill="#2d3436" >transferencias</text></g><g id="c4-i5" class="h"><rect x="450" y="76" width="410" height="64" rx="12" fill="#fff1e3" /><circle cx="486" cy="108" r="22" fill="#d9761e" /><text x="486" y="118" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >6</text><text x="522" y="118" font-size="28" class="b" text-anchor="start" fill="#2d3436" >activos financieros</text></g><g id="c4-i6" class="h"><rect x="450" y="152" width="410" height="64" rx="12" fill="#fff1e3" /><circle cx="486" cy="184" r="22" fill="#d9761e" /><text x="486" y="194" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >7</text><text x="522" y="194" font-size="28" class="b" text-anchor="start" fill="#2d3436" >servicios de la deuda</text></g><g id="c4-i7" class="h"><rect x="450" y="228" width="410" height="64" rx="12" fill="#fff1e3" /><circle cx="486" cy="260" r="22" fill="#d9761e" /><text x="486" y="270" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >8</text><text x="522" y="270" font-size="28" class="b" text-anchor="start" fill="#2d3436" >otros gastos</text></g><g id="c4-i8" class="h"><rect x="450" y="304" width="410" height="64" rx="12" fill="#fff1e3" /><circle cx="486" cy="336" r="22" fill="#d9761e" /><text x="486" y="346" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >9</text><text x="522" y="346" font-size="28" class="b" text-anchor="start" fill="#2d3436" >gastos figurativos</text></g>
+      </g>
+      <g id="c4-f" class="h">
+        <text x="440" y="52" font-size="38" class="b" text-anchor="middle" fill="#d9761e" >Por finalidad y función</text>
+        <text x="440" y="100" font-size="28" class="m" text-anchor="middle" fill="#636e72" >qué servicios presta el Estado a la comunidad</text>
+        <g id="c4-f1" class="h"><g transform="translate(180 260)"><path d="M-70,-20 L0,-62 L70,-20 Z" fill="#e17055"/><rect x="-58" y="-20" width="116" height="80" fill="#fdcb6e"/><rect x="-14" y="18" width="28" height="42" fill="#a86e45"/><rect x="-46" y="-6" width="22" height="20" fill="#ffffff"/><rect x="24" y="-6" width="22" height="20" fill="#ffffff"/></g><text x="180" y="380" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >educación</text></g>
+        <g id="c4-f2" class="h"><g transform="translate(440 260)"><rect x="-60" y="-56" width="120" height="116" fill="#ffffff" stroke="#2d3436" stroke-width="5"/><rect x="-12" y="-42" width="24" height="64" fill="#d63031"/><rect x="-32" y="-22" width="64" height="24" fill="#d63031"/><rect x="-16" y="30" width="32" height="30" fill="#74b9ff"/></g><text x="440" y="380" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >salud</text></g>
+        <g id="c4-f3" class="h"><g transform="translate(700 260)"><path d="M-50,-60 L0,-78 L50,-60 L50,0 Q50,52 0,74 Q-50,52 -50,0 Z" fill="#0984e3"/></g><text x="700" y="380" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >seguridad</text></g>
+      </g>
+      <g id="c4-g" class="h">
+        <text x="440" y="52" font-size="36" class="b" text-anchor="middle" fill="#d9761e" >Una cuenta, varios clasificadores</text>
+        <g id="c4-pt0"><rect x="70" y="80" width="200" height="56" rx="14" fill="#fff1e3" /><text x="170" y="117" font-size="28" class="b" text-anchor="middle" fill="#d9761e" >Objeto</text></g><g id="c4-pt1"><rect x="340" y="80" width="200" height="56" rx="14" fill="#fff1e3" /><text x="440" y="117" font-size="28" class="b" text-anchor="middle" fill="#d9761e" >Carácter</text></g><g id="c4-pt2"><rect x="610" y="80" width="200" height="56" rx="14" fill="#fff1e3" /><text x="710" y="117" font-size="28" class="b" text-anchor="middle" fill="#d9761e" >Finalidad</text></g><path d="M170,136 L170,200" stroke="#d9761e" stroke-width="5" stroke-dasharray="10 8" /><path d="M440,136 L440,200" stroke="#d9761e" stroke-width="5" stroke-dasharray="10 8" /><path d="M710,136 L710,200" stroke="#d9761e" stroke-width="5" stroke-dasharray="10 8" />
+        <g id="c4-card">
+          <rect x="20" y="210" width="330" height="76" rx="16" fill="#2d3436" />
+          <text id="c4-ct" x="185" y="259" font-size="30" class="b" text-anchor="middle" fill="#ffffff">Sueldo de un docente</text>
+          <g id="c4-tg0" class="h"><rect x="20" y="298" width="330" height="44" rx="22" fill="#c0392b" /><text id="c4-tt0" x="185" y="330" font-size="28" class="b" text-anchor="middle" fill="#ffffff">Personal</text></g><g id="c4-tg1" class="h"><rect x="20" y="350" width="330" height="44" rx="22" fill="#0767b5" /><text id="c4-tt1" x="185" y="382" font-size="28" class="b" text-anchor="middle" fill="#ffffff">Gasto corriente</text></g><g id="c4-tg2" class="h"><rect x="20" y="402" width="330" height="44" rx="22" fill="#00785a" /><text id="c4-tt2" x="185" y="434" font-size="28" class="b" text-anchor="middle" fill="#ffffff">Serv. sociales · Educación</text></g>
+        </g>
+        <g id="c4-amb" class="h">
+          <g transform="translate(185 240) scale(0.9)"><rect x="-70" y="-40" width="110" height="64" rx="8" fill="#ffffff" stroke="#2d3436" stroke-width="4"/><path d="M40,-20 L66,-20 L76,6 L76,24 L40,24 Z" fill="#ffffff" stroke="#2d3436" stroke-width="4"/><rect x="-26" y="-30" width="12" height="40" fill="#d63031"/><rect x="-40" y="-16" width="40" height="12" fill="#d63031"/><circle cx="-40" cy="28" r="13" fill="#2d3436"/><circle cx="50" cy="28" r="13" fill="#2d3436"/><rect x="-6" y="-50" width="20" height="10" rx="3" fill="#0984e3"/></g>
+          <g id="c4-ag0" class="h"><rect x="20" y="298" width="330" height="44" rx="22" fill="#c0392b" /><text x="185" y="330" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >Bienes de uso</text></g><g id="c4-ag1" class="h"><rect x="20" y="350" width="330" height="44" rx="22" fill="#0767b5" /><text x="185" y="382" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >Gasto de capital</text></g><g id="c4-ag2" class="h"><rect x="20" y="402" width="330" height="44" rx="22" fill="#00785a" /><text x="185" y="434" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >Salud</text></g>
+        </g>
+      </g>
+    </svg></div>
+    <div id="c4-ttl" class="ttl" style="background: #d9761e"><div class="ttl-n">Capítulo 4</div><div class="ttl-t">Estructura y clasificadores</div></div>
+    <div class="pill-slot"><div id="c4-pill" class="pill h"><span class="pill-n" style="background: #ffd3a8">Cap. 4/6</span>Estructura y clasificadores</div></div>
+    <div id="c4-ej" class="ej ej-a h">EJEMPLO DEL APUNTE</div>
+    <div id="c4-pe" class="ej ej-p h">PARA ENTENDERLO</div>
+  </div>
+  <script>
+    const T0 = 197.95;
+    const tl = gsap.timeline({ paused: true });
+    const A = (t) => Math.max(0, +(t - T0).toFixed(3));
+    const C = "50% 50%";
+    function show(s, t, d) {
+      tl.set(s, { scale: 0.85, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: d || 0.35, ease: "back.out(2)" }, A(t));
+    }
+    function pop(s, t) {
+      tl.set(s, { scale: 0, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(3)" }, A(t));
+    }
+    function hide(s, t) { tl.to(s, { opacity: 0, duration: 0.25, ease: "power2.in" }, A(t - 0.25)); }
+    function slideIn(s, t) {
+      tl.set(s, { x: 90 }, A(t));
+      tl.to(s, { x: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, A(t));
+    }
+    function slideOut(s, t) { tl.to(s, { x: -90, opacity: 0, duration: 0.35, ease: "power2.in" }, A(t - 0.35)); }
+    function drop(s, t) {
+      tl.set(s, { y: -160 }, A(t));
+      tl.to(s, { y: 0, opacity: 1, duration: 0.55, ease: "bounce.out" }, A(t));
+    }
+    function draw(s, t, d) { tl.to(s, { strokeDashoffset: 0, duration: d || 0.8, ease: "power1.inOut" }, A(t)); }
+    function grow(s, t, d, origin) {
+      tl.set(s, { scaleX: 0, transformOrigin: origin || "0% 50%" }, A(t));
+      tl.to(s, { scaleX: 1, opacity: 1, duration: d || 0.8, ease: "power2.out" }, A(t));
+    }
+    function growY(s, t, d) {
+      tl.set(s, { scaleY: 0, transformOrigin: "50% 100%" }, A(t));
+      tl.to(s, { scaleY: 1, opacity: 1, duration: d || 0.8, ease: "power2.out" }, A(t));
+    }
+    function pulse(s, t) { tl.to(s, { scale: 1.12, transformOrigin: C, duration: 0.18, yoyo: true, repeat: 1, ease: "sine.inOut" }, A(t)); }
+    function reps(span, per) { const n = Math.max(1, Math.floor(span / per)); return n % 2 ? n : n - 1; }
+    function bob(s, t0, t1, amp, per) {
+      per = per || 0.8;
+      tl.to(s, { y: -(amp || 8), duration: per / 2, ease: "sine.inOut", yoyo: true, repeat: reps(t1 - t0, per / 2) }, A(t0));
+    }
+    function wob(s, t0, t1, deg, per, origin) {
+      per = per || 0.8;
+      tl.fromTo(s, { rotation: -(deg || 6), transformOrigin: origin || C }, { rotation: deg || 6, duration: per / 2, ease: "sine.inOut", yoyo: true, repeat: reps(t1 - t0, per / 2) }, A(t0));
+    }
+    function flow(s, t0, t1, speed) {
+      tl.to(s, { strokeDashoffset: -(speed || 60) * (t1 - t0), duration: t1 - t0, ease: "none" }, A(t0));
+    }
+    function spin(s, t0, t1, deg) { tl.to(s, { rotation: deg || 360, transformOrigin: C, duration: t1 - t0, ease: "none" }, A(t0)); }
+    function money(v) { return "$" + Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+    function count(sel, a, b, t, d, fmt) {
+      const el = document.querySelector(sel);
+      const o = { v: a };
+      fmt = fmt || money;
+      tl.to(o, { v: b, duration: d || 1, ease: "power1.out", onUpdate: () => { el.textContent = fmt(o.v); } }, A(t));
+    }
+    function travel(s, t, dx, dy, d, arc) {
+      tl.to(s, { x: dx, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+      if (arc) {
+        tl.to(s, { y: arc, duration: (d || 0.8) / 2, ease: "sine.out" }, A(t));
+        tl.to(s, { y: dy, duration: (d || 0.8) / 2, ease: "sine.in" }, A(t + (d || 0.8) / 2));
+      } else {
+        tl.to(s, { y: dy, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+      }
+    }
+    // Varias monedas que circulan en fila, en loop finito
+    function stream(prefix, n, t0, t1, dx, dy, per) {
+      for (let i = 0; i < n; i++) {
+        const s = prefix + i;
+        const st = t0 + (i * per) / n;
+        const loops = Math.max(0, Math.floor((t1 - st - per) / per));
+        tl.set(s, { x: 0, y: 0, opacity: 1 }, A(st));
+        tl.to(s, { x: dx, y: dy, duration: per, ease: "none", repeat: loops }, A(st));
+        tl.to(s, { opacity: 0, duration: 0.15 }, A(st + per * (loops + 1) - 0.15));
+      }
+    }
+
+    tl.fromTo("#c4-ttl", { opacity: 1, clipPath: "inset(0% 0% 0% 0% round 22px)" }, { opacity: 1, clipPath: "inset(0% 0% 0% 0% round 22px)", duration: 0.1 }, 0);
+    tl.fromTo("#c4-ttl .ttl-t", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(2)" }, 0.1);
+    tl.to("#c4-ttl", { clipPath: "inset(0% 0% 0% 100% round 22px)", duration: 0.5, ease: "power3.inOut" }, A(200.25));
+    show("#c4-pill", 200.65);
+    hide("#c4-pill", 258.21);
+    show("#c4-ej", 244.69);
+    hide("#c4-ej", 258.21);
+    show("#c4-pe", 226.26);
+    hide("#c4-pe", 229.35);
+
+    slideIn("#c4-a", 201.33);
+    grow("#c4-ri0", 202.72, 0.7); grow("#c4-rg0", 204.35, 0.7);grow("#c4-ri1", 203.07, 0.7); grow("#c4-rg1", 204.7, 0.7);grow("#c4-ri2", 203.42, 0.7); grow("#c4-rg2", 205.05, 0.7);
+    drop("#c4-ld0", 206.51); tl.to("#c4-ld0", { y: -60 - 0, x: 60, opacity: 0, duration: 0.6, ease: "power2.in" }, A(207.44));drop("#c4-ld1", 206.76); tl.to("#c4-ld1", { y: -60 - 60, x: 60, opacity: 0, duration: 0.6, ease: "power2.in" }, A(207.69));drop("#c4-ld2", 207.01); tl.to("#c4-ld2", { y: -60 - 120, x: 60, opacity: 0, duration: 0.6, ease: "power2.in" }, A(207.94));
+    tl.to("#c4-ri0", { scaleX: 1.1, transformOrigin: "0% 50%", duration: 0.3, yoyo: true, repeat: 1 }, A(207.67));tl.to("#c4-ri1", { scaleX: 1.1, transformOrigin: "0% 50%", duration: 0.3, yoyo: true, repeat: 1 }, A(207.92));tl.to("#c4-ri2", { scaleX: 1.1, transformOrigin: "0% 50%", duration: 0.3, yoyo: true, repeat: 1 }, A(208.17));
+    show("#c4-otras", 206.97);
+    drop("#c4-tp0", 208.83);drop("#c4-tp1", 209.03);drop("#c4-tp2", 209.23);
+    show("#c4-lim", 209.06);
+    slideOut("#c4-a", 211.21);
+    slideIn("#c4-b", 211.21);
+    tl.set("#c4-cd0", { x: 0, y: -140, opacity: 1 }, A(211.86)); tl.to("#c4-cd0", { y: 0, duration: 0.35, ease: "power2.in" }, A(211.86)); tl.to("#c4-cd0", { x: -317, y: 95, duration: 0.5, ease: "power2.inOut" }, A(212.21));tl.set("#c4-cd1", { x: 0, y: -140, opacity: 1 }, A(212.56)); tl.to("#c4-cd1", { y: 0, duration: 0.35, ease: "power2.in" }, A(212.56)); tl.to("#c4-cd1", { x: -105, y: 95, duration: 0.5, ease: "power2.inOut" }, A(212.91));tl.set("#c4-cd2", { x: 0, y: -140, opacity: 1 }, A(213.26)); tl.to("#c4-cd2", { y: 0, duration: 0.35, ease: "power2.in" }, A(213.26)); tl.to("#c4-cd2", { x: 107, y: 95, duration: 0.5, ease: "power2.inOut" }, A(213.61));tl.set("#c4-cd3", { x: 0, y: -140, opacity: 1 }, A(213.96)); tl.to("#c4-cd3", { y: 0, duration: 0.35, ease: "power2.in" }, A(213.96)); tl.to("#c4-cd3", { x: 319, y: 95, duration: 0.5, ease: "power2.inOut" }, A(214.31));
+    pop("#c4-dec", 215.61);
+    slideOut("#c4-b", 217.98);
+    slideIn("#c4-c", 217.98);
+    pop("#c4-ce0", 218.82); tl.to("#c4-ce0", { y: 170, scale: 0.8, transformOrigin: C, duration: 0.5, ease: "bounce.out" }, A(219.27));pop("#c4-ce1", 219.07); tl.to("#c4-ce1", { y: 170, scale: 0.8, transformOrigin: C, duration: 0.5, ease: "bounce.out" }, A(219.52));pop("#c4-ce2", 219.32); tl.to("#c4-ce2", { y: 170, scale: 0.8, transformOrigin: C, duration: 0.5, ease: "bounce.out" }, A(219.77));
+    slideOut("#c4-c", 221.63);
+    slideIn("#c4-d", 221.63);
+    flow("#c4-o1", 221.63, 229.35, 60);
+    flow("#c4-o2", 222.79, 229.35, 60);
+    flow("#c4-o3", 223.95, 229.35, 60);
+    pop("#c4-iibb", 226.42);
+    tl.to("#c4-ic", { x: 380, y: 90, duration: 1.2, ease: "power1.inOut" }, A(227.19));
+    tl.to("#c4-ic", { opacity: 0, duration: 0.2 }, A(228.39));
+    slideOut("#c4-d", 229.65);
+    tl.set("#c4-e", { opacity: 1 }, A(229.65));
+    slideIn("#c4-i0", 229.7);slideIn("#c4-i1", 229.87);slideIn("#c4-i2", 230.04);slideIn("#c4-i3", 230.21);slideIn("#c4-i4", 230.38);slideIn("#c4-i5", 230.55);slideIn("#c4-i6", 230.72);slideIn("#c4-i7", 230.89);slideIn("#c4-i8", 231.06);
+    pulse("#c4-i0", 232.51);
+    pulse("#c4-i1", 233.73);
+    pulse("#c4-i3", 234.95);
+    slideOut("#c4-e", 236.75);
+    tl.set("#c4-f", { opacity: 1 }, A(236.75));
+    pop("#c4-f1", 237.92); bob("#c4-f1", 238.51, 240.66, 8, 0.8);pop("#c4-f2", 238.22); bob("#c4-f2", 238.81, 240.66, 8, 0.8);pop("#c4-f3", 238.52); bob("#c4-f3", 239.11, 240.66, 8, 0.8);
+    slideOut("#c4-f", 240.96);
+    slideIn("#c4-g", 240.96);
+    pulse("#c4-pt0", 242.16);pulse("#c4-pt1", 242.46);pulse("#c4-pt2", 242.76);
+    tl.to("#c4-card", { x: -40, duration: 0.3 }, A(245.68));
+    tl.to("#c4-card", { x: -30, duration: 0.7, ease: "power2.inOut" }, A(248.37));
+    tl.set("#c4-tg0", { y: -20 }, A(249.07));
+    tl.to("#c4-tg0", { y: 0, opacity: 1, duration: 0.35, ease: "back.out(3)" }, A(249.07));
+    pulse("#c4-pt0", 249.07);
+    tl.to("#c4-card", { x: 240, duration: 0.7, ease: "power2.inOut" }, A(250.3));
+    tl.set("#c4-tg1", { y: -20 }, A(251.0));
+    tl.to("#c4-tg1", { y: 0, opacity: 1, duration: 0.35, ease: "back.out(3)" }, A(251.0));
+    pulse("#c4-pt1", 251.0);
+    tl.to("#c4-card", { x: 510, duration: 0.7, ease: "power2.inOut" }, A(252.23));
+    tl.set("#c4-tg2", { y: -20 }, A(252.93));
+    tl.to("#c4-tg2", { y: 0, opacity: 1, duration: 0.35, ease: "back.out(3)" }, A(252.93));
+    pulse("#c4-pt2", 252.93);
+    tl.to("#c4-card", { x: 700, opacity: 0, duration: 0.5, ease: "power2.in" }, A(253.99));
+    tl.set("#c4-amb", { x: -300 }, A(254.19));
+    tl.to("#c4-amb", { opacity: 1, x: -50, duration: 0.5, ease: "power2.out" }, A(254.19));
+    tl.to("#c4-amb", { x: -15, duration: 0.5, ease: "power2.inOut" }, A(255.08));
+    tl.set("#c4-ag0", { y: -20 }, A(255.58));
+    tl.to("#c4-ag0", { y: 0, opacity: 1, duration: 0.3, ease: "back.out(3)" }, A(255.58));
+    pulse("#c4-pt0", 255.58);
+    tl.to("#c4-amb", { x: 255, duration: 0.5, ease: "power2.inOut" }, A(255.97));
+    tl.set("#c4-ag1", { y: -20 }, A(256.47));
+    tl.to("#c4-ag1", { y: 0, opacity: 1, duration: 0.3, ease: "back.out(3)" }, A(256.47));
+    pulse("#c4-pt1", 256.47);
+    tl.to("#c4-amb", { x: 525, duration: 0.5, ease: "power2.inOut" }, A(256.81));
+    tl.set("#c4-ag2", { y: -20 }, A(257.31));
+    tl.to("#c4-ag2", { y: 0, opacity: 1, duration: 0.3, ease: "back.out(3)" }, A(257.31));
+    pulse("#c4-pt2", 257.31);
+    wob("#c4-amb", 254.19, 258.06, 1.5, 0.2);
+    tl.set({}, {}, 60.31);
+    window.__timelines["c4"] = tl;
+  </script>
+</template>

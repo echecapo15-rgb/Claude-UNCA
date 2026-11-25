@@ -1,0 +1,2926 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "composition_file_too_large",
+        "severity": "warning",
+        "message": "This HTML composition file has 441 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/Claude-UNCA/video-unidad2/proyecto/compositions/estudiante.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Split this sub-composition further into smaller .html files, then mount them from the parent with data-composition-src so each file stays small enough to inspect, revise, and validate independently."
+      }
+    ],
+    "filesScanned": 11
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #c7-save not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "345.6",
+          "data-width": "1080",
+          "data-height": "1920"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #c7-save not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "345.6",
+          "data-width": "1080",
+          "data-height": "1920"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "GSAP target #c7-save not found. https://gsap.com",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "345.6",
+          "data-width": "1080",
+          "data-height": "1920"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0,
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js",
+        "line": 9
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 32,
+    "infoCount": 37,
+    "findings": [
+      {
+        "code": "rotation_pivot_drift",
+        "severity": "warning",
+        "time": 326.4,
+        "selector": "#est-arm-r",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 549.5,
+          "y": 1301.665,
+          "width": 122.78,
+          "height": 212.31
+        },
+        "rect": {
+          "left": 549.5,
+          "top": 1301.665,
+          "right": 672.28,
+          "bottom": 1513.975,
+          "width": 122.78,
+          "height": 212.31
+        },
+        "message": "Rotating element's bounding-box center drifts 187px across rotation — it is not spinning about its own center (check transformOrigin/svgOrigin).",
+        "fixHint": "The bounding-box center should stay fixed while the element spins; check its transformOrigin/svgOrigin so rotation pivots about the element's own center rather than a point in a coordinate space it was resized out of.",
+        "firstSeen": 326.4,
+        "lastSeen": 326.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          326.4
+        ]
+      },
+      {
+        "selector": "#c1-ttl > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 184.86,
+          "y": 651.34,
+          "width": 710.28,
+          "height": 90
+        },
+        "time": 19.2,
+        "rect": {
+          "left": 184.86,
+          "top": 651.34,
+          "right": 895.14,
+          "bottom": 741.34,
+          "width": 710.28,
+          "height": 90
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Qué es el presupuesto",
+        "message": "<div> \"Qué es el presupuesto\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 19.2,
+        "lastSeen": 19.2,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          19.2
+        ]
+      },
+      {
+        "selector": "#c2-s1 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1110.4,
+          "y": 466,
+          "width": 19.2,
+          "height": 43
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 1110.4,
+          "top": 466,
+          "right": 1129.6,
+          "bottom": 509,
+          "width": 19.2,
+          "height": 43
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "2",
+        "message": "<text> \"2\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s1 > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1165,
+          "y": 462,
+          "width": 416.75,
+          "height": 49
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 1165,
+          "top": 462,
+          "right": 1581.75,
+          "bottom": 511,
+          "width": 416.75,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Confección del proyecto",
+        "message": "<text> \"Confección del proyecto\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-dppp > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1086.46,
+          "y": 560,
+          "width": 287.08,
+          "height": 41
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 1086.46,
+          "top": 560,
+          "right": 1373.54,
+          "bottom": 601,
+          "width": 287.08,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Dirección Provincial",
+        "message": "<text> \"Dirección Provincial\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-dppp > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1106.7,
+          "y": 598,
+          "width": 246.6,
+          "height": 41
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 1106.7,
+          "top": 598,
+          "right": 1353.3,
+          "bottom": 639,
+          "width": 246.6,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "de Programación",
+        "message": "<text> \"de Programación\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-dppp > text:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1120.7,
+          "y": 636,
+          "width": 218.6,
+          "height": 41
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 1120.7,
+          "top": 636,
+          "right": 1339.3,
+          "bottom": 677,
+          "width": 218.6,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Presupuestaria",
+        "message": "<text> \"Presupuestaria\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s1 > g:nth-of-type(1) > g:nth-of-type(2) > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1496.34,
+          "y": 772,
+          "width": 207.32,
+          "height": 38
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 1496.34,
+          "top": 772,
+          "right": 1703.66,
+          "bottom": 810,
+          "width": 207.32,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "proyecto de ley",
+        "message": "<text> \"proyecto de ley\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s2 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1990.4,
+          "y": 466,
+          "width": 19.2,
+          "height": 43
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 1990.4,
+          "top": 466,
+          "right": 2009.6,
+          "bottom": 509,
+          "width": 19.2,
+          "height": 43
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "3",
+        "message": "<text> \"3\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s2 > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 2045,
+          "y": 462,
+          "width": 318.64,
+          "height": 49
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 2045,
+          "top": 462,
+          "right": 2363.64,
+          "bottom": 511,
+          "width": 318.64,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Autorización legal",
+        "message": "<text> \"Autorización legal\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s2 > g:nth-of-type(1) > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1997.83,
+          "y": 740,
+          "width": 164.34,
+          "height": 41
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 1997.83,
+          "top": 740,
+          "right": 2162.17,
+          "bottom": 781,
+          "width": 164.34,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Legislatura",
+        "message": "<text> \"Legislatura\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s3 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 2870.4,
+          "y": 466,
+          "width": 19.2,
+          "height": 43
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 2870.4,
+          "top": 466,
+          "right": 2889.6,
+          "bottom": 509,
+          "width": 19.2,
+          "height": 43
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "4",
+        "message": "<text> \"4\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s3 > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 2925,
+          "y": 462,
+          "width": 162.52,
+          "height": 49
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 2925,
+          "top": 462,
+          "right": 3087.52,
+          "bottom": 511,
+          "width": 162.52,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Ejecución",
+        "message": "<text> \"Ejecución\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s3 > g:nth-of-type(1) > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3131.33,
+          "y": 760,
+          "width": 97.34,
+          "height": 41
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 3131.33,
+          "top": 760,
+          "right": 3228.67,
+          "bottom": 801,
+          "width": 97.34,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Tesoro",
+        "message": "<text> \"Tesoro\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s3 > g:nth-of-type(1) > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 2833.99,
+          "y": 600,
+          "width": 212.02,
+          "height": 41
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 2833.99,
+          "top": 600,
+          "right": 3046.01,
+          "bottom": 641,
+          "width": 212.02,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "cobra recursos",
+        "message": "<text> \"cobra recursos\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s3 > g:nth-of-type(1) > text:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3334.6,
+          "y": 600,
+          "width": 170.8,
+          "height": 41
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 3334.6,
+          "top": 600,
+          "right": 3505.4,
+          "bottom": 641,
+          "width": 170.8,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "hace gastos",
+        "message": "<text> \"hace gastos\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s4 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3750.4,
+          "y": 466,
+          "width": 19.2,
+          "height": 43
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 3750.4,
+          "top": 466,
+          "right": 3769.6,
+          "bottom": 509,
+          "width": 19.2,
+          "height": 43
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "5",
+        "message": "<text> \"5\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s4 > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3805,
+          "y": 462,
+          "width": 382.92,
+          "height": 49
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 3805,
+          "top": 462,
+          "right": 4187.92,
+          "bottom": 511,
+          "width": 382.92,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Registración y control",
+        "message": "<text> \"Registración y control\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s4 > g:nth-of-type(1) > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3721.47,
+          "y": 832,
+          "width": 337.06,
+          "height": 38
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 3721.47,
+          "top": 832,
+          "right": 4058.53,
+          "bottom": 870,
+          "width": 337.06,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "se anota mientras ocurre",
+        "message": "<text> \"se anota mientras ocurre\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s5 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 4630.4,
+          "y": 466,
+          "width": 19.2,
+          "height": 43
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 4630.4,
+          "top": 466,
+          "right": 4649.6,
+          "bottom": 509,
+          "width": 19.2,
+          "height": 43
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "6",
+        "message": "<text> \"6\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s5 > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 4685,
+          "y": 462,
+          "width": 440.53,
+          "height": 49
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 4685,
+          "top": 462,
+          "right": 5125.53,
+          "bottom": 511,
+          "width": 440.53,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Evaluación y juzgamiento",
+        "message": "<text> \"Evaluación y juzgamiento\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s5 > g:nth-of-type(1) > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 4691.09,
+          "y": 800,
+          "width": 117.82,
+          "height": 41
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 4691.09,
+          "top": 800,
+          "right": 4808.91,
+          "bottom": 841,
+          "width": 117.82,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "previsto",
+        "message": "<text> \"previsto\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s5 > g:nth-of-type(1) > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 4907.2,
+          "y": 800,
+          "width": 85.6,
+          "height": 41
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 4907.2,
+          "top": 800,
+          "right": 4992.8,
+          "bottom": 841,
+          "width": 85.6,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "hecho",
+        "message": "<text> \"hecho\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c2-s5 > g:nth-of-type(1) > text:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 5091.11,
+          "y": 800,
+          "width": 177.78,
+          "height": 41
+        },
+        "time": 57.6,
+        "rect": {
+          "left": 5091.11,
+          "top": 800,
+          "right": 5268.89,
+          "bottom": 841,
+          "width": 177.78,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "juzgamiento",
+        "message": "<text> \"juzgamiento\" is outside the safe area: TikTok (right edge), Instagram Reels (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "selector": "#c3-p4 > g:nth-of-type(1) > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c3.html",
+        "bbox": {
+          "x": 742.73,
+          "y": 460,
+          "width": 220.54,
+          "height": 38
+        },
+        "time": 134.4,
+        "rect": {
+          "left": 742.73,
+          "top": 460,
+          "right": 963.27,
+          "bottom": 498,
+          "width": 220.54,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "art. 11 Ley 4938",
+        "message": "<text> \"art. 11 Ley 4938\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 134.4,
+        "lastSeen": 134.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          134.4
+        ]
+      },
+      {
+        "selector": "#c3b-p8 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c3b.html",
+        "bbox": {
+          "x": 115.6,
+          "y": 464,
+          "width": 60.19,
+          "height": 38
+        },
+        "time": 172.8,
+        "rect": {
+          "left": 115.6,
+          "top": 464,
+          "right": 175.79,
+          "bottom": 502,
+          "width": 60.19,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "8/11",
+        "message": "<text> \"8/11\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 172.8,
+        "lastSeen": 172.8,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          172.8
+        ]
+      },
+      {
+        "selector": "#c4-a > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c4.html",
+        "bbox": {
+          "x": 118.71,
+          "y": 526,
+          "width": 277.58,
+          "height": 41
+        },
+        "time": 211.2,
+        "rect": {
+          "left": 118.71,
+          "top": 526,
+          "right": 396.29,
+          "bottom": 567,
+          "width": 277.58,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Ingresos probables",
+        "message": "<text> \"Ingresos probables\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 211.2,
+        "lastSeen": 211.2,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          211.2
+        ]
+      },
+      {
+        "selector": "#c4-ct",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c4.html",
+        "bbox": {
+          "x": 98.32,
+          "y": 659,
+          "width": 313.36,
+          "height": 41
+        },
+        "time": 249.6,
+        "rect": {
+          "left": 98.32,
+          "top": 659,
+          "right": 411.68,
+          "bottom": 700,
+          "width": 313.36,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Sueldo de un docente",
+        "message": "<text> \"Sueldo de un docente\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 249.6,
+        "lastSeen": 249.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          249.6
+        ]
+      },
+      {
+        "selector": "#c5-badge > g:nth-of-type(1) > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c5.html",
+        "bbox": {
+          "x": 737.54,
+          "y": 516.8,
+          "width": 174.92,
+          "height": 38
+        },
+        "time": 288,
+        "rect": {
+          "left": 737.54,
+          "top": 516.8,
+          "right": 912.46,
+          "bottom": 554.8,
+          "width": 174.92,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "hace 10 años",
+        "message": "<text> \"hace 10 años\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 288,
+        "lastSeen": 288,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          288
+        ]
+      },
+      {
+        "selector": "#c6-t3 > g:nth-of-type(1) > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c6.html",
+        "bbox": {
+          "x": 765.27,
+          "y": 696.8,
+          "width": 129.46,
+          "height": 38
+        },
+        "time": 326.4,
+        "rect": {
+          "left": 765.27,
+          "top": 696.8,
+          "right": 894.73,
+          "bottom": 734.8,
+          "width": 129.46,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "resultado",
+        "message": "<text> \"resultado\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 326.4,
+        "lastSeen": 326.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          326.4
+        ]
+      },
+      {
+        "selector": "#c6-t3 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c6.html",
+        "bbox": {
+          "x": 731.1,
+          "y": 742,
+          "width": 197.8,
+          "height": 38
+        },
+        "time": 326.4,
+        "rect": {
+          "left": 731.1,
+          "top": 742,
+          "right": 928.9,
+          "bottom": 780,
+          "width": 197.8,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "tasa de egreso",
+        "message": "<text> \"tasa de egreso\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 326.4,
+        "lastSeen": 326.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          326.4
+        ]
+      },
+      {
+        "selector": "#c6-ttl > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c6.html",
+        "bbox": {
+          "x": 179.66,
+          "y": 651.34,
+          "width": 720.67,
+          "height": 90
+        },
+        "time": 326.4,
+        "rect": {
+          "left": 179.66,
+          "top": 651.34,
+          "right": 900.33,
+          "bottom": 741.34,
+          "width": 720.67,
+          "height": 90
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Indicadores de gestión",
+        "message": "<div> \"Indicadores de gestión\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 326.4,
+        "lastSeen": 326.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          326.4
+        ]
+      },
+      {
+        "code": "connector_detached",
+        "severity": "info",
+        "time": 19.2,
+        "selector": "#c1-a-ar",
+        "message": "Connector path endpoints render 309px from the nearest anchorable element — a marked shaft that meets no node.",
+        "rect": {
+          "left": 340,
+          "top": 680,
+          "right": 490,
+          "bottom": 680,
+          "width": 150,
+          "height": 0
+        },
+        "containerSelector": "#c1 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Measure the settled node boxes and write `d` in the SVG's user space (invert getScreenCTM), or grow a layout-owned shaft from the source node.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c1--ah)\"}]"
+        },
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 340,
+          "y": 680,
+          "width": 150,
+          "height": 0
+        },
+        "firstSeen": 19.2,
+        "lastSeen": 19.2,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          19.2
+        ]
+      },
+      {
+        "code": "connector_detached",
+        "severity": "info",
+        "time": 19.2,
+        "selector": "#c1-c-ar1",
+        "message": "Connector path endpoints render 209px from the nearest anchorable element — a marked shaft that meets no node.",
+        "rect": {
+          "left": 380,
+          "top": 580,
+          "right": 700,
+          "bottom": 580,
+          "width": 320,
+          "height": 0
+        },
+        "containerSelector": "#c1 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Measure the settled node boxes and write `d` in the SVG's user space (invert getScreenCTM), or grow a layout-owned shaft from the source node.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c1--ah)\"}]"
+        },
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 380,
+          "y": 580,
+          "width": 320,
+          "height": 0
+        },
+        "firstSeen": 19.2,
+        "lastSeen": 19.2,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          19.2
+        ]
+      },
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 19.2,
+        "selector": "#c1-a-ar",
+        "message": "Connector shaft is visible while both endpoints are not on stage.",
+        "rect": {
+          "left": 340,
+          "top": 680,
+          "right": 490,
+          "bottom": 680,
+          "width": 150,
+          "height": 0
+        },
+        "containerSelector": "#c1 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c1--ah)\"}]"
+        },
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 340,
+          "y": 680,
+          "width": 150,
+          "height": 0
+        },
+        "firstSeen": 19.2,
+        "lastSeen": 19.2,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          19.2
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s1 > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 1110.4,
+          "top": 466,
+          "right": 1129.6,
+          "bottom": 509,
+          "width": 19.2,
+          "height": 43
+        },
+        "containerSelector": "#root",
+        "text": "2",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 49.6
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1110.4,
+          "y": 466,
+          "width": 19.2,
+          "height": 43
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s1 > text:nth-of-type(2)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 1165,
+          "top": 462,
+          "right": 1581.75,
+          "bottom": 511,
+          "width": 416.75,
+          "height": 49
+        },
+        "containerSelector": "#root",
+        "text": "Confección del proyecto",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 501.75
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1165,
+          "y": 462,
+          "width": 416.75,
+          "height": 49
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-dppp > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 1086.46,
+          "top": 560,
+          "right": 1373.54,
+          "bottom": 601,
+          "width": 287.08,
+          "height": 41
+        },
+        "containerSelector": "#root",
+        "text": "Dirección Provincial",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 293.54
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1086.46,
+          "y": 560,
+          "width": 287.08,
+          "height": 41
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-dppp > text:nth-of-type(2)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 1106.7,
+          "top": 598,
+          "right": 1353.3,
+          "bottom": 639,
+          "width": 246.6,
+          "height": 41
+        },
+        "containerSelector": "#root",
+        "text": "de Programación",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 273.3
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1106.7,
+          "y": 598,
+          "width": 246.6,
+          "height": 41
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-dppp > text:nth-of-type(3)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 1120.7,
+          "top": 636,
+          "right": 1339.3,
+          "bottom": 677,
+          "width": 218.6,
+          "height": 41
+        },
+        "containerSelector": "#root",
+        "text": "Presupuestaria",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 259.3
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1120.7,
+          "y": 636,
+          "width": 218.6,
+          "height": 41
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s1 > g:nth-of-type(1) > g:nth-of-type(2) > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 1496.34,
+          "top": 772,
+          "right": 1703.66,
+          "bottom": 810,
+          "width": 207.32,
+          "height": 38
+        },
+        "containerSelector": "#root",
+        "text": "proyecto de ley",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 623.66
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1496.34,
+          "y": 772,
+          "width": 207.32,
+          "height": 38
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s2 > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 1990.4,
+          "top": 466,
+          "right": 2009.6,
+          "bottom": 509,
+          "width": 19.2,
+          "height": 43
+        },
+        "containerSelector": "#root",
+        "text": "3",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 929.6
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1990.4,
+          "y": 466,
+          "width": 19.2,
+          "height": 43
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s2 > text:nth-of-type(2)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2045,
+          "top": 462,
+          "right": 2363.64,
+          "bottom": 511,
+          "width": 318.64,
+          "height": 49
+        },
+        "containerSelector": "#root",
+        "text": "Autorización legal",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 1283.64
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 2045,
+          "y": 462,
+          "width": 318.64,
+          "height": 49
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s2 > g:nth-of-type(1) > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 1997.83,
+          "top": 740,
+          "right": 2162.17,
+          "bottom": 781,
+          "width": 164.34,
+          "height": 41
+        },
+        "containerSelector": "#root",
+        "text": "Legislatura",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 1082.17
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 1997.83,
+          "y": 740,
+          "width": 164.34,
+          "height": 41
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s3 > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2870.4,
+          "top": 466,
+          "right": 2889.6,
+          "bottom": 509,
+          "width": 19.2,
+          "height": 43
+        },
+        "containerSelector": "#root",
+        "text": "4",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 1809.6
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 2870.4,
+          "y": 466,
+          "width": 19.2,
+          "height": 43
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s3 > text:nth-of-type(2)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2925,
+          "top": 462,
+          "right": 3087.52,
+          "bottom": 511,
+          "width": 162.52,
+          "height": 49
+        },
+        "containerSelector": "#root",
+        "text": "Ejecución",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 2007.52
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 2925,
+          "y": 462,
+          "width": 162.52,
+          "height": 49
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s3 > g:nth-of-type(1) > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 3131.33,
+          "top": 760,
+          "right": 3228.67,
+          "bottom": 801,
+          "width": 97.34,
+          "height": 41
+        },
+        "containerSelector": "#root",
+        "text": "Tesoro",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 2148.67
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3131.33,
+          "y": 760,
+          "width": 97.34,
+          "height": 41
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s3 > g:nth-of-type(1) > text:nth-of-type(2)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2833.99,
+          "top": 600,
+          "right": 3046.01,
+          "bottom": 641,
+          "width": 212.02,
+          "height": 41
+        },
+        "containerSelector": "#root",
+        "text": "cobra recursos",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 1966.01
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 2833.99,
+          "y": 600,
+          "width": 212.02,
+          "height": 41
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s3 > g:nth-of-type(1) > text:nth-of-type(3)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 3334.6,
+          "top": 600,
+          "right": 3505.4,
+          "bottom": 641,
+          "width": 170.8,
+          "height": 41
+        },
+        "containerSelector": "#root",
+        "text": "hace gastos",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 2425.4
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3334.6,
+          "y": 600,
+          "width": 170.8,
+          "height": 41
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s4 > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 3750.4,
+          "top": 466,
+          "right": 3769.6,
+          "bottom": 509,
+          "width": 19.2,
+          "height": 43
+        },
+        "containerSelector": "#root",
+        "text": "5",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 2689.6
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3750.4,
+          "y": 466,
+          "width": 19.2,
+          "height": 43
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s4 > text:nth-of-type(2)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 3805,
+          "top": 462,
+          "right": 4187.92,
+          "bottom": 511,
+          "width": 382.92,
+          "height": 49
+        },
+        "containerSelector": "#root",
+        "text": "Registración y control",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 3107.92
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3805,
+          "y": 462,
+          "width": 382.92,
+          "height": 49
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s4 > g:nth-of-type(1) > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 3721.47,
+          "top": 832,
+          "right": 4058.53,
+          "bottom": 870,
+          "width": 337.06,
+          "height": 38
+        },
+        "containerSelector": "#root",
+        "text": "se anota mientras ocurre",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 2978.53
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3721.47,
+          "y": 832,
+          "width": 337.06,
+          "height": 38
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s5 > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 4630.4,
+          "top": 466,
+          "right": 4649.6,
+          "bottom": 509,
+          "width": 19.2,
+          "height": 43
+        },
+        "containerSelector": "#root",
+        "text": "6",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 3569.6
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 4630.4,
+          "y": 466,
+          "width": 19.2,
+          "height": 43
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s5 > text:nth-of-type(2)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 4685,
+          "top": 462,
+          "right": 5125.53,
+          "bottom": 511,
+          "width": 440.53,
+          "height": 49
+        },
+        "containerSelector": "#root",
+        "text": "Evaluación y juzgamiento",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 4045.53
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 4685,
+          "y": 462,
+          "width": 440.53,
+          "height": 49
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s5 > g:nth-of-type(1) > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 4691.09,
+          "top": 800,
+          "right": 4808.91,
+          "bottom": 841,
+          "width": 117.82,
+          "height": 41
+        },
+        "containerSelector": "#root",
+        "text": "previsto",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 3728.91
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 4691.09,
+          "y": 800,
+          "width": 117.82,
+          "height": 41
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s5 > g:nth-of-type(1) > text:nth-of-type(2)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 4907.2,
+          "top": 800,
+          "right": 4992.8,
+          "bottom": 841,
+          "width": 85.6,
+          "height": 41
+        },
+        "containerSelector": "#root",
+        "text": "hecho",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 3912.8
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 4907.2,
+          "y": 800,
+          "width": 85.6,
+          "height": 41
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-s5 > g:nth-of-type(1) > text:nth-of-type(3)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 5091.11,
+          "top": 800,
+          "right": 5268.89,
+          "bottom": 841,
+          "width": 177.78,
+          "height": 41
+        },
+        "containerSelector": "#root",
+        "text": "juzgamiento",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 4188.89
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 5091.11,
+          "y": 800,
+          "width": 177.78,
+          "height": 41
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "connector_detached",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-in",
+        "message": "Connector path endpoints render 1807px from the nearest anchorable element — a marked shaft that meets no node.",
+        "rect": {
+          "left": 2860,
+          "top": 680,
+          "right": 3090,
+          "bottom": 680,
+          "width": 230,
+          "height": 0
+        },
+        "containerSelector": "#c2 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Measure the settled node boxes and write `d` in the SVG's user space (invert getScreenCTM), or grow a layout-owned shaft from the source node.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c2--ah)\"}]"
+        },
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 2860,
+          "y": 680,
+          "width": 230,
+          "height": 0
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "connector_detached",
+        "severity": "info",
+        "time": 57.6,
+        "selector": "#c2-out",
+        "message": "Connector path endpoints render 2212px from the nearest anchorable element — a marked shaft that meets no node.",
+        "rect": {
+          "left": 3270,
+          "top": 680,
+          "right": 3500,
+          "bottom": 680,
+          "width": 230,
+          "height": 0
+        },
+        "containerSelector": "#c2 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Measure the settled node boxes and write `d` in the SVG's user space (invert getScreenCTM), or grow a layout-owned shaft from the source node.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c2--ah)\"}]"
+        },
+        "sourceFile": "compositions/c2.html",
+        "bbox": {
+          "x": 3270,
+          "y": 680,
+          "width": 230,
+          "height": 0
+        },
+        "firstSeen": 57.6,
+        "lastSeen": 57.6,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          57.6
+        ]
+      },
+      {
+        "code": "connector_detached",
+        "severity": "info",
+        "time": 134.4,
+        "selector": "#c3-uin",
+        "message": "Connector path endpoints render 180px from the nearest anchorable element — a marked shaft that meets no node.",
+        "rect": {
+          "left": 160,
+          "top": 630,
+          "right": 430,
+          "bottom": 630,
+          "width": 270,
+          "height": 0
+        },
+        "containerSelector": "#c3 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Measure the settled node boxes and write `d` in the SVG's user space (invert getScreenCTM), or grow a layout-owned shaft from the source node.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c3--ah)\"}]"
+        },
+        "sourceFile": "compositions/c3.html",
+        "bbox": {
+          "x": 160,
+          "y": 630,
+          "width": 270,
+          "height": 0
+        },
+        "firstSeen": 134.4,
+        "lastSeen": 134.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          134.4
+        ]
+      },
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 134.4,
+        "selector": "#c3-uin",
+        "message": "Connector shaft is visible while both endpoints are not on stage.",
+        "rect": {
+          "left": 160,
+          "top": 630,
+          "right": 430,
+          "bottom": 630,
+          "width": 270,
+          "height": 0
+        },
+        "containerSelector": "#c3 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c3--ah)\"}]"
+        },
+        "sourceFile": "compositions/c3.html",
+        "bbox": {
+          "x": 160,
+          "y": 630,
+          "width": 270,
+          "height": 0
+        },
+        "firstSeen": 134.4,
+        "lastSeen": 134.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          134.4
+        ]
+      },
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 134.4,
+        "selector": "#c3-uout",
+        "message": "Connector shaft is visible while both endpoints are not on stage.",
+        "rect": {
+          "left": 650,
+          "top": 730,
+          "right": 920,
+          "bottom": 730,
+          "width": 270,
+          "height": 0
+        },
+        "containerSelector": "#c3 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c3--ah)\"}]"
+        },
+        "sourceFile": "compositions/c3.html",
+        "bbox": {
+          "x": 650,
+          "y": 730,
+          "width": 270,
+          "height": 0
+        },
+        "firstSeen": 134.4,
+        "lastSeen": 134.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          134.4
+        ]
+      },
+      {
+        "code": "connector_detached",
+        "severity": "info",
+        "time": 172.8,
+        "selector": "#c3b-back",
+        "message": "Connector path endpoints render 329px from the nearest anchorable element, but the path's user-space coordinates would attach if read as screen pixels — screen/viewport numbers were likely written into SVG `d` without inverting the CTM.",
+        "rect": {
+          "left": 460,
+          "top": 700,
+          "right": 750,
+          "bottom": 750,
+          "width": 290,
+          "height": 50
+        },
+        "containerSelector": "#c3b > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Convert measured screen coordinates into the SVG's user space (subtract the SVG rect / invert getScreenCTM) before writing path `d`, and keep the SVG a direct child of the stage.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c3b--ah)\"}]"
+        },
+        "sourceFile": "compositions/c3b.html",
+        "bbox": {
+          "x": 460,
+          "y": 700,
+          "width": 290,
+          "height": 50
+        },
+        "firstSeen": 172.8,
+        "lastSeen": 172.8,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          172.8
+        ]
+      },
+      {
+        "code": "connector_detached",
+        "severity": "info",
+        "time": 211.2,
+        "selector": "#c4-o1",
+        "message": "Connector path endpoints render 209px from the nearest anchorable element — a marked shaft that meets no node.",
+        "rect": {
+          "left": 300,
+          "top": 580,
+          "right": 730,
+          "bottom": 660,
+          "width": 430,
+          "height": 80
+        },
+        "containerSelector": "#c4 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Measure the settled node boxes and write `d` in the SVG's user space (invert getScreenCTM), or grow a layout-owned shaft from the source node.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c4--ah)\"}]"
+        },
+        "sourceFile": "compositions/c4.html",
+        "bbox": {
+          "x": 300,
+          "y": 580,
+          "width": 430,
+          "height": 80
+        },
+        "firstSeen": 211.2,
+        "lastSeen": 249.6,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          211.2,
+          249.6
+        ]
+      },
+      {
+        "code": "connector_detached",
+        "severity": "info",
+        "time": 211.2,
+        "selector": "#c4-o2",
+        "message": "Connector path endpoints render 319px from the nearest anchorable element — a marked shaft that meets no node.",
+        "rect": {
+          "left": 300,
+          "top": 690,
+          "right": 730,
+          "bottom": 690,
+          "width": 430,
+          "height": 0
+        },
+        "containerSelector": "#c4 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Measure the settled node boxes and write `d` in the SVG's user space (invert getScreenCTM), or grow a layout-owned shaft from the source node.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c4--ah)\"}]"
+        },
+        "sourceFile": "compositions/c4.html",
+        "bbox": {
+          "x": 300,
+          "y": 690,
+          "width": 430,
+          "height": 0
+        },
+        "firstSeen": 211.2,
+        "lastSeen": 249.6,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          211.2,
+          249.6
+        ]
+      },
+      {
+        "code": "connector_detached",
+        "severity": "info",
+        "time": 326.4,
+        "selector": "#c6-a1",
+        "message": "Connector path endpoints render 180px from the nearest anchorable element — a marked shaft that meets no node.",
+        "rect": {
+          "left": 340,
+          "top": 630,
+          "right": 420,
+          "bottom": 630,
+          "width": 80,
+          "height": 0
+        },
+        "containerSelector": "#c6 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Measure the settled node boxes and write `d` in the SVG's user space (invert getScreenCTM), or grow a layout-owned shaft from the source node.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c6--ah)\"}]"
+        },
+        "sourceFile": "compositions/c6.html",
+        "bbox": {
+          "x": 340,
+          "y": 630,
+          "width": 80,
+          "height": 0
+        },
+        "firstSeen": 326.4,
+        "lastSeen": 326.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          326.4
+        ]
+      },
+      {
+        "code": "connector_detached",
+        "severity": "info",
+        "time": 326.4,
+        "selector": "#c6-a2",
+        "message": "Connector path endpoints render 194px from the nearest anchorable element — a marked shaft that meets no node.",
+        "rect": {
+          "left": 580,
+          "top": 630,
+          "right": 660,
+          "bottom": 630,
+          "width": 80,
+          "height": 0
+        },
+        "containerSelector": "#c6 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Measure the settled node boxes and write `d` in the SVG's user space (invert getScreenCTM), or grow a layout-owned shaft from the source node.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c6--ah)\"}]"
+        },
+        "sourceFile": "compositions/c6.html",
+        "bbox": {
+          "x": 580,
+          "y": 630,
+          "width": 80,
+          "height": 0
+        },
+        "firstSeen": 326.4,
+        "lastSeen": 326.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          326.4
+        ]
+      },
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 326.4,
+        "selector": "#c6-a1",
+        "message": "Connector shaft is visible while both endpoints are not on stage.",
+        "rect": {
+          "left": 340,
+          "top": 630,
+          "right": 420,
+          "bottom": 630,
+          "width": 80,
+          "height": 0
+        },
+        "containerSelector": "#c6 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c6--ah)\"}]"
+        },
+        "sourceFile": "compositions/c6.html",
+        "bbox": {
+          "x": 340,
+          "y": 630,
+          "width": 80,
+          "height": 0
+        },
+        "firstSeen": 326.4,
+        "lastSeen": 326.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          326.4
+        ]
+      },
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 326.4,
+        "selector": "#c6-a2",
+        "message": "Connector shaft is visible while both endpoints are not on stage.",
+        "rect": {
+          "left": 580,
+          "top": 630,
+          "right": 660,
+          "bottom": 630,
+          "width": 80,
+          "height": 0
+        },
+        "containerSelector": "#c6 > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {
+          "data-hf-svg-reference-aliases": "[{\"name\":\"marker-end\",\"localName\":\"marker-end\",\"namespaceURI\":null,\"before\":\"url(#ah)\",\"after\":\"url(#c6--ah)\"}]"
+        },
+        "sourceFile": "compositions/c6.html",
+        "bbox": {
+          "x": 580,
+          "y": 630,
+          "width": 80,
+          "height": 0
+        },
+        "firstSeen": 326.4,
+        "lastSeen": 326.4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          326.4
+        ]
+      }
+    ],
+    "duration": 345.6,
+    "samples": [
+      19.2,
+      57.6,
+      96,
+      134.4,
+      172.8,
+      211.2,
+      249.6,
+      288,
+      326.4
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 69,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.89:1; WCAG AA requires 3:1.",
+        "text": "Objeto",
+        "fg": "rgb(217,118,30)",
+        "bg": "rgb(255,241,227)",
+        "ratio": 2.89,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(212,115,29)",
+        "large": true,
+        "selector": "div > div:nth-of-type(7) > div > div:nth-of-type(1) > svg > g:nth-of-type(7) > g:nth-of-type(1) > text",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c4.html",
+        "bbox": {
+          "x": 223.9609375,
+          "y": 519,
+          "width": 92.210693359375,
+          "height": 38
+        },
+        "time": 249.6,
+        "times": [
+          249.6
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.89:1; WCAG AA requires 3:1.",
+        "text": "Carácter",
+        "fg": "rgb(217,118,30)",
+        "bg": "rgb(255,241,227)",
+        "ratio": 2.89,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(212,115,29)",
+        "large": true,
+        "selector": "div > div:nth-of-type(7) > div > div:nth-of-type(1) > svg > g:nth-of-type(7) > g:nth-of-type(2) > text",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c4.html",
+        "bbox": {
+          "x": 482.0859375,
+          "y": 519,
+          "width": 116.67431640625,
+          "height": 38
+        },
+        "time": 249.6,
+        "times": [
+          249.6
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.89:1; WCAG AA requires 3:1.",
+        "text": "Finalidad",
+        "fg": "rgb(217,118,30)",
+        "bg": "rgb(255,241,227)",
+        "ratio": 2.89,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(212,115,29)",
+        "large": true,
+        "selector": "div > div:nth-of-type(7) > div > div:nth-of-type(1) > svg > g:nth-of-type(7) > g:nth-of-type(3) > text",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c4.html",
+        "bbox": {
+          "x": 746.84375,
+          "y": 519,
+          "width": 126.3125,
+          "height": 38
+        },
+        "time": 249.6,
+        "times": [
+          249.6
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      19.2,
+      96,
+      172.8,
+      249.6,
+      326.4
+    ],
+    "checked": 38,
+    "passed": 35
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 4,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"cuánto\" renders at 14 px for 0.58 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "cuánto",
+        "selector": "#c1-cuanto > g:nth-of-type(1) > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 516.38,
+          "y": 565.65,
+          "width": 47.24,
+          "height": 19.53
+        },
+        "time": 42.118,
+        "times": [
+          42.118
+        ],
+        "fontPx": 14.39,
+        "floorPx": 28,
+        "seconds": 0.577,
+        "elements": [
+          {
+            "selector": "#c1-cuanto > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "cuánto",
+            "fontPx": 14.39,
+            "time": 42.118,
+            "seconds": 0.577
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"∑ 0912\" at 24 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "∑ 0912",
+        "selector": "#c3b-c2 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c3b.html",
+        "bbox": {
+          "x": 627.42,
+          "y": 628.41,
+          "width": 85.44,
+          "height": 51.04
+        },
+        "time": 170.204,
+        "times": [
+          166.165,
+          170.204
+        ],
+        "fontPx": 24.32,
+        "floorPx": 28,
+        "seconds": 0.577,
+        "elements": [
+          {
+            "selector": "#c3b-c2 > text:nth-of-type(1)",
+            "text": "∑ 0912",
+            "fontPx": 24.32,
+            "time": 170.204,
+            "seconds": 0.577
+          },
+          {
+            "selector": "#c3b-preg > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "¿en qué se gasta?",
+            "fontPx": 26.9,
+            "time": 166.165,
+            "seconds": 0.577
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 4 text elements stay under it for 0.5 s or more, the smallest \"salud\" at 18 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "salud",
+        "selector": "#c4-f2 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c4.html",
+        "bbox": {
+          "x": 516.94,
+          "y": 758.15,
+          "width": 46.12,
+          "height": 23.94
+        },
+        "time": 238.285,
+        "times": [
+          219.822,
+          219.822,
+          220.399,
+          238.285
+        ],
+        "fontPx": 17.52,
+        "floorPx": 28,
+        "seconds": 0.577,
+        "elements": [
+          {
+            "selector": "#c4-f2 > text:nth-of-type(1)",
+            "text": "salud",
+            "fontPx": 17.52,
+            "time": 238.285,
+            "seconds": 0.577
+          },
+          {
+            "selector": "#c4-ce0 > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "personal",
+            "fontPx": 22.4,
+            "time": 219.822,
+            "seconds": 2.308
+          },
+          {
+            "selector": "#c4-ce1 > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "ambulancia",
+            "fontPx": 22.4,
+            "time": 219.822,
+            "seconds": 2.308
+          },
+          {
+            "selector": "#c4-ce2 > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "amortización",
+            "fontPx": 22.4,
+            "time": 220.399,
+            "seconds": 1.731
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"EJEMPLO DEL APUNTE\" renders at 26 px for 0.58 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "EJEMPLO DEL APUNTE",
+        "selector": "#c5-ej",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c5.html",
+        "bbox": {
+          "x": 159.13,
+          "y": 405.03,
+          "width": 318.62,
+          "height": 35.94
+        },
+        "time": 303.482,
+        "times": [
+          303.482
+        ],
+        "fontPx": 26.48,
+        "floorPx": 28,
+        "seconds": 0.577,
+        "elements": [
+          {
+            "selector": "#c5-ej",
+            "text": "EJEMPLO DEL APUNTE",
+            "fontPx": 26.48,
+            "time": 303.482,
+            "seconds": 0.577
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.5769999999999982,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

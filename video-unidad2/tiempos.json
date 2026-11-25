@@ -254,253 +254,253 @@
  {
   "n": 37,
   "cap": "c3",
-  "ini": 161.08,
-  "fin": 165.88,
+  "ini": 162.68,
+  "fin": 167.48,
   "texto": "Publicidad: el presupuesto no es secreto. Cualquier persona puede saber en qué se gasta."
  },
  {
   "n": 38,
   "cap": "c3",
-  "ini": 166.18,
-  "fin": 171.06,
+  "ini": 167.78,
+  "fin": 172.66,
   "texto": "Claridad: tiene que entenderlo alguien sin formación contable, sin perder precisión técnica."
  },
  {
   "n": 39,
   "cap": "c3",
-  "ini": 171.36,
-  "fin": 177.76,
+  "ini": 172.96,
+  "fin": 179.36,
   "texto": "Especificación: cada autorización tiene un fin claro. El crédito para Personal no sirve para comprar vehículos."
  },
  {
   "n": 40,
   "cap": "c3",
-  "ini": 178.06,
-  "fin": 182.33,
+  "ini": 179.66,
+  "fin": 183.93,
   "texto": "Anualidad: el año financiero va del uno de enero al treinta y uno de diciembre."
  },
  {
   "n": 41,
   "cap": "c3",
-  "ini": 182.63,
-  "fin": 185.7,
+  "ini": 184.23,
+  "fin": 187.3,
   "texto": "Lo que no se gastó en ese año no pasa solo al siguiente."
  },
  {
   "n": 42,
   "cap": "c3",
-  "ini": 186.0,
-  "fin": 188.75,
+  "ini": 187.6,
+  "fin": 190.35,
   "texto": "Precedencia: se aprueba antes de que empiece el año."
  },
  {
   "n": 43,
   "cap": "c3",
-  "ini": 189.05,
-  "fin": 195.95,
+  "ini": 190.65,
+  "fin": 197.55,
   "texto": "El presupuesto de dos mil veintisiete tiene que estar aprobado antes del uno de enero. No en marzo, para cubrir lo gastado en enero."
  },
  {
   "n": 44,
   "cap": "c4",
-  "ini": 196.75,
-  "fin": 199.43,
+  "ini": 198.35,
+  "fin": 201.03,
   "texto": "Capítulo cuatro: estructura y clasificadores."
  },
  {
   "n": 45,
   "cap": "c4",
-  "ini": 199.73,
-  "fin": 204.38,
+  "ini": 201.33,
+  "fin": 205.98,
   "texto": "El presupuesto es un cuadro. De un lado, los ingresos probables. Del otro, los gastos."
  },
  {
   "n": 46,
   "cap": "c4",
-  "ini": 204.68,
-  "fin": 209.31,
+  "ini": 206.28,
+  "fin": 210.91,
   "texto": "Los recursos se fijan en otras leyes. Los gastos, en el presupuesto, como límite."
  },
  {
   "n": 47,
   "cap": "c4",
-  "ini": 209.61,
-  "fin": 216.08,
+  "ini": 211.21,
+  "fin": 217.68,
   "texto": "Los clasificadores agrupan recursos y gastos con criterios comunes. Se aprueban por decreto acuerdo, cada año."
  },
  {
   "n": 48,
   "cap": "c4",
-  "ini": 216.38,
-  "fin": 219.73,
+  "ini": 217.98,
+  "fin": 221.33,
   "texto": "Por carácter económico: corrientes, de capital y financieros."
  },
  {
   "n": 49,
   "cap": "c4",
-  "ini": 220.03,
-  "fin": 227.75,
+  "ini": 221.63,
+  "fin": 229.35,
   "texto": "Por procedencia: el recurso puede ser provincial, nacional o de otros orígenes. Ingresos Brutos, que cobra la Provincia, es provincial."
  },
  {
   "n": 50,
   "cap": "c4",
-  "ini": 228.05,
-  "fin": 234.85,
+  "ini": 229.65,
+  "fin": 236.45,
   "texto": "Por objeto del gasto hay nueve incisos. Uno, personal. Dos, bienes de consumo. Cuatro, bienes de uso. Y así hasta el nueve."
  },
  {
   "n": 51,
   "cap": "c4",
-  "ini": 235.15,
-  "fin": 239.06,
+  "ini": 236.75,
+  "fin": 240.66,
   "texto": "Por finalidad y función: qué servicios presta el Estado a la comunidad."
  },
  {
   "n": 52,
   "cap": "c4",
-  "ini": 239.36,
-  "fin": 242.79,
+  "ini": 240.96,
+  "fin": 244.39,
   "texto": "Y una misma cuenta puede estar en varios clasificadores a la vez."
  },
  {
   "n": 53,
   "cap": "c4",
-  "ini": 243.09,
-  "fin": 245.57,
+  "ini": 244.69,
+  "fin": 247.17,
   "texto": "El ejemplo del apunte: el sueldo de un docente."
  },
  {
   "n": 54,
   "cap": "c4",
-  "ini": 245.87,
-  "fin": 252.29,
+  "ini": 247.47,
+  "fin": 253.89,
   "texto": "Por objeto, es personal. Por carácter económico, gasto corriente. Por finalidad, servicios sociales, educación."
  },
  {
   "n": 55,
   "cap": "c4",
-  "ini": 252.59,
-  "fin": 256.26,
+  "ini": 254.19,
+  "fin": 257.86,
   "texto": "Comprar una ambulancia es bienes de uso, gasto de capital, y salud."
  },
  {
   "n": 56,
   "cap": "c5",
-  "ini": 257.06,
-  "fin": 261.22,
+  "ini": 258.66,
+  "fin": 262.82,
   "texto": "Capítulo cinco: los sistemas presupuestarios. Cómo se reparte el dinero."
  },
  {
   "n": 57,
   "cap": "c5",
-  "ini": 261.52,
-  "fin": 265.4,
+  "ini": 263.12,
+  "fin": 267.0,
   "texto": "El tradicional, o incremental, asigna sobre la base del año anterior."
  },
  {
   "n": 58,
   "cap": "c5",
-  "ini": 265.7,
-  "fin": 273.51,
+  "ini": 267.3,
+  "fin": 275.11,
   "texto": "Si una dirección tuvo cien pesos, y la inflación fue del veinte por ciento, este año recibe ciento veinte. Sin discutir qué hizo con lo anterior."
  },
  {
   "n": 59,
   "cap": "c5",
-  "ini": 273.81,
-  "fin": 277.5,
+  "ini": 275.41,
+  "fin": 279.1,
   "texto": "El presupuesto por programas asigna según lo que se quiere producir."
  },
  {
   "n": 60,
   "cap": "c5",
-  "ini": 277.8,
-  "fin": 285.61,
+  "ini": 279.4,
+  "fin": 287.21,
   "texto": "En vez de sueldos tanto y útiles tanto, se asigna al programa Alfabetización lo que necesita para su resultado: alumnos que aprenden a leer."
  },
  {
   "n": 61,
   "cap": "c5",
-  "ini": 285.91,
-  "fin": 290.67,
+  "ini": 287.51,
+  "fin": 292.27,
   "texto": "Por programas en base cero: cada año se arranca de cero, y cada gasto se justifica."
  },
  {
   "n": 62,
   "cap": "c5",
-  "ini": 290.97,
-  "fin": 297.37,
+  "ini": 292.57,
+  "fin": 298.97,
   "texto": "Aunque un programa exista hace diez años, cada año justifica todo de nuevo. Su desventaja es el trabajo que lleva."
  },
  {
   "n": 63,
   "cap": "c5",
-  "ini": 297.67,
-  "fin": 301.51,
+  "ini": 299.27,
+  "fin": 303.11,
   "texto": "Y por resultados: pone el foco en indicadores de resultado e impacto."
  },
  {
   "n": 64,
   "cap": "c5",
-  "ini": 301.81,
-  "fin": 308.12,
+  "ini": 303.41,
+  "fin": 309.72,
   "texto": "El programa de vacunación se evalúa por cuánta población quedó protegida, no solo por cuántas dosis se compraron."
  },
  {
   "n": 65,
   "cap": "c6",
-  "ini": 308.92,
-  "fin": 311.33,
+  "ini": 310.52,
+  "fin": 312.93,
   "texto": "Capítulo seis: los indicadores de gestión."
  },
  {
   "n": 66,
   "cap": "c6",
-  "ini": 311.63,
-  "fin": 316.28,
+  "ini": 313.23,
+  "fin": 317.88,
   "texto": "Ningún indicador explica solo el desempeño de un programa. Por eso se usan varios."
  },
  {
   "n": 67,
   "cap": "c6",
-  "ini": 316.58,
-  "fin": 318.52,
+  "ini": 318.18,
+  "fin": 320.12,
   "texto": "El ejemplo del apunte: una escuela."
  },
  {
   "n": 68,
   "cap": "c6",
-  "ini": 318.82,
-  "fin": 325.27,
+  "ini": 320.42,
+  "fin": 326.87,
   "texto": "La cantidad de docentes es un insumo. Los alumnos atendidos son el producto. Y la tasa de egreso es el resultado."
  },
  {
   "n": 69,
   "cap": "c6",
-  "ini": 325.57,
-  "fin": 329.49,
+  "ini": 327.17,
+  "fin": 331.09,
   "texto": "También se mide la calidad de lo producido, y el impacto en un ámbito mayor."
  },
  {
   "n": 70,
   "cap": "cierre",
-  "ini": 330.29,
-  "fin": 332.15,
+  "ini": 331.89,
+  "fin": 333.75,
   "texto": "Te dejo una pregunta del apunte."
  },
  {
   "n": 71,
   "cap": "cierre",
-  "ini": 332.45,
-  "fin": 339.42,
+  "ini": 334.05,
+  "fin": 341.02,
   "texto": "Un programa de vacunación informa cuántas dosis aplicó, pero no si bajó la mortalidad infantil. ¿Qué tipo de indicador falta?"
  },
  {
   "n": 72,
   "cap": "cierre",
-  "ini": 339.72,
-  "fin": 342.33,
+  "ini": 341.32,
+  "fin": 343.93,
   "texto": "Respondé en los comentarios, y guardá este video."
  }
 ]

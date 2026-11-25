@@ -1,0 +1,250 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: Nunito, sans-serif; }
+    .h { opacity: 0; }
+    .brd { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; overflow: hidden; border-radius: 22px; }
+    .brd svg { position: absolute; left: 0; top: 0; width: 880px; height: 470px; overflow: hidden; }
+    .brd text { font-family: Nunito, sans-serif; }
+    .b { font-weight: 900; }
+    .m { font-weight: 700; }
+    .ttl { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; border-radius: 22px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      color: #ffffff; text-align: center; overflow: hidden; }
+    .ttl-n { font-size: 40px; font-weight: 700; letter-spacing: 0.06em; opacity: 0.9; }
+    .ttl-t { font-size: 66px; font-weight: 900; line-height: 1.05; max-width: 760px; }
+    .pill-slot { position: absolute; left: 0; right: 0; top: 300px; display: flex; justify-content: center; }
+    .pill { display: flex; align-items: center; gap: 14px; padding: 12px 28px; border-radius: 999px;
+      background: rgba(16, 18, 42, 0.82); color: #ffffff; font-size: 34px; font-weight: 900; max-width: 840px; }
+    .pill-n { font-size: 30px; font-weight: 900; padding: 3px 14px; border-radius: 999px; color: #10122a; }
+    .ej { position: absolute; left: 130px; top: 396px; padding: 8px 20px; border-radius: 12px;
+      font-size: 28px; font-weight: 900; letter-spacing: 0.04em; box-shadow: 0 5px 0 rgba(0, 0, 0, 0.18); }
+    .ej-a { background: #ffd166; color: #2d2200; }
+    .ej-p { background: #a5d8ff; color: #0b2540; }
+
+    .acc { fill: #2f78c4; }
+  </style>
+  <div id="root" data-composition-id="c3" data-width="1080" data-height="1920">
+    <div class="brd"><svg viewBox="0 0 880 470" xmlns="http://www.w3.org/2000/svg"><defs><marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2d3436" /></marker></defs>
+      <g id="c3-p1" class="h">
+        <text x="30" y="62" font-size="28" class="b" text-anchor="start" fill="#636e72" >1/11</text><text x="118" y="62" font-size="40" class="b" text-anchor="start" fill="#2f78c4" >Legalidad</text>
+        <g transform="translate(700 260)"><rect x="-70" y="-64" width="140" height="128" rx="14" fill="#636e72"/><circle r="38" fill="#b2bec3" stroke="#2d3436" stroke-width="6"/><path d="M0,-26 L0,26 M-26,0 L26,0" stroke="#2d3436" stroke-width="6"/></g><text x="700" y="360" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Tesoro</text>
+        <g id="c3-mano"><rect x="40" y="236" width="230" height="44" rx="22" fill="#f5c9a0" /><circle cx="280" cy="258" r="34" fill="#f5c9a0" /><text x="140" y="222" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >el gobierno</text></g>
+        <g id="c3-reja"><rect x="520" y="150" width="60" height="230" fill="none" stroke="#d63031" stroke-width="8" /><path d="M540,150 L540,380 M560,150 L560,380" stroke="#d63031" stroke-width="8" /></g>
+        <g id="c3-ley" class="h"><g transform="translate(440 130) scale(0.7)"><rect x="-40" y="-52" width="80" height="104" rx="8" fill="#ffffff" stroke="#2d3436" stroke-width="5"/><path d="M-24,-24 L24,-24 M-24,-4 L24,-4 M-24,16 L10,16" stroke="#b2bec3" stroke-width="6"/></g><text x="440" y="200" font-size="28" class="b" text-anchor="middle" fill="#2f78c4" >ley</text></g>
+        <text x="440" y="440" font-size="30" class="b" text-anchor="middle" fill="#2f78c4" >limita la arbitrariedad</text>
+      </g>
+      <g id="c3-p2" class="h">
+        <text x="30" y="62" font-size="28" class="b" text-anchor="start" fill="#636e72" >2/11</text><text x="118" y="62" font-size="40" class="b" text-anchor="start" fill="#2f78c4" >Equilibrio</text>
+        <path d="M440,190 L410,400 L470,400 Z" fill="#636e72" />
+        <g id="c3-viga"><rect x="180" y="176" width="520" height="16" rx="8" fill="#2d3436" /></g>
+        <circle cx="440" cy="184" r="14" fill="#2d3436" />
+        <g id="c3-pl"><path d="M190,190 L150,280 M190,190 L230,280" stroke="#636e72" stroke-width="4" /><path d="M120,280 L260,280 Q250,320 190,320 Q130,320 120,280 Z" fill="#00b894" /><text x="190" y="360" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >Recursos</text><text id="c3-rv" x="190" y="262" font-size="34" class="b" text-anchor="middle" fill="#00b894">$0</text>
+          <g id="c3-deuda" class="h"><rect x="150" y="206" width="80" height="40" rx="8" fill="#e17055" /><text x="190" y="234" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >deuda</text></g></g>
+        <g id="c3-pr"><path d="M690,190 L650,280 M690,190 L730,280" stroke="#636e72" stroke-width="4" /><path d="M620,280 L760,280 Q750,320 690,320 Q630,320 620,280 Z" fill="#e17055" /><text x="690" y="360" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >Gastos</text><text id="c3-gv" x="690" y="262" font-size="34" class="b" text-anchor="middle" fill="#e17055">$0</text></g>
+        <g id="c3-ok" class="h"><circle cx="440" cy="120" r="28" fill="#00b894" /><path d="M427.4,120 L437.2,129.8 L454.0,110.2" stroke="#ffffff" stroke-width="7.0" fill="none" stroke-linecap="round" /></g>
+        <g id="c3-def" class="h"><g><rect x="330" y="96" width="220" height="50" rx="16" fill="#d63031" /><text x="440.0" y="131.5" font-size="30" class="b" text-anchor="middle" fill="#ffffff" >déficit $20</text></g></g>
+      </g>
+      <g id="c3-p3" class="h">
+        <text x="30" y="62" font-size="28" class="b" text-anchor="start" fill="#636e72" >3/11</text><text x="118" y="62" font-size="40" class="b" text-anchor="start" fill="#2f78c4" >Exactitud</text>
+        <text x="440" y="110" font-size="28" class="m" text-anchor="middle" fill="#636e72" >mejores métodos para estimar el futuro</text>
+        <rect id="c3-eb0" x="120" y="260" width="100" height="140" rx="10" fill="#a8d1ff" /><rect id="c3-eb1" x="270" y="230" width="100" height="170" rx="10" fill="#a8d1ff" /><rect id="c3-eb2" x="420" y="240" width="100" height="160" rx="10" fill="#a8d1ff" /><rect id="c3-eb3" x="570" y="200" width="100" height="200" rx="10" fill="#a8d1ff" />
+        <rect id="c3-eb4" x="720" y="170" width="100" height="230" rx="10" fill="none" stroke="#2f78c4" stroke-width="5" stroke-dasharray="12 8" />
+        <path id="c3-trend" d="M170,255 L320,225 L470,235 L620,195 L770,165" fill="none" stroke="#2f78c4" stroke-width="6" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+        <text x="390" y="440" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >años anteriores</text><text x="770" y="440" font-size="28" class="b" text-anchor="middle" fill="#2f78c4" >año próximo</text>
+        <g id="c3-q"><text x="770" y="300" font-size="64" class="b" text-anchor="middle" fill="#2f78c4" >?</text></g>
+        <g id="c3-eq" class="h"><text x="770" y="300" font-size="64" class="b" text-anchor="middle" fill="#2f78c4" >≈</text></g>
+      </g>
+      <g id="c3-p4" class="h">
+        <text x="30" y="62" font-size="28" class="b" text-anchor="start" fill="#636e72" >4/11</text><text x="118" y="62" font-size="40" class="b" text-anchor="start" fill="#2f78c4" >Universalidad</text><g><rect x="640" y="26" width="226" height="44" rx="22" fill="#2f78c4" opacity="0.15" /><text x="753" y="58" font-size="28" class="b" text-anchor="middle" fill="#2f78c4" >art. 11 Ley 4938</text></g>
+        <g transform="translate(440 250)"><rect x="-90" y="-80" width="180" height="160" fill="#dfe6e9" stroke="#2d3436" stroke-width="5" /><path d="M-100,-80 L100,-80 L80,-120 L-80,-120 Z" fill="#2f78c4" /><text x="0" y="10" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Oficina</text></g>
+        <path id="c3-uin" d="M60,200 L330,200" fill="none" stroke="#00b894" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" /><path id="c3-uout" d="M550,300 L820,300" fill="none" stroke="#e17055" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" />
+        <text x="170" y="170" font-size="28" class="b" text-anchor="middle" fill="#00b894" >tasas</text><text id="c3-uv1" x="170" y="250" font-size="34" class="b" text-anchor="middle" fill="#00b894">$0</text>
+        <text x="700" y="270" font-size="28" class="b" text-anchor="middle" fill="#e17055" >papel</text><text id="c3-uv2" x="700" y="350" font-size="34" class="b" text-anchor="middle" fill="#e17055">$0</text>
+        <g id="c3-neto" class="h"><g><rect x="310" y="370" width="260" height="56" rx="16" fill="#636e72" /><text x="440.0" y="408.5" font-size="30" class="b" text-anchor="middle" fill="#ffffff" >neto $20.000</text></g><path id="c3-netox" d="M300,398 L580,398" fill="none" stroke="#d63031" stroke-width="8" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" /></g>
+        <g id="c3-bien" class="h"><rect x="40" y="370" width="800" height="90" rx="16" fill="#e3f0ff" /><text x="240" y="425" font-size="30" class="b" text-anchor="middle" fill="#00b894" >recurso $100.000</text><text x="640" y="425" font-size="30" class="b" text-anchor="middle" fill="#e17055" >gasto $80.000</text></g>
+      </g>
+      <g id="c3-p5" class="h">
+        <text x="30" y="62" font-size="28" class="b" text-anchor="start" fill="#636e72" >5/11</text><text x="118" y="62" font-size="40" class="b" text-anchor="start" fill="#2f78c4" >Unidad</text><g><rect x="640" y="26" width="226" height="44" rx="22" fill="#2f78c4" opacity="0.15" /><text x="753" y="58" font-size="28" class="b" text-anchor="middle" fill="#2f78c4" >art. 21 Ley 4938</text></g>
+        <g><rect x="40" y="100" width="230" height="56" rx="16" fill="#00b894" /><text x="155.0" y="137.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >Ingresos Brutos</text></g>
+        <ellipse cx="400" cy="350" rx="210" ry="70" fill="#a8d1ff" /><text x="400" y="362" font-size="32" class="b" text-anchor="middle" fill="#2f78c4" >masa común</text>
+        <circle id="c3-un0" class="h" cx="155" cy="160" r="16" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" /><circle id="c3-un1" class="h" cx="155" cy="160" r="16" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" /><circle id="c3-un2" class="h" cx="155" cy="160" r="16" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" /><circle id="c3-un3" class="h" cx="155" cy="160" r="16" fill="#fdcb6e" stroke="#e1a940" stroke-width="4" />
+        <g><rect x="610" y="100" width="250" height="56" rx="16" fill="#e17055" /><text x="735.0" y="137.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >sueldos docentes</text></g>
+        <path id="c3-dir" d="M270,128 L600,128" fill="none" stroke="#e17055" stroke-width="7" stroke-dasharray="14 10" stroke-linecap="round" />
+        <g id="c3-dirx" class="h"><circle cx="440" cy="128" r="26" fill="#d63031" /><path d="M429.6,117.6 L450.4,138.4 M450.4,117.6 L429.6,138.4" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round" /></g>
+        <g><rect x="660" y="320" width="200" height="70" rx="16" fill="#636e72" /><text x="760.0" y="364.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >todo el gasto</text></g>
+        <path id="c3-sal" d="M610,355 L655,355" fill="none" stroke="#2f78c4" stroke-width="8" stroke-dasharray="14 10" stroke-linecap="round" marker-end="url(#ah)" />
+        <g id="c3-valv" class="h"><circle cx="230" cy="300" r="24" fill="#fdcb6e" stroke="#2d3436" stroke-width="4" /><path d="M214,300 L246,300" stroke="#2d3436" stroke-width="6" /><text x="160" y="450" font-size="28" class="b" text-anchor="middle" fill="#b7791f" >salvo afectación por ley</text></g>
+      </g>
+      <g id="c3-p6" class="h">
+        <text x="30" y="62" font-size="28" class="b" text-anchor="start" fill="#636e72" >6/11</text><text x="118" y="62" font-size="40" class="b" text-anchor="start" fill="#2f78c4" >Unidad de caja</text>
+        <text x="440" y="110" font-size="28" class="m" text-anchor="middle" fill="#636e72" >un solo órgano central recibe todos los fondos</text>
+        <g transform="translate(160 270)"><rect x="-90" y="-70" width="180" height="140" fill="#dfe6e9" stroke="#2d3436" stroke-width="5" /><text x="0" y="10" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >Dirección</text></g>
+        <g transform="translate(720 270)"><rect x="-70" y="-64" width="140" height="128" rx="14" fill="#636e72"/><circle r="38" fill="#b2bec3" stroke="#2d3436" stroke-width="6"/><path d="M0,-26 L0,26 M-26,0 L26,0" stroke="#2d3436" stroke-width="6"/></g><text x="720" y="380" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Tesorería</text>
+        <g id="c3-sus" class="h"><g><rect x="80" y="380" width="160" height="50" rx="16" fill="#e17055" /><text x="160.0" y="414.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >sus gastos</text></g><g id="c3-susx" class="h"><circle cx="250" cy="405" r="24" fill="#d63031" /><path d="M240.4,395.4 L259.6,414.6 M259.6,395.4 L240.4,414.6" stroke="#ffffff" stroke-width="6.0" stroke-linecap="round" /></g></g>
+        <g id="c3-bolsa" class="h"><path d="M140,190 Q120,240 150,262 L210,262 Q240,240 220,190 Z" fill="#fdcb6e" stroke="#b7791f" stroke-width="4" /><text x="180" y="248" font-size="30" class="b" text-anchor="middle" fill="#b7791f" >$</text></g>
+        <path id="c3-camino" d="M230,230 Q440,140 640,230" fill="none" stroke="#b2bec3" stroke-width="6" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+      </g>
+    </svg></div>
+    <div id="c3-ttl" class="ttl" style="background: #2f78c4"><div class="ttl-n">Capítulo 3</div><div class="ttl-t">Principios presupuestarios</div><div class="ttl-n">1.ª parte</div></div>
+    <div class="pill-slot"><div id="c3-pill" class="pill h"><span class="pill-n" style="background: #a8d1ff">Cap. 3/6</span>Principios presupuestarios</div></div>
+    <div id="c3-ej" class="ej ej-a h">EJEMPLO DEL APUNTE</div>
+    <div id="c3-pe" class="ej ej-p h">PARA ENTENDERLO</div>
+  </div>
+  <script>
+    const T0 = 95.08;
+    const tl = gsap.timeline({ paused: true });
+    const A = (t) => Math.max(0, +(t - T0).toFixed(3));
+    const C = "50% 50%";
+    function show(s, t, d) {
+      tl.set(s, { scale: 0.85, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: d || 0.35, ease: "back.out(2)" }, A(t));
+    }
+    function pop(s, t) {
+      tl.set(s, { scale: 0, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(3)" }, A(t));
+    }
+    function hide(s, t) { tl.to(s, { opacity: 0, duration: 0.25, ease: "power2.in" }, A(t - 0.25)); }
+    function slideIn(s, t) {
+      tl.set(s, { x: 90 }, A(t));
+      tl.to(s, { x: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, A(t));
+    }
+    function slideOut(s, t) { tl.to(s, { x: -90, opacity: 0, duration: 0.35, ease: "power2.in" }, A(t - 0.35)); }
+    function drop(s, t) {
+      tl.set(s, { y: -160 }, A(t));
+      tl.to(s, { y: 0, opacity: 1, duration: 0.55, ease: "bounce.out" }, A(t));
+    }
+    function draw(s, t, d) { tl.to(s, { strokeDashoffset: 0, duration: d || 0.8, ease: "power1.inOut" }, A(t)); }
+    function grow(s, t, d, origin) {
+      tl.set(s, { scaleX: 0, transformOrigin: origin || "0% 50%" }, A(t));
+      tl.to(s, { scaleX: 1, opacity: 1, duration: d || 0.8, ease: "power2.out" }, A(t));
+    }
+    function growY(s, t, d) {
+      tl.set(s, { scaleY: 0, transformOrigin: "50% 100%" }, A(t));
+      tl.to(s, { scaleY: 1, opacity: 1, duration: d || 0.8, ease: "power2.out" }, A(t));
+    }
+    function pulse(s, t) { tl.to(s, { scale: 1.12, transformOrigin: C, duration: 0.18, yoyo: true, repeat: 1, ease: "sine.inOut" }, A(t)); }
+    function reps(span, per) { const n = Math.max(1, Math.floor(span / per)); return n % 2 ? n : n - 1; }
+    function bob(s, t0, t1, amp, per) {
+      per = per || 0.8;
+      tl.to(s, { y: -(amp || 8), duration: per / 2, ease: "sine.inOut", yoyo: true, repeat: reps(t1 - t0, per / 2) }, A(t0));
+    }
+    function wob(s, t0, t1, deg, per, origin) {
+      per = per || 0.8;
+      tl.fromTo(s, { rotation: -(deg || 6), transformOrigin: origin || C }, { rotation: deg || 6, duration: per / 2, ease: "sine.inOut", yoyo: true, repeat: reps(t1 - t0, per / 2) }, A(t0));
+    }
+    function flow(s, t0, t1, speed) {
+      tl.to(s, { strokeDashoffset: -(speed || 60) * (t1 - t0), duration: t1 - t0, ease: "none" }, A(t0));
+    }
+    function spin(s, t0, t1, deg) { tl.to(s, { rotation: deg || 360, transformOrigin: C, duration: t1 - t0, ease: "none" }, A(t0)); }
+    function money(v) { return "$" + Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+    function count(sel, a, b, t, d, fmt) {
+      const el = document.querySelector(sel);
+      const o = { v: a };
+      fmt = fmt || money;
+      tl.to(o, { v: b, duration: d || 1, ease: "power1.out", onUpdate: () => { el.textContent = fmt(o.v); } }, A(t));
+    }
+    function travel(s, t, dx, dy, d, arc) {
+      tl.to(s, { x: dx, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+      if (arc) {
+        tl.to(s, { y: arc, duration: (d || 0.8) / 2, ease: "sine.out" }, A(t));
+        tl.to(s, { y: dy, duration: (d || 0.8) / 2, ease: "sine.in" }, A(t + (d || 0.8) / 2));
+      } else {
+        tl.to(s, { y: dy, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+      }
+    }
+    // Varias monedas que circulan en fila, en loop finito
+    function stream(prefix, n, t0, t1, dx, dy, per) {
+      for (let i = 0; i < n; i++) {
+        const s = prefix + i;
+        const st = t0 + (i * per) / n;
+        const loops = Math.max(0, Math.floor((t1 - st - per) / per));
+        tl.set(s, { x: 0, y: 0, opacity: 1 }, A(st));
+        tl.to(s, { x: dx, y: dy, duration: per, ease: "none", repeat: loops }, A(st));
+        tl.to(s, { opacity: 0, duration: 0.15 }, A(st + per * (loops + 1) - 0.15));
+      }
+    }
+
+    tl.fromTo("#c3-ttl", { opacity: 1, clipPath: "inset(0% 0% 0% 0% round 22px)" }, { opacity: 1, clipPath: "inset(0% 0% 0% 0% round 22px)", duration: 0.1 }, 0);
+    tl.fromTo("#c3-ttl .ttl-t", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(2)" }, 0.1);
+    tl.to("#c3-ttl", { clipPath: "inset(0% 0% 0% 100% round 22px)", duration: 0.5, ease: "power3.inOut" }, A(97.78));
+    show("#c3-pill", 98.18);
+    hide("#c3-pill", 160.85);
+    show("#c3-ej", 106.41);
+    hide("#c3-ej", 116.31);
+    show("#c3-ej", 131.01);
+    hide("#c3-ej", 140.34);
+    show("#c3-ej", 143.97);
+    hide("#c3-ej", 150.86);
+    show("#c3-ej", 155.23);
+    hide("#c3-ej", 160.85);
+    show("#c3-pe", 120.21);
+    hide("#c3-pe", 125.95);
+
+    slideIn("#c3-p1", 98.33);
+    tl.to("#c3-mano", { x: 200, duration: 0.6, ease: "power2.out" }, A(99.19));
+    tl.set("#c3-reja", { y: -260 }, 0);
+    tl.to("#c3-reja", { y: 0, duration: 0.35, ease: "bounce.out" }, A(99.76));
+    tl.to("#c3-mano", { x: 120, duration: 0.25 }, A(100.11));
+    drop("#c3-ley", 100.95);
+    tl.to("#c3-reja", { y: -260, duration: 0.4, ease: "power2.in" }, A(101.52));
+    tl.to("#c3-mano", { x: 290, duration: 0.6, ease: "power2.out" }, A(101.83));
+    slideOut("#c3-p1", 103.23);
+    slideIn("#c3-p2", 103.23);
+    tl.fromTo("#c3-viga", { rotation: -3, svgOrigin: "440 184" }, { rotation: 3, svgOrigin: "440 184", duration: 0.6, yoyo: true, repeat: 3, ease: "sine.inOut" }, A(103.23));
+    tl.to("#c3-viga", { rotation: 0, svgOrigin: "440 184", duration: 0.3 }, A(106.41));
+    count("#c3-rv", 0, 100, 107.77, 0.9);
+    count("#c3-gv", 0, 100, 108.91, 0.9);
+    pop("#c3-ok", 110.27);
+    hide("#c3-ok", 111.25);
+    count("#c3-gv", 100, 120, 112.16, 0.8);
+    tl.to("#c3-viga", { rotation: 8, svgOrigin: "440 184", duration: 0.7, ease: "back.out(1.5)" }, A(112.52));
+    tl.to("#c3-pl", { y: -36, duration: 0.7, ease: "back.out(1.5)" }, A(112.52));
+    tl.to("#c3-pr", { y: 36, duration: 0.7, ease: "back.out(1.5)" }, A(112.52));
+    pop("#c3-def", 113.17);
+    drop("#c3-deuda", 115.2);
+    tl.to("#c3-viga", { rotation: 0, svgOrigin: "440 184", duration: 0.7, ease: "back.out(1.5)" }, A(115.55));
+    tl.to(["#c3-pl", "#c3-pr"], { y: 0, duration: 0.7, ease: "back.out(1.5)" }, A(115.55));
+    hide("#c3-def", 116.06);
+    slideOut("#c3-p2", 116.61);
+    slideIn("#c3-p3", 116.61);
+    growY("#c3-eb0", 120.5, 0.6);growY("#c3-eb1", 120.95, 0.6);growY("#c3-eb2", 121.4, 0.6);growY("#c3-eb3", 121.85, 0.6);
+    tl.to(["#c3-eb0", "#c3-eb1", "#c3-eb2", "#c3-eb3"], { scaleY: 1.04, transformOrigin: "50% 100%", duration: 0.5, yoyo: true, repeat: 5, ease: "sine.inOut", stagger: 0.12 }, A(122.79));
+    draw("#c3-trend", 122.51, 1.4);
+    wob("#c3-q", 116.61, 123.94, 10, 0.5);
+    growY("#c3-eb4", 123.37, 0.8);
+    hide("#c3-q", 124.8);
+    pop("#c3-eq", 124.8);
+    slideOut("#c3-p3", 126.25);
+    slideIn("#c3-p4", 126.25);
+    flow("#c3-uin", 131.01, 140.34, 60);
+    flow("#c3-uout", 133.05, 140.34, 60);
+    count("#c3-uv1", 0, 100000, 131.62, 1.4);
+    count("#c3-uv2", 0, 80000, 133.46, 1.4);
+    show("#c3-neto", 135.88);
+    draw("#c3-netox", 138.46, 0.4);
+    hide("#c3-neto", 139.25);
+    slideIn("#c3-bien", 139.35);
+    slideOut("#c3-p4", 140.64);
+    slideIn("#c3-p5", 140.64);
+    stream("#c3-un", 4, 141.25, 150.86, 200, 170, 1.1);
+    flow("#c3-dir", 143.97, 146.04, 60);
+    pop("#c3-dirx", 146.04);
+    flow("#c3-sal", 147.42, 150.86, 60);
+    pulse("#c3-p5 ellipse", 147.76);
+    pop("#c3-valv", 149.48);
+    spin("#c3-valv", 149.83, 150.86, 180);
+    slideOut("#c3-p5", 151.16);
+    slideIn("#c3-p6", 151.16);
+    pop("#c3-bolsa", 155.51);
+    show("#c3-sus", 156.34);
+    tl.to("#c3-bolsa", { x: -30, y: 100, duration: 0.4, ease: "power2.inOut" }, A(156.62));
+    pop("#c3-susx", 157.34);
+    tl.to("#c3-bolsa", { x: 0, y: 0, duration: 0.3 }, A(157.89));
+    draw("#c3-camino", 158.28, 0.5);
+    travel("#c3-bolsa", 158.67, 500, 30, 1.3, -110);
+    tl.to("#c3-bolsa", { scale: 0, transformOrigin: C, duration: 0.3 }, A(160.01999999999998));
+    pulse("#c3-p6 g:nth-of-type(2)", 160.22);
+    tl.set({}, {}, 65.82);
+    window.__timelines["c3"] = tl;
+  </script>
+</template>

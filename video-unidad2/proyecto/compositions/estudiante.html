@@ -1,0 +1,445 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; overflow: hidden; background: #4b4e8c; }
+    #est-svg { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    .est-h { opacity: 0; }
+  </style>
+  <div id="root" data-composition-id="estudiante" data-width="1080" data-height="1920">
+    <svg id="est-svg" viewBox="0 -300 1080 1920" xmlns="http://www.w3.org/2000/svg">
+      <rect id="est-wall" x="0" y="-300" width="1080" height="1860" fill="#4b4e8c" />
+      <rect id="est-floor" x="0" y="1560" width="1080" height="60" fill="#2e3060" />
+
+      <!-- Pizarrón (pantalla: x 100–980, y 430–900) -->
+      <rect x="88" y="118" width="904" height="494" rx="30" fill="#2d3436" />
+      <rect x="100" y="130" width="880" height="470" rx="22" fill="#fffdf5" />
+      <rect x="380" y="612" width="320" height="14" rx="7" fill="#2d3436" />
+
+      <!-- Silla -->
+      <rect x="380" y="900" width="320" height="320" rx="44" fill="#2d3436" />
+
+      <g id="est-body"><g id="est-girl">
+        <path d="M410,1200 L420,1010 Q430,958 492,954 L588,954 Q650,958 660,1010 L670,1200 Z" fill="#ff7675" />
+        <path d="M500,956 Q540,990 580,956" fill="none" stroke="#e8605f" stroke-width="8" />
+        <rect x="518" y="900" width="44" height="66" rx="10" fill="#e3a57c" />
+        <g id="est-head">
+          <circle cx="540" cy="790" r="140" fill="#3d2c2e" />
+          <circle cx="540" cy="640" r="58" fill="#3d2c2e" />
+          <rect x="500" y="684" width="80" height="16" rx="8" fill="#fdcb6e" />
+          <circle cx="414" cy="815" r="22" fill="#eab48d" />
+          <circle cx="666" cy="815" r="22" fill="#eab48d" />
+          <ellipse cx="540" cy="808" rx="125" ry="128" fill="#f5c9a0" />
+          <path d="M416,790 Q424,664 540,656 Q656,664 664,790 Q622,724 566,736 Q524,700 470,744 Q438,758 416,790 Z" fill="#3d2c2e" />
+          <g id="est-brows" fill="none" stroke="#3d2c2e" stroke-width="8" stroke-linecap="round">
+            <path d="M472,768 Q494,758 516,766" />
+            <path d="M564,766 Q586,758 608,768" />
+          </g>
+          <g id="est-eyes">
+            <g id="est-eyes-open">
+              <ellipse cx="495" cy="818" rx="13" ry="17" fill="#2d2d2d" />
+              <ellipse cx="585" cy="818" rx="13" ry="17" fill="#2d2d2d" />
+              <circle cx="499" cy="811" r="5" fill="#ffffff" />
+              <circle cx="589" cy="811" r="5" fill="#ffffff" />
+            </g>
+          </g>
+          <g fill="none" stroke="#2d3436" stroke-width="6">
+            <circle cx="495" cy="818" r="34" />
+            <circle cx="585" cy="818" r="34" />
+            <path d="M529,814 Q540,806 551,814" />
+          </g>
+          <circle cx="462" cy="870" r="17" fill="#ff9aa2" opacity="0.7" />
+          <circle cx="618" cy="870" r="17" fill="#ff9aa2" opacity="0.7" />
+          <path id="est-m-smile" d="M512,884 Q540,910 568,884" fill="none" stroke="#7a3b3b" stroke-width="7" stroke-linecap="round" />
+          <path id="est-m-flat" class="est-h" d="M518,892 Q540,886 562,892" fill="none" stroke="#7a3b3b" stroke-width="7" stroke-linecap="round" />
+          <ellipse id="est-m-open" class="est-h" cx="540" cy="892" rx="19" ry="16" fill="#7a3b3b" />
+          <path id="est-sweat" class="est-h" d="M676,740 Q690,764 676,776 Q662,764 676,740 Z" fill="#74b9ff" />
+          <g id="est-birrete" class="est-h">
+            <path d="M540,612 L680,660 L540,708 L400,660 Z" fill="#2d3436" />
+            <rect x="470" y="672" width="140" height="44" fill="#2d3436" />
+            <path d="M650,650 L650,720" stroke="#fdcb6e" stroke-width="6" />
+            <circle cx="650" cy="724" r="9" fill="#fdcb6e" />
+          </g>
+          <g id="est-curita" class="est-h">
+            <rect x="590" y="856" width="64" height="24" rx="12" fill="#ffeaa7" transform="rotate(-20 622 868)" />
+            <rect x="612" y="858" width="20" height="20" rx="4" fill="#fab1a0" transform="rotate(-20 622 868)" />
+          </g>
+          <g id="est-casco" class="est-h">
+            <path d="M424,738 Q424,632 540,622 Q656,632 656,738 Z" fill="#fdcb6e" />
+            <rect x="540" y="622" width="14" height="116" fill="#e1a940" />
+            <rect x="398" y="728" width="284" height="22" rx="11" fill="#e1a940" />
+          </g>
+        </g>
+
+        <g id="est-arm-l">
+          <path d="M432,1002 Q392,1100 418,1168 L482,1174" fill="none" stroke="#ff7675" stroke-width="52" stroke-linecap="round" stroke-linejoin="round" />
+          <g id="est-tabla" class="est-h">
+            <rect x="452" y="1060" width="84" height="110" rx="8" fill="#a86e45" />
+            <rect x="462" y="1074" width="64" height="88" rx="4" fill="#ffffff" />
+            <path d="M472,1094 L516,1094 M472,1112 L516,1112 M472,1130 L506,1130" stroke="#636e72" stroke-width="5" />
+          </g>
+          <g id="est-escudo" class="est-h">
+            <path d="M492,1080 L548,1100 L548,1150 Q548,1196 492,1218 Q436,1196 436,1150 L436,1100 Z" fill="#0984e3" stroke="#ffffff" stroke-width="6" />
+            <path d="M470,1150 L488,1168 L518,1130" stroke="#ffffff" stroke-width="9" fill="none" stroke-linecap="round" />
+          </g>
+          <circle cx="492" cy="1172" r="26" fill="#f5c9a0" />
+        </g>
+        <g id="est-arm-r">
+          <path d="M648,1002 Q688,1100 662,1168 L598,1174" fill="none" stroke="#ff7675" stroke-width="52" stroke-linecap="round" stroke-linejoin="round" />
+          <g id="est-sello" class="est-h">
+            <rect x="566" y="1150" width="46" height="20" rx="4" fill="#d63031" />
+            <rect x="580" y="1110" width="18" height="44" fill="#636e72" />
+            <circle cx="589" cy="1104" r="18" fill="#2d3436" />
+          </g>
+          <g id="est-tijera" class="est-h">
+            <path d="M588,1172 L556,1100 M588,1172 L620,1100" stroke="#b2bec3" stroke-width="10" stroke-linecap="round" />
+            <circle cx="570" cy="1200" r="14" fill="none" stroke="#d63031" stroke-width="7" />
+            <circle cx="606" cy="1200" r="14" fill="none" stroke="#d63031" stroke-width="7" />
+          </g>
+          <g id="est-jeringa" class="est-h">
+            <rect x="578" y="1086" width="22" height="70" rx="5" fill="#dfe6e9" />
+            <rect x="582" y="1104" width="14" height="44" fill="#74b9ff" />
+            <path d="M589,1086 L589,1062" stroke="#636e72" stroke-width="4" />
+            <rect x="574" y="1152" width="30" height="8" fill="#636e72" />
+          </g>
+          <g id="est-lapiz" class="est-h">
+            <path d="M590,1176 L556,1104" stroke="#fdcb6e" stroke-width="12" stroke-linecap="round" />
+            <path d="M556,1104 L550,1090" stroke="#2d3436" stroke-width="6" stroke-linecap="round" />
+            <path d="M594,1184 L590,1176" stroke="#ff7675" stroke-width="12" />
+          </g>
+          <g id="est-moneda" class="est-h">
+            <circle cx="588" cy="1126" r="26" fill="#fdcb6e" stroke="#e1a940" stroke-width="5" />
+            <text x="588" y="1137" font-size="30" text-anchor="middle" fill="#b7791f" font-family="Nunito" font-weight="900">$</text>
+          </g>
+          <circle cx="588" cy="1172" r="26" fill="#f5c9a0" />
+          <path id="est-thumb" class="est-h" d="M588,1172 L612,1212" stroke="#f5c9a0" stroke-width="22" stroke-linecap="round" />
+        </g>
+      </g>
+
+      </g>
+
+      <!-- Escritorio -->
+      <rect x="80" y="1224" width="920" height="336" fill="#a86e45" />
+      <rect x="60" y="1178" width="960" height="48" rx="12" fill="#c98b5a" />
+
+      <!-- Apunte -->
+      <g id="est-apunte">
+        <path d="M424,1186 L540,1192 L656,1186 L650,1178 L430,1178 Z" fill="#00a8a8" />
+        <path d="M432,1180 L540,1186 L540,1136 L442,1128 Z" fill="#ffffff" />
+        <path d="M540,1186 L648,1180 L638,1128 L540,1136 Z" fill="#ffffff" />
+        <path d="M458,1146 L520,1150 M456,1160 L520,1164 M560,1150 L620,1146 M560,1164 L622,1160" stroke="#b2bec3" stroke-width="4" stroke-linecap="round" />
+      </g>
+
+      <!-- Calculadora -->
+      <g id="est-calcu" class="est-h">
+        <rect x="760" y="1060" width="110" height="120" rx="14" fill="#2d3436" />
+        <rect x="774" y="1074" width="82" height="30" rx="5" fill="#55efc4" />
+        <g fill="#b2bec3">
+          <rect x="774" y="1114" width="22" height="22" rx="4" /><rect x="804" y="1114" width="22" height="22" rx="4" /><rect x="834" y="1114" width="22" height="22" rx="4" />
+          <rect x="774" y="1144" width="22" height="22" rx="4" /><rect x="804" y="1144" width="22" height="22" rx="4" /><rect x="834" y="1144" width="22" height="22" rx="4" fill="#fdcb6e" />
+        </g>
+      </g>
+
+      <!-- Signos -->
+      <g id="est-q" class="est-h">
+        <circle cx="712" cy="640" r="46" fill="#ffffff" />
+        <path d="M694,628 Q694,604 714,604 Q734,604 734,624 Q734,638 716,644 L716,656" fill="none" stroke="#2d3436" stroke-width="10" stroke-linecap="round" />
+        <circle cx="716" cy="674" r="6" fill="#2d3436" />
+      </g>
+      <g id="est-bulb" class="est-h">
+        <circle cx="712" cy="630" r="58" fill="#ffd166" opacity="0.35" />
+        <circle cx="712" cy="624" r="38" fill="#ffd166" />
+        <rect x="694" y="658" width="36" height="24" rx="6" fill="#636e72" />
+      </g>
+    </svg>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const C = "50% 50%";
+    const SH_L = "432 1002";
+    const SH_R = "648 1002";
+    const NECK = "540 930";
+    function pop(sel, t) {
+      tl.set(sel, { scale: 0, transformOrigin: C }, t);
+      tl.to(sel, { scale: 1, opacity: 1, duration: 0.35, ease: "back.out(2.4)" }, t);
+    }
+    function vis(sel, t, on) { tl.to(sel, { opacity: on ? 1 : 0, duration: 0.12 }, t); }
+    function mouth(state, t) {
+      tl.to("#est-m-smile", { opacity: state === "smile" ? 1 : 0, duration: 0.1 }, t);
+      tl.to("#est-m-flat", { opacity: state === "flat" ? 1 : 0, duration: 0.1 }, t);
+      tl.to("#est-m-open", { opacity: state === "open" ? 1 : 0, duration: 0.1 }, t);
+    }
+    function armR(rot, t, d) { tl.to("#est-arm-r", { rotation: rot, svgOrigin: SH_R, duration: d || 0.4, ease: "back.out(1.7)" }, t); }
+    function armL(rot, t, d) { tl.to("#est-arm-l", { rotation: rot, svgOrigin: SH_L, duration: d || 0.4, ease: "back.out(1.7)" }, t); }
+    function head(rot, y, t, d) { tl.to("#est-head", { rotation: rot, y: y, svgOrigin: NECK, duration: d || 0.35, ease: "power2.out" }, t); }
+    function look(x, y, t) { tl.to("#est-eyes", { x: x, y: y, duration: 0.25, ease: "power2.out" }, t); }
+    function brows(y, t) { tl.to("#est-brows", { y: y, duration: 0.2, ease: "back.out(3)" }, t); }
+    function follow(pts, t0, t1) {
+      const step = (t1 - t0) / pts.length;
+      pts.forEach((p, i) => look(p[0], p[1], t0 + i * step));
+    }
+    function nod(t) { tl.to("#est-head", { y: 10, svgOrigin: NECK, duration: 0.16, yoyo: true, repeat: 3, ease: "sine.inOut" }, t); }
+    function shake(t) { tl.to("#est-head", { rotation: 7, svgOrigin: NECK, duration: 0.12, yoyo: true, repeat: 5, ease: "sine.inOut" }, t); }
+    // Toma apuntes: lápiz en la mano, vista abajo, brazo que va y viene
+    function write(t0, t1) {
+      if (t1 - t0 < 0.8) return;
+      vis("#est-lapiz", t0, true);
+      look(-4, 14, t0);
+      head(3, 4, t0);
+      armR(-6, t0, 0.25);
+      const n = Math.max(1, Math.floor((t1 - t0 - 0.5) / 0.3));
+      tl.to("#est-arm-r", { rotation: -13, svgOrigin: SH_R, duration: 0.15, yoyo: true, repeat: n % 2 ? n : n - 1, ease: "sine.inOut" }, t0 + 0.25);
+      armR(0, t1 - 0.25, 0.25);
+      vis("#est-lapiz", t1 - 0.1, false);
+      look(0, -8, t1 - 0.2);
+      head(0, 0, t1 - 0.2);
+    }
+    function typing(t0, t1) {
+      pop("#est-calcu", t0);
+      look(14, 8, t0 + 0.2);
+      armR(-14, t0 + 0.2, 0.2);
+      const n = Math.max(1, Math.floor((t1 - t0 - 0.8) / 0.28));
+      tl.to("#est-arm-r", { rotation: -6, svgOrigin: SH_R, duration: 0.14, yoyo: true, repeat: n % 2 ? n : n - 1, ease: "sine.inOut" }, t0 + 0.45);
+      armR(0, t1 - 0.3, 0.3);
+      vis("#est-calcu", t1, false);
+      look(0, -8, t1 - 0.2);
+    }
+    function point(t, until) {
+      look(6, -10, t);
+      armR(-160, t, 0.45);
+      vis("#est-thumb", t + 0.15, true);
+      tl.to("#est-arm-r", { rotation: -150, svgOrigin: SH_R, duration: 0.25, yoyo: true, repeat: 1, ease: "sine.inOut" }, t + 0.6);
+      vis("#est-thumb", until - 0.1, false);
+      armR(0, until, 0.45);
+      look(0, -8, until);
+    }
+    function think(t, until) {
+      armR(105, t, 0.45);
+      look(-8, -9, t);
+      head(-5, 0, t);
+      mouth("flat", t);
+      vis("#est-q", t + 0.1, true);
+      tl.to("#est-q", { y: -8, duration: 0.4, yoyo: true, repeat: 1, ease: "sine.inOut" }, t + 0.2);
+      vis("#est-q", until - 0.1, false);
+      armR(0, until, 0.45);
+      look(0, -8, until);
+      head(0, 0, until);
+    }
+    function aha(t) {
+      vis("#est-bulb", t, true);
+      tl.set("#est-bulb", { scale: 0.6, transformOrigin: C }, t);
+      tl.to("#est-bulb", { scale: 1, duration: 0.35, ease: "back.out(3)" }, t);
+      brows(-8, t);
+      mouth("smile", t + 0.05);
+      tl.to("#est-head", { y: -10, svgOrigin: NECK, duration: 0.15, yoyo: true, repeat: 1 }, t);
+      brows(0, t + 1.2);
+    }
+    function surprised(t, until) {
+      tl.to("#est-eyes", { scale: 1.2, svgOrigin: "540 818", duration: 0.15, ease: "back.out(3)" }, t);
+      brows(-10, t);
+      mouth("open", t);
+      tl.to("#est-eyes", { scale: 1, svgOrigin: "540 818", duration: 0.25 }, until);
+      brows(0, until);
+      mouth("smile", until);
+    }
+    function coverMouth(t, until) {
+      armR(115, t, 0.3);
+      tl.to("#est-eyes", { scale: 1.2, svgOrigin: "540 818", duration: 0.15 }, t);
+      brows(-9, t);
+      armR(0, until, 0.4);
+      tl.to("#est-eyes", { scale: 1, svgOrigin: "540 818", duration: 0.2 }, until);
+      brows(0, until);
+    }
+    function shrug(t, until) {
+      armL(28, t, 0.35);
+      armR(-28, t + 0.06, 0.35);
+      head(-8, 0, t);
+      brows(-9, t);
+      mouth("flat", t);
+      armL(0, until, 0.4);
+      armR(0, until + 0.06, 0.4);
+      head(0, 0, until);
+      brows(0, until);
+      mouth("smile", until);
+    }
+    function cheer(t, until) {
+      armL(160, t, 0.5);
+      armR(-150, t + 0.14, 0.5);
+      mouth("open", t + 0.1);
+      head(-4, -8, t);
+      tl.to("#est-body", { y: -14, duration: 0.18, yoyo: true, repeat: 3, ease: "sine.inOut" }, t + 0.2);
+      armR(0, until, 0.45);
+      armL(0, until + 0.12, 0.45);
+      mouth("smile", until);
+      head(0, 0, until);
+    }
+    function worried(t, until) {
+      mouth("flat", t);
+      brows(6, t);
+      tl.set("#est-sweat", { y: 0 }, t);
+      pop("#est-sweat", t + 0.1);
+      tl.to("#est-sweat", { y: 30, duration: 0.8, ease: "power1.in" }, t + 0.5);
+      vis("#est-sweat", until - 0.1, false);
+      brows(0, until);
+      mouth("smile", until);
+    }
+    function stamp(t, prop) {
+      vis(prop, t - 0.6, true);
+      armR(-40, t - 0.45, 0.3);
+      tl.to("#est-arm-r", { rotation: 4, svgOrigin: SH_R, duration: 0.12, ease: "power4.in" }, t - 0.12);
+      tl.to("#est-body", { y: 6, duration: 0.06, yoyo: true, repeat: 1 }, t);
+      armR(0, t + 0.25, 0.25);
+      vis(prop, t + 0.5, false);
+    }
+    function push(t, until) {
+      armL(70, t, 0.3);
+      tl.to("#est-arm-l", { rotation: 55, svgOrigin: SH_L, duration: 0.12, yoyo: true, repeat: 3 }, t + 0.35);
+      mouth("open", t);
+      armL(0, until, 0.35);
+      mouth("flat", until);
+    }
+    function guard(t, until) {
+      vis("#est-escudo", t, true);
+      armL(55, t, 0.35);
+      brows(5, t);
+      mouth("flat", t);
+      tl.to("#est-arm-l", { rotation: 48, svgOrigin: SH_L, duration: 0.2, yoyo: true, repeat: 3 }, t + 0.8);
+      armL(0, until - 0.3, 0.3);
+      vis("#est-escudo", until, false);
+      brows(0, until);
+      mouth("smile", until);
+    }
+    function carryCoin(t, until) {
+      vis("#est-moneda", t, true);
+      armR(-90, t + 0.1, 0.4);
+      look(-10, -8, t + 0.1);
+      tl.to("#est-arm-r", { rotation: -150, svgOrigin: SH_R, duration: (until - t) * 0.6, ease: "sine.inOut" }, t + 0.6);
+      look(12, -10, t + 0.6 + (until - t) * 0.4);
+      vis("#est-moneda", until - 0.4, false);
+      armR(0, until - 0.3, 0.3);
+      nod(until - 0.2);
+    }
+    function brrr(t, until) {
+      armL(40, t, 0.3);
+      armR(-40, t + 0.05, 0.3);
+      mouth("open", t);
+      const n = Math.max(1, Math.floor((until - t - 0.6) / 0.24));
+      tl.to("#est-arm-l", { rotation: 30, svgOrigin: SH_L, duration: 0.12, yoyo: true, repeat: n % 2 ? n : n - 1 }, t + 0.35);
+      tl.to("#est-arm-r", { rotation: -50, svgOrigin: SH_R, duration: 0.12, yoyo: true, repeat: n % 2 ? n : n - 1 }, t + 0.35);
+      tl.to("#est-m-open", { scaleY: 0.5, svgOrigin: "540 892", duration: 0.08, yoyo: true, repeat: n % 2 ? n : n - 1 }, t + 0.35);
+      armL(0, until, 0.3);
+      armR(0, until, 0.3);
+      mouth("smile", until);
+    }
+
+    // Balanceo y respiración permanentes (cuerpo entero sobre la silla)
+    tl.fromTo("#est-body", { rotation: -1.2, svgOrigin: "540 1200" }, { rotation: 1.2, svgOrigin: "540 1200", duration: 2.6, ease: "sine.inOut", yoyo: true, repeat: 131 }, 0);
+    tl.fromTo("#est-girl", { y: 0 }, { y: -5, duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: 287 }, 0);
+    tl.fromTo("#est-q", { opacity: 1 }, { opacity: 0, duration: 0.2 }, 1.4);
+
+    tl.to("#est-wall", { fill: "#7c6cf2", duration: 0.6 }, 11.56);
+    tl.to("#est-floor", { fill: "#4a3fa8", duration: 0.6 }, 11.56);
+    tl.to("#est-wall", { fill: "#2fb383", duration: 0.6 }, 53.91);
+    tl.to("#est-floor", { fill: "#1f7d5b", duration: 0.6 }, 53.91);
+    tl.to("#est-wall", { fill: "#3d8bd9", duration: 0.6 }, 94.48);
+    tl.to("#est-floor", { fill: "#255f9c", duration: 0.6 }, 94.48);
+    tl.to("#est-wall", { fill: "#3478c2", duration: 0.6 }, 160.3);
+    tl.to("#est-floor", { fill: "#20578f", duration: 0.6 }, 160.3);
+    tl.to("#est-wall", { fill: "#f39c4a", duration: 0.6 }, 197.35);
+    tl.to("#est-floor", { fill: "#b96a22", duration: 0.6 }, 197.35);
+    tl.to("#est-wall", { fill: "#e0607e", duration: 0.6 }, 257.66);
+    tl.to("#est-floor", { fill: "#a33f59", duration: 0.6 }, 257.66);
+    tl.to("#est-wall", { fill: "#20a4a8", duration: 0.6 }, 309.52);
+    tl.to("#est-floor", { fill: "#137478", duration: 0.6 }, 309.52);
+    tl.to("#est-wall", { fill: "#7c6cf2", duration: 0.6 }, 330.89);
+    tl.to("#est-floor", { fill: "#4a3fa8", duration: 0.6 }, 330.89);
+    tl.fromTo("#est-eyes", { x: 0, y: -10 }, { x: -8, y: -10, duration: 0.4 }, 0);
+    armR(-150, 0.3, 0.6);
+    mouth("open", 0.5);
+    armR(-20, 1.65, 0.2);
+    surprised(1.65, 2.6);
+    shake(3.2);
+    look(0, -10, 4.3); nod(5.6);
+    write(6.9, 9.5);
+    aha(9.6); vis("#est-bulb", 11.6, false);
+    look(0, -10, 12.3);
+    write(15.0, 19.5);
+    follow([[-12, -8], [12, -8], [-6, -10], [10, -10]], 19.89, 24.47);
+    look(-12, -9, 25.61); look(12, -9, 28.59); nod(30.08);
+    stamp(31.8, "#est-sello");
+    tl.to("#est-head", { rotation: 6, svgOrigin: NECK, duration: 0.45, yoyo: true, repeat: 7, ease: "sine.inOut" }, 33.93);
+    write(38.46, 46.0);
+    coverMouth(47.2, 49.0);
+    nod(50.1); write(51.43, 54.2);
+    look(0, -10, 54.6);
+    write(57.4, 62.73);
+    typing(63.91, 69.06);
+    nod(70.02); nod(71.09);
+    look(0, -10, 72.47); stamp(76.63, "#est-sello");
+    follow([[-14, -6], [14, -6], [-14, -6], [14, -6], [0, -8]], 78.19, 82.28);
+    write(82.9, 87.1);
+    guard(87.64, 90.52);
+    look(0, -10, 90.88); nod(93.35);
+    look(0, -10, 95.2);
+    push(99.41, 100.95); mouth("smile", 102.05);
+    tl.to("#est-head", { rotation: -5, svgOrigin: NECK, duration: 0.6, yoyo: true, repeat: 3, ease: "sine.inOut" }, 103.37);
+    nod(110.27);
+    worried(112.01, 115.55);
+    think(116.78, 119.84);
+    write(120.5, 123.65); aha(124.23); vis("#est-bulb", 125.84, false);
+    look(0, -10, 126.25);
+    follow([[-14, -6], [0, -9], [14, -6]], 131.21, 135.01);
+    write(135.49, 137.87); shake(138.46);
+    nod(142.15);
+    follow([[-12, -10], [-6, 0], [0, 4], [8, -4]], 143.97, 150.72);
+    look(0, -10, 151.16); nod(153.42);
+    carryCoin(156.34, 160.61);
+    surprised(161.0, 162.4);
+    point(162.92, 167.0);
+    think(167.88, 169.73); aha(169.83); vis("#est-bulb", 172.56, false);
+    write(173.09, 176.8); coverMouth(177.76, 179.3);
+    follow([[-14, -8], [-5, -9], [5, -9], [14, -8]], 179.87, 183.84);
+    shrug(185.92, 187.24);
+    write(187.74, 190.21);
+    cheer(191.48, 193.55); shake(194.93);
+    look(0, -10, 198.1);
+    write(201.56, 205.75);
+    point(206.51, 210.68);
+    follow([[0, -12], [-12, -4], [0, -4], [12, -4]], 211.34, 217.55);
+    nod(218.98); nod(220.49);
+    look(-10, -8, 221.63); nod(227.42);
+    follow([[-12, -10], [-12, -2], [10, -10], [10, -2], [0, -8]], 229.79, 236.31);
+    look(0, -10, 236.75); mouth("smile", 237.14);
+    think(241.13, 244.22);
+    point(244.81, 247.05);
+    follow([[-14, -6], [-5, -6], [5, -6], [14, -6]], 247.79, 253.76);
+    brrr(254.26, 257.79);
+    look(0, -10, 258.4);
+    write(263.31, 266.81);
+    look(-8, -9, 267.3); surprised(270.81, 272.92); shrug(273.16, 275.03);
+    look(0, -10, 275.41); nod(277.62);
+    point(281.35, 284.09); cheer(284.71, 286.98);
+    think(287.61, 289.41); surprised(289.65, 291.32);
+    write(292.7, 296.09); worried(296.41, 298.91);
+    look(0, -10, 299.27); nod(301.96);
+    pop("#est-curita", 304.36); mouth("smile", 304.67); point(305.93, 309.09);
+    vis("#est-curita", 309.66, false);
+    look(0, -10, 310.3);
+    think(313.32, 317.79);
+    look(-12, -8, 318.37);
+    nod(321.71); look(0, -9, 322.36); nod(323.97); look(12, -9, 324.29); nod(325.9);
+    pop("#est-birrete", 326.23);
+    cheer(327.37, 329.52); nod(330.31);
+    vis("#est-birrete", 331.4, false);
+    look(0, -10, 331.6);
+    think(334.19, 340.88);
+    armR(-150, 341.45, 0.45); vis("#est-thumb", 341.63, true); mouth("open", 341.45);
+    tl.to("#est-arm-r", { rotation: -140, svgOrigin: SH_R, duration: 0.25, yoyo: true, repeat: 5, ease: "sine.inOut" }, 342.1);
+    mouth("smile", 344.2);
+
+    for (let t = 2.6, i = 0; t < 344.6; t += 3.1 + (i % 3) * 0.6, i++) {
+      tl.to("#est-eyes-open", { scaleY: 0.1, svgOrigin: "540 818", duration: 0.06 }, t);
+      tl.to("#est-eyes-open", { scaleY: 1, svgOrigin: "540 818", duration: 0.09 }, t + 0.08);
+    }
+    tl.set({}, {}, 345.6);
+    window.__timelines["estudiante"] = tl;
+  </script>
+</template>
