@@ -1,0 +1,201 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: Nunito, sans-serif; }
+    .h { opacity: 0; }
+    .brd { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; }
+    .brd svg { position: absolute; left: 0; top: 0; width: 880px; height: 470px; overflow: visible; }
+    .brd text { font-family: Nunito, sans-serif; }
+    .b { font-weight: 900; }
+    .m { font-weight: 700; }
+    .ttl { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; border-radius: 22px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      color: #ffffff; text-align: center; }
+    .ttl-n { font-size: 40px; font-weight: 700; letter-spacing: 0.06em; opacity: 0.9; }
+    .ttl-t { font-size: 66px; font-weight: 900; line-height: 1.05; max-width: 760px; }
+    .pill-slot { position: absolute; left: 0; right: 0; top: 300px; display: flex; justify-content: center; }
+    .pill { display: flex; align-items: center; gap: 14px; padding: 12px 28px; border-radius: 999px;
+      background: rgba(16, 18, 42, 0.82); color: #ffffff; font-size: 34px; font-weight: 900; max-width: 840px; }
+    .pill-n { font-size: 30px; font-weight: 900; padding: 3px 14px; border-radius: 999px; color: #10122a; }
+    .ej { position: absolute; left: 130px; top: 396px; padding: 8px 20px; border-radius: 12px;
+      background: #ffd166; color: #2d2200; font-size: 28px; font-weight: 900; letter-spacing: 0.04em;
+      box-shadow: 0 5px 0 rgba(0, 0, 0, 0.18); }
+
+    #c1-pill .pill-n { background: #c3baff; }
+    .acc { fill: #6c5ce7; }
+    .accs { stroke: #6c5ce7; }
+  </style>
+  <div id="root" data-composition-id="c1" data-width="1080" data-height="1920">
+    <div class="brd"><svg viewBox="0 0 880 470" xmlns="http://www.w3.org/2000/svg">
+      <g id="c1-a" class="h">
+        <rect x="40" y="40" width="340" height="230" rx="20" fill="#efeafe" />
+        <path d="M150,120 L210,90 L270,120 Z" fill="#6c5ce7" /><rect x="160" y="124" width="100" height="70" fill="#6c5ce7" />
+        <rect x="176" y="136" width="14" height="58" fill="#ffffff" /><rect x="203" y="136" width="14" height="58" fill="#ffffff" /><rect x="230" y="136" width="14" height="58" fill="#ffffff" />
+        <text x="210" y="245" font-size="36" class="b" text-anchor="middle" fill="#2d3436" >Estado</text>
+        <rect x="500" y="40" width="340" height="230" rx="20" fill="#f1f2f6" />
+        <rect x="610" y="120" width="120" height="74" fill="#636e72" /><path d="M600,120 L740,120 L728,96 L612,96 Z" fill="#e17055" />
+        <rect x="652" y="146" width="36" height="48" fill="#ffffff" />
+        <text x="670" y="245" font-size="36" class="b" text-anchor="middle" fill="#2d3436" >Empresa privada</text>
+        <circle cx="440" cy="155" r="40" fill="#2d3436" />
+        <text x="440" y="168" font-size="34" class="b" text-anchor="middle" fill="#ffffff" >vs</text>
+        <g id="c1-a2" class="h">
+          <rect x="150" y="310" width="580" height="80" rx="40" fill="#4a3bbf" />
+          <text x="440" y="362" font-size="38" class="b" text-anchor="middle" fill="#ffffff" >La diferencia: el FIN</text>
+        </g>
+      </g>
+      <g id="c1-b" class="h">
+        <text x="440" y="80" font-size="48" class="b" text-anchor="middle" fill="#6c5ce7" >Hacienda pública</text>
+        <text x="440" y="135" font-size="32" class="m" text-anchor="middle" fill="#2d3436" >conjunto de actividades económicas del Estado</text>
+        <g id="c1-b1" class="h">
+          <circle cx="150" cy="232" r="32" fill="#00b894" />
+          <path d="M134,232 L146,244 L168,220" stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round" />
+          <text x="200" y="244" font-size="34" class="b" text-anchor="start" fill="#2d3436" >satisfacer necesidades colectivas</text>
+          <circle cx="150" cy="330" r="32" fill="#d63031" />
+          <path d="M138,318 L162,342 M162,318 L138,342" stroke="#ffffff" stroke-width="8" stroke-linecap="round" />
+          <text x="200" y="342" font-size="34" class="m" text-anchor="start" fill="#636e72" >ganancias para repartir</text>
+          <path id="c1-strike" d="M196,331 L560,331" stroke="#d63031" stroke-width="6" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+        </g>
+      </g>
+      <g id="c1-c" class="h">
+        <text x="440" y="50" font-size="36" class="b" text-anchor="middle" fill="#2d3436" >6 características</text>
+        <g id="c1-t0" class="h">
+          <rect x="20" y="78" width="268" height="184" rx="18" fill="#efeafe" />
+          <g transform="translate(154 118)"><rect x="-30" y="-18" width="60" height="36" rx="6" fill="#00b894"/><circle r="10" fill="#ffffff"/></g>
+          <text x="154" y="182" font-size="32" class="b" text-anchor="middle" fill="#6c5ce7" >Erogativa</text>
+          <text x="154" y="218" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >gasta para</text>
+          <text x="154" y="250" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >cumplir sus fines</text>
+        </g>
+        <g id="c1-t1" class="h">
+          <rect x="303" y="78" width="268" height="184" rx="18" fill="#efeafe" />
+          <g transform="translate(437 118)"><rect x="-24" y="4" width="48" height="16" rx="4" fill="#d63031"/><rect x="-7" y="-26" width="14" height="32" fill="#636e72"/><circle cy="-30" r="12" fill="#2d3436"/></g>
+          <text x="437" y="182" font-size="32" class="b" text-anchor="middle" fill="#6c5ce7" >Coactiva</text>
+          <text x="437" y="218" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >exige tributos</text>
+          <text x="437" y="250" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >por ley</text>
+        </g>
+        <g id="c1-t2" class="h">
+          <rect x="586" y="78" width="268" height="184" rx="18" fill="#efeafe" />
+          <g transform="translate(720 118)"><circle r="26" fill="#ffffff" stroke="#2d3436" stroke-width="6"/><path d="M0,-14 L0,0 L12,8" stroke="#2d3436" stroke-width="5" fill="none" stroke-linecap="round"/></g>
+          <text x="720" y="182" font-size="32" class="b" text-anchor="middle" fill="#6c5ce7" >Perdurable</text>
+          <text x="720" y="218" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >sigue aunque</text>
+          <text x="720" y="250" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >cambie el gobierno</text>
+        </g>
+        <g id="c1-t3" class="h">
+          <rect x="20" y="274" width="268" height="184" rx="18" fill="#efeafe" />
+          <g transform="translate(154 314)"><path d="M-30,-14 L0,-30 L30,-14 Z" fill="#636e72"/><rect x="-24" y="-10" width="10" height="32" fill="#636e72"/><rect x="-5" y="-10" width="10" height="32" fill="#636e72"/><rect x="14" y="-10" width="10" height="32" fill="#636e72"/></g>
+          <text x="154" y="378" font-size="32" class="b" text-anchor="middle" fill="#6c5ce7" >Dependiente</text>
+          <text x="154" y="414" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >sirve a los</text>
+          <text x="154" y="446" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >tres poderes</text>
+        </g>
+        <g id="c1-t4" class="h">
+          <rect x="303" y="274" width="268" height="184" rx="18" fill="#efeafe" />
+          <g transform="translate(437 314)"><rect x="-20" y="-28" width="40" height="54" rx="5" fill="#ffffff" stroke="#2d3436" stroke-width="5"/><path d="M-10,-12 L10,-12 M-10,0 L10,0 M-10,12 L4,12" stroke="#2d3436" stroke-width="4"/></g>
+          <text x="437" y="378" font-size="32" class="b" text-anchor="middle" fill="#6c5ce7" >Formal</text>
+          <text x="437" y="414" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >todo queda</text>
+          <text x="437" y="446" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >por escrito</text>
+        </g>
+        <g id="c1-t5" class="h">
+          <rect x="586" y="274" width="268" height="184" rx="18" fill="#efeafe" />
+          <g transform="translate(720 314)"><circle r="26" fill="#fdcb6e"/><path d="M0,0 L0,-26 A26,26 0 0,1 22.5,13 Z" fill="#e17055"/><path d="M0,0 L22.5,13 A26,26 0 0,1 -22.5,13 Z" fill="#74b9ff"/></g>
+          <text x="720" y="378" font-size="32" class="b" text-anchor="middle" fill="#6c5ce7" >Divisa</text>
+          <text x="720" y="414" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >se divide en partes</text>
+          <text x="720" y="446" font-size="28" class="m" text-anchor="middle" fill="#2d3436" >para cada necesidad</text>
+        </g>
+      </g>
+      <g id="c1-d" class="h">
+        <g transform="translate(140 130)">
+          <rect x="-50" y="-60" width="100" height="120" rx="8" fill="#ffffff" stroke="#2d3436" stroke-width="5" />
+          <path d="M-30,-30 L30,-30 M-30,-8 L30,-8 M-30,14 L14,14" stroke="#b2bec3" stroke-width="6" />
+          <path d="M-50,60 L-36,48 L-22,60 L-8,48 L6,60 L20,48 L34,60 L50,48" fill="none" stroke="#2d3436" stroke-width="5" />
+        </g>
+        <text x="140" y="250" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Ingresos Brutos</text>
+        <text x="140" y="285" font-size="28" class="m" text-anchor="middle" fill="#636e72" >(cobra)</text>
+        <g transform="translate(440 130)">
+          <path d="M-80,-24 L0,-64 L80,-24 Z" fill="#6c5ce7" /><rect x="-70" y="-20" width="140" height="84" fill="#6c5ce7" />
+          <rect x="-50" y="-6" width="18" height="70" fill="#ffffff" /><rect x="-9" y="-6" width="18" height="70" fill="#ffffff" /><rect x="32" y="-6" width="18" height="70" fill="#ffffff" />
+        </g>
+        <text x="440" y="250" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Provincia</text>
+        <g transform="translate(740 130)">
+          <rect x="-70" y="-62" width="140" height="90" rx="6" fill="#2d6a4f" stroke="#a86e45" stroke-width="8" />
+          <path d="M-46,-36 L10,-36 M-46,-14 L-6,-14" stroke="#ffffff" stroke-width="5" />
+          <circle cx="44" cy="10" r="22" fill="#f5c9a0" /><path d="M24,70 Q44,30 64,70 Z" fill="#ff7675" />
+        </g>
+        <text x="740" y="250" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Sueldos docentes</text>
+        <text x="740" y="285" font-size="28" class="m" text-anchor="middle" fill="#636e72" >(paga)</text>
+        <path d="M215,130 L355,130" stroke="#b2bec3" stroke-width="6" stroke-dasharray="12 10" />
+        <path d="M525,130 L655,130" stroke="#b2bec3" stroke-width="6" stroke-dasharray="12 10" />
+        <g fill="#fdcb6e" stroke="#e1a940" stroke-width="4">
+          <circle id="c1-k1" class="h" cx="215" cy="130" r="18" /><circle id="c1-k2" class="h" cx="215" cy="130" r="18" /><circle id="c1-k3" class="h" cx="215" cy="130" r="18" />
+          <circle id="c1-k4" class="h" cx="525" cy="130" r="18" /><circle id="c1-k5" class="h" cx="525" cy="130" r="18" /><circle id="c1-k6" class="h" cx="525" cy="130" r="18" />
+        </g>
+        <g id="c1-d2" class="h">
+          <rect x="70" y="330" width="740" height="84" rx="42" fill="#6c5ce7" />
+          <text x="440" y="384" font-size="34" class="b" text-anchor="middle" fill="#ffffff" >recurso coactivo → necesidad colectiva</text>
+        </g>
+      </g>
+    </svg></div>
+    <div id="c1-ttl" class="ttl" style="background: #6c5ce7">
+      <div class="ttl-n">Capítulo 1</div><div class="ttl-t">Concepto y características</div>
+    </div>
+    <div class="pill-slot"><div id="c1-pill" class="pill h"><span class="pill-n" style="background: #c3baff">Cap. 1/6</span>Concepto y características</div></div>
+    <div id="c1-ej" class="ej h">EJEMPLO DEL APUNTE</div>
+  </div>
+  <script>
+    const T0 = 6.67;
+    const tl = gsap.timeline({ paused: true });
+    const A = (t) => Math.max(0, +(t - T0).toFixed(3));
+    const C = "50% 50%";
+    function show(s, t, d) {
+      tl.set(s, { scale: 0.85, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: d || 0.35, ease: "back.out(2)" }, A(t));
+    }
+    function fade(s, t, d) {
+      tl.to(s, { opacity: 1, duration: d || 0.3, ease: "power1.out" }, A(t));
+    }
+    function hide(s, t) {
+      tl.to(s, { opacity: 0, duration: 0.25, ease: "power2.in" }, A(t - 0.25));
+    }
+    function draw(s, t, d) {
+      tl.to(s, { strokeDashoffset: 0, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+    }
+    function pulse(s, t) {
+      tl.to(s, { scale: 1.12, transformOrigin: C, duration: 0.18, yoyo: true, repeat: 1, ease: "sine.inOut" }, A(t));
+    }
+
+    tl.fromTo("#c1-ttl", { opacity: 1, scale: 0.94, transformOrigin: C }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, 0);
+    hide("#c1-ttl", 9.62);
+    show("#c1-pill", 9.52);
+    hide("#c1-pill", 61.5);
+    show("#c1-ej", 50.57);
+    hide("#c1-ej", 61.3);
+
+    show("#c1-a", 9.72);
+    show("#c1-a2", 15.84);
+    hide("#c1-a", 17.6);
+    show("#c1-b", 17.6);
+    show("#c1-b1", 21.01);
+    draw("#c1-strike", 23.6, 0.5);
+    hide("#c1-b", 25.6);
+    fade("#c1-c", 25.66);
+    show("#c1-t0", 27.6);
+    show("#c1-t1", 30.27);
+    show("#c1-t2", 34.01);
+    show("#c1-t3", 37.29);
+    show("#c1-t4", 41.09);
+    show("#c1-t5", 44.63);
+    hide("#c1-c", 50.5);
+    show("#c1-d", 50.57);
+    ["#c1-k1", "#c1-k2", "#c1-k3"].forEach((k, i) => {
+      tl.to(k, { opacity: 1, duration: 0.1 }, A(51.6 + i * 0.3));
+      tl.to(k, { x: 140, duration: 0.55, ease: "power1.inOut" }, A(51.6 + i * 0.3));
+      tl.to(k, { opacity: 0, duration: 0.1 }, A(52.1 + i * 0.3));
+    });
+    ["#c1-k4", "#c1-k5", "#c1-k6"].forEach((k, i) => {
+      tl.to(k, { opacity: 1, duration: 0.1 }, A(53.4 + i * 0.3));
+      tl.to(k, { x: 130, duration: 0.55, ease: "power1.inOut" }, A(53.4 + i * 0.3));
+      tl.to(k, { opacity: 0, duration: 0.1 }, A(53.9 + i * 0.3));
+    });
+    show("#c1-d2", 55.54);
+    pulse("#c1-d2", 59.4);
+    tl.set({}, {}, 54.88);
+    window.__timelines["c1"] = tl;
+  </script>
+</template>

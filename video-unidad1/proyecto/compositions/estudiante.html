@@ -1,0 +1,425 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #4b4e8c;
+    }
+    #est-svg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+      height: 1920px;
+    }
+    .est-h {
+      opacity: 0;
+    }
+  </style>
+  <div id="root" data-composition-id="estudiante" data-width="1080" data-height="1920">
+    <!-- viewBox corrido 300 px: y de usuario = y de pantalla − 300 -->
+    <svg id="est-svg" viewBox="0 -300 1080 1920" xmlns="http://www.w3.org/2000/svg">
+      <rect id="est-wall" x="0" y="-300" width="1080" height="1860" fill="#4b4e8c" />
+      <rect id="est-floor" x="0" y="1560" width="1080" height="60" fill="#2e3060" />
+
+      <!-- Pizarrón (pantalla: x 100–980, y 430–900) -->
+      <rect x="88" y="118" width="904" height="494" rx="30" fill="#2d3436" />
+      <rect x="100" y="130" width="880" height="470" rx="22" fill="#fffdf5" />
+      <rect x="380" y="612" width="320" height="14" rx="7" fill="#2d3436" />
+
+      <!-- Silla -->
+      <rect x="380" y="900" width="320" height="320" rx="44" fill="#2d3436" />
+
+      <g id="est-girl">
+        <path d="M410,1200 L420,1010 Q430,958 492,954 L588,954 Q650,958 660,1010 L670,1200 Z" fill="#ff7675" />
+        <path d="M500,956 Q540,990 580,956" fill="none" stroke="#e8605f" stroke-width="8" />
+        <rect x="518" y="900" width="44" height="66" rx="10" fill="#e3a57c" />
+        <g id="est-head">
+          <circle cx="540" cy="790" r="140" fill="#3d2c2e" />
+          <circle cx="540" cy="640" r="58" fill="#3d2c2e" />
+          <rect x="500" y="684" width="80" height="16" rx="8" fill="#fdcb6e" />
+          <circle cx="414" cy="815" r="22" fill="#eab48d" />
+          <circle cx="666" cy="815" r="22" fill="#eab48d" />
+          <ellipse cx="540" cy="808" rx="125" ry="128" fill="#f5c9a0" />
+          <path d="M416,790 Q424,664 540,656 Q656,664 664,790 Q622,724 566,736 Q524,700 470,744 Q438,758 416,790 Z" fill="#3d2c2e" />
+          <g id="est-brows" fill="none" stroke="#3d2c2e" stroke-width="8" stroke-linecap="round">
+            <path d="M472,768 Q494,758 516,766" />
+            <path d="M564,766 Q586,758 608,768" />
+          </g>
+          <g id="est-eyes">
+            <g id="est-eyes-open">
+              <ellipse cx="495" cy="818" rx="13" ry="17" fill="#2d2d2d" />
+              <ellipse cx="585" cy="818" rx="13" ry="17" fill="#2d2d2d" />
+              <circle cx="499" cy="811" r="5" fill="#ffffff" />
+              <circle cx="589" cy="811" r="5" fill="#ffffff" />
+            </g>
+          </g>
+          <g fill="none" stroke="#2d3436" stroke-width="6">
+            <circle cx="495" cy="818" r="34" />
+            <circle cx="585" cy="818" r="34" />
+            <path d="M529,814 Q540,806 551,814" />
+          </g>
+          <circle cx="462" cy="870" r="17" fill="#ff9aa2" opacity="0.7" />
+          <circle cx="618" cy="870" r="17" fill="#ff9aa2" opacity="0.7" />
+          <path id="est-m-smile" d="M512,884 Q540,910 568,884" fill="none" stroke="#7a3b3b" stroke-width="7" stroke-linecap="round" />
+          <path id="est-m-flat" class="est-h" d="M518,892 Q540,886 562,892" fill="none" stroke="#7a3b3b" stroke-width="7" stroke-linecap="round" />
+          <ellipse id="est-m-open" class="est-h" cx="540" cy="892" rx="19" ry="16" fill="#7a3b3b" />
+          <path id="est-sweat" class="est-h" d="M676,740 Q690,764 676,776 Q662,764 676,740 Z" fill="#74b9ff" />
+          <g id="est-casco" class="est-h">
+            <path d="M424,738 Q424,632 540,622 Q656,632 656,738 Z" fill="#fdcb6e" />
+            <rect x="540" y="622" width="14" height="116" fill="#e1a940" />
+            <rect x="398" y="728" width="284" height="22" rx="11" fill="#e1a940" />
+          </g>
+        </g>
+
+        <g id="est-arm-l">
+          <path d="M432,1002 Q392,1100 418,1168 L482,1174" fill="none" stroke="#ff7675" stroke-width="52" stroke-linecap="round" stroke-linejoin="round" />
+          <g id="est-tabla" class="est-h">
+            <rect x="452" y="1060" width="84" height="110" rx="8" fill="#a86e45" />
+            <rect x="462" y="1074" width="64" height="88" rx="4" fill="#ffffff" />
+            <path d="M472,1094 L516,1094 M472,1112 L516,1112 M472,1130 L506,1130" stroke="#636e72" stroke-width="5" />
+          </g>
+          <circle cx="492" cy="1172" r="26" fill="#f5c9a0" />
+        </g>
+        <g id="est-arm-r">
+          <path d="M648,1002 Q688,1100 662,1168 L598,1174" fill="none" stroke="#ff7675" stroke-width="52" stroke-linecap="round" stroke-linejoin="round" />
+          <g id="est-sello" class="est-h">
+            <rect x="566" y="1150" width="46" height="20" rx="4" fill="#d63031" />
+            <rect x="580" y="1110" width="18" height="44" fill="#636e72" />
+            <circle cx="589" cy="1104" r="18" fill="#2d3436" />
+          </g>
+          <g id="est-tijera" class="est-h">
+            <path d="M588,1172 L556,1100 M588,1172 L620,1100" stroke="#b2bec3" stroke-width="10" stroke-linecap="round" />
+            <circle cx="570" cy="1200" r="14" fill="none" stroke="#d63031" stroke-width="7" />
+            <circle cx="606" cy="1200" r="14" fill="none" stroke="#d63031" stroke-width="7" />
+          </g>
+          <g id="est-jeringa" class="est-h">
+            <rect x="578" y="1086" width="22" height="70" rx="5" fill="#dfe6e9" />
+            <rect x="582" y="1104" width="14" height="44" fill="#74b9ff" />
+            <path d="M589,1086 L589,1062" stroke="#636e72" stroke-width="4" />
+            <rect x="574" y="1152" width="30" height="8" fill="#636e72" />
+          </g>
+          <circle cx="588" cy="1172" r="26" fill="#f5c9a0" />
+          <path id="est-thumb" class="est-h" d="M588,1172 L612,1212" stroke="#f5c9a0" stroke-width="22" stroke-linecap="round" />
+        </g>
+      </g>
+
+      <!-- Escritorio -->
+      <rect x="80" y="1224" width="920" height="336" fill="#a86e45" />
+      <rect x="60" y="1178" width="960" height="48" rx="12" fill="#c98b5a" />
+
+      <!-- Apunte -->
+      <g id="est-apunte">
+        <path d="M424,1186 L540,1192 L656,1186 L650,1178 L430,1178 Z" fill="#00a8a8" />
+        <path d="M432,1180 L540,1186 L540,1136 L442,1128 Z" fill="#ffffff" />
+        <path d="M540,1186 L648,1180 L638,1128 L540,1136 Z" fill="#ffffff" />
+        <path d="M458,1146 L520,1150 M456,1160 L520,1164 M560,1150 L620,1146 M560,1164 L622,1160" stroke="#b2bec3" stroke-width="4" stroke-linecap="round" />
+      </g>
+
+      <!-- Calculadora -->
+      <g id="est-calcu" class="est-h">
+        <rect x="760" y="1060" width="110" height="120" rx="14" fill="#2d3436" />
+        <rect x="774" y="1074" width="82" height="30" rx="5" fill="#55efc4" />
+        <g fill="#b2bec3">
+          <rect x="774" y="1114" width="22" height="22" rx="4" /><rect x="804" y="1114" width="22" height="22" rx="4" /><rect x="834" y="1114" width="22" height="22" rx="4" />
+          <rect x="774" y="1144" width="22" height="22" rx="4" /><rect x="804" y="1144" width="22" height="22" rx="4" /><rect x="834" y="1144" width="22" height="22" rx="4" fill="#fdcb6e" />
+        </g>
+      </g>
+
+      <!-- Signos -->
+      <g id="est-q" class="est-h">
+        <circle cx="712" cy="640" r="46" fill="#ffffff" />
+        <path d="M694,628 Q694,604 714,604 Q734,604 734,624 Q734,638 716,644 L716,656" fill="none" stroke="#2d3436" stroke-width="10" stroke-linecap="round" />
+        <circle cx="716" cy="674" r="6" fill="#2d3436" />
+      </g>
+      <g id="est-bulb" class="est-h">
+        <circle cx="712" cy="630" r="58" fill="#ffd166" opacity="0.35" />
+        <circle cx="712" cy="624" r="38" fill="#ffd166" />
+        <rect x="694" y="658" width="36" height="24" rx="6" fill="#636e72" />
+      </g>
+    </svg>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const C = "50% 50%";
+    const SH_L = "432 1002";
+    const SH_R = "648 1002";
+    const NECK = "540 930";
+
+    function pop(sel, t) {
+      tl.fromTo(sel, { scale: 0, opacity: 0, transformOrigin: C }, { scale: 1, opacity: 1, duration: 0.35, ease: "back.out(2.4)" }, t);
+    }
+    function vis(sel, t, on) {
+      tl.to(sel, { opacity: on ? 1 : 0, duration: 0.12 }, t);
+    }
+    function mouth(state, t) {
+      tl.to("#est-m-smile", { opacity: state === "smile" ? 1 : 0, duration: 0.1 }, t);
+      tl.to("#est-m-flat", { opacity: state === "flat" ? 1 : 0, duration: 0.1 }, t);
+      tl.to("#est-m-open", { opacity: state === "open" ? 1 : 0, duration: 0.1 }, t);
+    }
+    function armR(rot, t, d) {
+      tl.to("#est-arm-r", { rotation: rot, svgOrigin: SH_R, duration: d || 0.4, ease: "back.out(1.7)" }, t);
+    }
+    function armL(rot, t, d) {
+      tl.to("#est-arm-l", { rotation: rot, svgOrigin: SH_L, duration: d || 0.4, ease: "back.out(1.7)" }, t);
+    }
+    function head(rot, y, t, d) {
+      tl.to("#est-head", { rotation: rot, y: y, svgOrigin: NECK, duration: d || 0.35, ease: "power2.out" }, t);
+    }
+    function look(x, y, t) {
+      tl.to("#est-eyes", { x: x, y: y, duration: 0.25, ease: "power2.out" }, t);
+    }
+    function brows(y, t) {
+      tl.to("#est-brows", { y: y, duration: 0.2, ease: "back.out(3)" }, t);
+    }
+    function rest(t) {
+      armR(0, t, 0.45);
+      armL(0, t + 0.08, 0.45);
+      head(0, 0, t);
+      look(0, 0, t);
+      brows(0, t);
+    }
+    // Señala el pizarrón (dedo arriba)
+    function point(t, until) {
+      look(6, -10, t);
+      armR(-160, t, 0.45);
+      vis("#est-thumb", t + 0.15, true);
+      tl.to("#est-arm-r", { rotation: -152, svgOrigin: SH_R, duration: 0.25, yoyo: true, repeat: 1, ease: "sine.inOut" }, t + 0.6);
+      vis("#est-thumb", until - 0.1, false);
+      armR(0, until, 0.45);
+      look(0, 0, until);
+    }
+    function think(t, until) {
+      armR(105, t, 0.45);
+      look(-8, -9, t);
+      head(-5, 0, t);
+      mouth("flat", t);
+      vis("#est-q", t + 0.1, true);
+      vis("#est-q", until - 0.1, false);
+      armR(0, until, 0.45);
+      look(0, 0, until);
+      head(0, 0, until);
+    }
+    function aha(t) {
+      vis("#est-bulb", t, true);
+      tl.set("#est-bulb", { scale: 0.6, transformOrigin: C }, t);
+      tl.to("#est-bulb", { scale: 1, duration: 0.35, ease: "back.out(3)" }, t);
+      brows(-8, t);
+      mouth("smile", t + 0.05);
+      tl.to("#est-head", { y: -10, svgOrigin: NECK, duration: 0.15, yoyo: true, repeat: 1 }, t);
+    }
+    function nod(t) {
+      tl.to("#est-head", { rotation: 0, y: 10, svgOrigin: NECK, duration: 0.16, yoyo: true, repeat: 3, ease: "sine.inOut" }, t);
+    }
+    function shrug(t, until) {
+      armL(28, t, 0.35);
+      armR(-28, t + 0.06, 0.35);
+      head(-8, 0, t);
+      brows(-9, t);
+      mouth("flat", t);
+      look(0, 0, t);
+      armL(0, until, 0.4);
+      armR(0, until + 0.06, 0.4);
+      head(0, 0, until);
+      brows(0, until);
+    }
+    function cheer(t, until) {
+      armL(165, t, 0.5);
+      armR(-160, t + 0.14, 0.5);
+      mouth("open", t + 0.1);
+      head(-4, -8, t);
+      tl.to("#est-girl", { y: -14, duration: 0.18, yoyo: true, repeat: 3, ease: "sine.inOut" }, t + 0.2);
+      armR(0, until, 0.45);
+      armL(0, until + 0.12, 0.45);
+      mouth("smile", until);
+      head(0, 0, until);
+    }
+    function worried(t, until) {
+      mouth("flat", t);
+      brows(6, t);
+      pop("#est-sweat", t + 0.1);
+      tl.to("#est-sweat", { y: 30, duration: 0.8, ease: "power1.in" }, t + 0.5);
+      vis("#est-sweat", until - 0.1, false);
+      brows(0, until);
+      mouth("smile", until);
+    }
+    function stamp(t) {
+      vis("#est-sello", t - 0.6, true);
+      armR(-40, t - 0.45, 0.3);
+      tl.to("#est-arm-r", { rotation: 4, svgOrigin: SH_R, duration: 0.12, ease: "power4.in" }, t - 0.12);
+      tl.to("#est-girl", { y: 6, duration: 0.06, yoyo: true, repeat: 1 }, t);
+      armR(0, t + 0.2, 0.25);
+    }
+
+
+    // ---------- INTRO 0 – 6.67 ----------
+    tl.fromTo("#est-head", { rotation: 4, svgOrigin: NECK }, { rotation: 5, svgOrigin: NECK, duration: 0.6 }, 0);
+    tl.fromTo("#est-eyes", { x: 0, y: 10 }, { x: 0, y: 10, duration: 0.1 }, 0);
+    mouth("flat", 0);
+    tl.fromTo("#est-q", { opacity: 1 }, { opacity: 1, duration: 0.1 }, 0);
+    tl.to("#est-q", { y: -10, duration: 0.5, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.2);
+    vis("#est-q", 1.7, false);
+    head(0, 0, 1.8);
+    look(4, -10, 1.8);
+    mouth("smile", 1.9);
+    brows(-6, 1.9);
+    nod(4.4);
+    look(0, 0, 5.8);
+    brows(0, 5.8);
+
+    // ---------- C1 Concepto y características 6.67 – 61.55 ----------
+    tl.to("#est-wall", { fill: "#7c6cf2", duration: 0.6 }, 6.07);
+    tl.to("#est-floor", { fill: "#4a3fa8", duration: 0.6 }, 6.07);
+    think(9.9, 15.7);
+    aha(15.85);
+    vis("#est-bulb", 17.6, false);
+    point(16.9, 20.8);
+    nod(21.5);
+    point(27.6, 49.9);
+    tl.to("#est-arm-r", { rotation: -150, svgOrigin: SH_R, duration: 0.2, yoyo: true, repeat: 1 }, 30.3);
+    tl.to("#est-arm-r", { rotation: -150, svgOrigin: SH_R, duration: 0.2, yoyo: true, repeat: 1 }, 34.0);
+    tl.to("#est-arm-r", { rotation: -150, svgOrigin: SH_R, duration: 0.2, yoyo: true, repeat: 1 }, 37.3);
+    tl.to("#est-arm-r", { rotation: -150, svgOrigin: SH_R, duration: 0.2, yoyo: true, repeat: 1 }, 41.1);
+    tl.to("#est-arm-r", { rotation: -150, svgOrigin: SH_R, duration: 0.2, yoyo: true, repeat: 1 }, 44.6);
+    look(-8, -10, 50.8);
+    look(8, -10, 53.2);
+    cheer(55.6, 58.3);
+    rest(58.9);
+
+    // ---------- C2 Acciones 61.55 – 91.86 ----------
+    tl.to("#est-wall", { fill: "#2fb383", duration: 0.6 }, 60.95);
+    tl.to("#est-floor", { fill: "#1f7d5b", duration: 0.6 }, 60.95);
+    look(0, -10, 65.7);
+    stamp(69.7);
+    vis("#est-sello", 71.4, false);
+    mouth("smile", 70.0);
+    look(-6, -10, 72.2);
+    look(6, -10, 74.6);
+    vis("#est-casco", 76.3, true);
+    tl.set("#est-casco", { y: -120 }, 76.3);
+    tl.to("#est-casco", { y: 0, duration: 0.4, ease: "bounce.out" }, 76.3);
+    nod(78.4);
+    vis("#est-casco", 81.3, false);
+    look(0, -10, 81.6);
+    nod(84.4);
+    worried(88.4, 91.4);
+    look(0, 0, 91.4);
+
+    // ---------- C3 Órganos 91.86 – 122.45 ----------
+    tl.to("#est-wall", { fill: "#3d8bd9", duration: 0.6 }, 91.26);
+    tl.to("#est-floor", { fill: "#255f9c", duration: 0.6 }, 91.26);
+    armL(165, 94.9, 0.5);
+    look(-8, -10, 94.9);
+    mouth("open", 95.0);
+    tl.to("#est-arm-l", { rotation: 158, svgOrigin: SH_L, duration: 0.3, yoyo: true, repeat: 3 }, 95.6);
+    mouth("smile", 96.6);
+    armL(0, 99.8, 0.45);
+    nod(104.4);
+    look(8, -10, 107.9);
+    pop("#est-calcu", 111.6);
+    look(14, 8, 111.9);
+    armR(-14, 112.0, 0.2);
+    tl.to("#est-arm-r", { rotation: -6, svgOrigin: SH_R, duration: 0.14, yoyo: true, repeat: 9, ease: "sine.inOut" }, 112.3);
+    armR(0, 115.0, 0.3);
+    look(-8, -10, 115.4);
+    look(8, -10, 117.6);
+    vis("#est-calcu", 121.6, false);
+    nod(120.2);
+
+    // ---------- C4 Tipos de Estado 122.45 – 158.81 ----------
+    tl.to("#est-wall", { fill: "#f39c4a", duration: 0.6 }, 121.85);
+    tl.to("#est-floor", { fill: "#b96a22", duration: 0.6 }, 121.85);
+    look(-8, -10, 125.4);
+    look(8, -10, 131.3);
+    look(-8, -4, 134.9);
+    look(8, -4, 139.9);
+    look(0, -10, 143.1);
+    shrug(146.3, 148.0);
+    look(-14, -4, 148.5);
+    look(14, -4, 149.4);
+    look(-14, -4, 150.3);
+    look(0, -8, 151.1);
+    vis("#est-casco", 151.95, true);
+    tl.set("#est-casco", { y: -120 }, 151.95);
+    tl.to("#est-casco", { y: 0, duration: 0.4, ease: "bounce.out" }, 151.95);
+    mouth("smile", 152.1);
+    tl.to("#est-arm-r", { rotation: -60, svgOrigin: SH_R, duration: 0.15, yoyo: true, repeat: 5, ease: "power2.inOut" }, 152.5);
+    vis("#est-casco", 155.6, false);
+    vis("#est-tabla", 155.8, true);
+    armL(40, 155.85, 0.4);
+    look(-10, 8, 156.1);
+    nod(156.6);
+    armL(0, 158.2, 0.4);
+    vis("#est-tabla", 158.5, false);
+    look(0, 0, 158.4);
+
+    // ---------- C5 Administración pública 158.81 – 217.43 ----------
+    tl.to("#est-wall", { fill: "#e0607e", duration: 0.6 }, 158.21);
+    tl.to("#est-floor", { fill: "#a33f59", duration: 0.6 }, 158.21);
+    look(0, -10, 162.1);
+    nod(166.2);
+    think(171.7, 173.9);
+    point(174.0, 178.6);
+    look(-8, -10, 178.9);
+    armL(60, 187.7, 0.4);
+    tl.to("#est-arm-l", { rotation: 40, svgOrigin: SH_L, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut" }, 188.2);
+    armL(0, 193.6, 0.4);
+    look(8, -10, 194.8);
+    vis("#est-tijera", 204.7, true);
+    armR(-50, 204.8, 0.35);
+    tl.to("#est-arm-r", { rotation: -62, svgOrigin: SH_R, duration: 0.12, yoyo: true, repeat: 3 }, 205.3);
+    armR(0, 206.6, 0.4);
+    vis("#est-tijera", 207.0, false);
+    nod(209.3);
+    think(212.8, 216.2);
+    aha(216.25);
+    vis("#est-bulb", 217.3, false);
+
+    // ---------- C6 Gestión pública y modernización 217.43 – 284.85 ----------
+    tl.to("#est-wall", { fill: "#20a4a8", duration: 0.6 }, 216.83);
+    tl.to("#est-floor", { fill: "#137478", duration: 0.6 }, 216.83);
+    brows(0, 217.6);
+    look(0, -10, 221.0);
+    vis("#est-jeringa", 223.9, true);
+    armR(-55, 224.0, 0.4);
+    tl.to("#est-arm-r", { rotation: -45, svgOrigin: SH_R, duration: 0.3, yoyo: true, repeat: 3 }, 224.5);
+    armR(0, 226.8, 0.4);
+    look(-6, -10, 228.7);
+    nod(230.4);
+    look(6, -10, 233.6);
+    vis("#est-jeringa", 238.2, false);
+    cheer(240.6, 243.2);
+    nod(245.0);
+    aha(249.0);
+    vis("#est-bulb", 252.4, false);
+    look(-8, -10, 254.7);
+    look(8, -10, 257.1);
+    shrug(259.8, 261.4);
+    nod(262.6);
+    point(265.1, 272.3);
+    look(0, -10, 272.7);
+    nod(275.4);
+    nod(281.2);
+
+    // ---------- CIERRE 284.85 – 300 ----------
+    tl.to("#est-wall", { fill: "#7c6cf2", duration: 0.6 }, 284.25);
+    tl.to("#est-floor", { fill: "#4a3fa8", duration: 0.6 }, 284.25);
+    think(287.5, 294.6);
+    armR(-150, 294.95, 0.45);
+    vis("#est-thumb", 295.1, true);
+    mouth("open", 295.0);
+    tl.to("#est-arm-r", { rotation: -140, svgOrigin: SH_R, duration: 0.25, yoyo: true, repeat: 5, ease: "sine.inOut" }, 295.6);
+    mouth("smile", 297.6);
+
+    // Respiración y parpadeos
+    tl.fromTo("#est-girl", { y: 0 }, { y: -5, duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: 249 }, 0);
+    for (let t = 3.1, i = 0; t < 299; t += 3.3 + (i % 3) * 0.7, i++) {
+      tl.to("#est-eyes-open", { scaleY: 0.1, svgOrigin: "540 818", duration: 0.06 }, t);
+      tl.to("#est-eyes-open", { scaleY: 1, svgOrigin: "540 818", duration: 0.09 }, t + 0.08);
+    }
+
+    tl.set({}, {}, 300);
+    window.__timelines["estudiante"] = tl;
+  </script>
+</template>

@@ -1,0 +1,174 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: Nunito, sans-serif; }
+    .h { opacity: 0; }
+    .brd { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; }
+    .brd svg { position: absolute; left: 0; top: 0; width: 880px; height: 470px; overflow: visible; }
+    .brd text { font-family: Nunito, sans-serif; }
+    .b { font-weight: 900; }
+    .m { font-weight: 700; }
+    .ttl { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; border-radius: 22px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      color: #ffffff; text-align: center; }
+    .ttl-n { font-size: 40px; font-weight: 700; letter-spacing: 0.06em; opacity: 0.9; }
+    .ttl-t { font-size: 66px; font-weight: 900; line-height: 1.05; max-width: 760px; }
+    .pill-slot { position: absolute; left: 0; right: 0; top: 300px; display: flex; justify-content: center; }
+    .pill { display: flex; align-items: center; gap: 14px; padding: 12px 28px; border-radius: 999px;
+      background: rgba(16, 18, 42, 0.82); color: #ffffff; font-size: 34px; font-weight: 900; max-width: 840px; }
+    .pill-n { font-size: 30px; font-weight: 900; padding: 3px 14px; border-radius: 999px; color: #10122a; }
+    .ej { position: absolute; left: 130px; top: 396px; padding: 8px 20px; border-radius: 12px;
+      background: #ffd166; color: #2d2200; font-size: 28px; font-weight: 900; letter-spacing: 0.04em;
+      box-shadow: 0 5px 0 rgba(0, 0, 0, 0.18); }
+
+    #c6-pill .pill-n { background: #9fe6e8; }
+    .acc { fill: #138a8e; }
+    .accs { stroke: #138a8e; }
+  </style>
+  <div id="root" data-composition-id="c6" data-width="1080" data-height="1920">
+    <div class="brd"><svg viewBox="0 0 880 470" xmlns="http://www.w3.org/2000/svg">
+      <g id="c6-a" class="h">
+        <g id="c6-h1"><text x="440" y="52" font-size="38" class="b" text-anchor="middle" fill="#138a8e" >5 principios de la gestión pública</text></g>
+        <g id="c6-h2" class="h"><text x="440" y="52" font-size="34" class="b" text-anchor="middle" fill="#138a8e" >Campaña de vacunación · 10.000 dosis</text></g>
+        <rect id="c6-hl" x="25" y="98" width="250" height="46" rx="23" fill="#138a8e" opacity="0" />
+        <text x="40" y="130" font-size="30" class="b" text-anchor="start" fill="#2d3436" id="c6-n0" opacity="0.35">Economía</text><text x="40" y="192" font-size="30" class="b" text-anchor="start" fill="#2d3436" id="c6-n1" opacity="0.35">Eficiencia</text><text x="40" y="254" font-size="30" class="b" text-anchor="start" fill="#2d3436" id="c6-n2" opacity="0.35">Eficacia</text><text x="40" y="316" font-size="30" class="b" text-anchor="start" fill="#2d3436" id="c6-n3" opacity="0.35">Ejecutividad</text><text x="40" y="378" font-size="30" class="b" text-anchor="start" fill="#2d3436" id="c6-n4" opacity="0.35">Efectividad</text>
+        <path d="M300,90 L300,420" stroke="#dfe6e9" stroke-width="4" />
+        <g id="c6-p0" class="h">
+          <text x="580" y="140" font-size="36" class="b" text-anchor="middle" fill="#138a8e" >gastar menos</text>
+          <g transform="translate(580 240)"><path d="M-70,-40 L40,-40 L80,0 L40,40 L-70,40 Z" fill="#fdcb6e" /><circle cx="44" cy="0" r="10" fill="#ffffff" /><text x="-15" y="14" font-size="40" class="b" text-anchor="middle" fill="#2d3436" >$</text></g>
+          <path d="M700,200 L700,280 M684,264 L700,282 L716,264" stroke="#00b894" stroke-width="8" fill="none" stroke-linecap="round" />
+          <text x="580" y="340" font-size="30" class="m" text-anchor="middle" fill="#2d3436" >menor precio,</text><text x="580" y="378" font-size="30" class="m" text-anchor="middle" fill="#2d3436" >sin perder calidad</text>
+        </g>
+        <g id="c6-p1" class="h">
+          <text x="580" y="140" font-size="36" class="b" text-anchor="middle" fill="#138a8e" >gastar bien</text>
+          <rect x="350" y="180" width="460" height="70" rx="35" fill="#e0f4f4" /><text x="580" y="226" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >dosis por cada peso</text>
+          <rect x="350" y="270" width="460" height="70" rx="35" fill="#e0f4f4" /><text x="580" y="316" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >dosis por cada enfermero</text>
+        </g>
+        <g id="c6-p2" class="h">
+          <text x="580" y="140" font-size="36" class="b" text-anchor="middle" fill="#138a8e" >gastar sabiamente</text>
+          <rect x="340" y="190" width="480" height="56" rx="28" fill="#dfe6e9" />
+          <rect id="c6-bar" x="340" y="190" width="432" height="56" rx="28" fill="#00b894" />
+          <text x="580" y="300" font-size="32" class="b" text-anchor="middle" fill="#2d3436" >9.000 de 10.000</text>
+          <g id="c6-90" class="h"><text x="580" y="360" font-size="40" class="b" text-anchor="middle" fill="#138a8e" >90 % de la meta</text></g>
+        </g>
+        <g id="c6-p3" class="h">
+          <text x="580" y="140" font-size="36" class="b" text-anchor="middle" fill="#138a8e" >gastar a tiempo</text>
+          <rect x="420" y="170" width="160" height="150" rx="14" fill="#ffffff" stroke="#2d3436" stroke-width="5" /><rect x="420" y="170" width="160" height="40" rx="10" fill="#74b9ff" />
+          <path d="M500,232 L500,300 M470,248 L530,284 M530,248 L470,284" stroke="#74b9ff" stroke-width="7" stroke-linecap="round" />
+          <circle cx="680" cy="245" r="40" fill="#00b894" /><path d="M660,245 L674,259 L700,231" stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round" />
+          <text x="580" y="380" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >las dosis llegan antes del invierno</text>
+        </g>
+        <g id="c6-p4" class="h">
+          <text x="580" y="140" font-size="36" class="b" text-anchor="middle" fill="#138a8e" >gastar satisfactoriamente</text>
+          <path d="M360,170 L360,330 L820,330" stroke="#2d3436" stroke-width="5" fill="none" />
+          <path id="c6-curva" d="M370,190 C470,200 520,240 600,270 S740,316 810,320" stroke="#d63031" stroke-width="8" fill="none" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+          <text x="580" y="385" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >baja la enfermedad</text>
+        </g>
+      </g>
+      <g id="c6-b" class="h">
+        <rect x="20" y="30" width="405" height="160" rx="20" fill="#f1f2f6" />
+        <text x="222" y="90" font-size="32" class="b" text-anchor="middle" fill="#2d3436" >Modelo burocrático</text><text x="222" y="140" font-size="30" class="m" text-anchor="middle" fill="#636e72" >mira procedimientos</text>
+        <rect x="455" y="30" width="405" height="160" rx="20" fill="#e0f4f4" />
+        <text x="657" y="90" font-size="32" class="b" text-anchor="middle" fill="#138a8e" >Modelo gerencial</text><text x="657" y="140" font-size="30" class="b" text-anchor="middle" fill="#138a8e" >mira resultados</text>
+        <g id="c6-b2" class="h">
+          <rect x="140" y="230" width="120" height="140" rx="6" fill="#ffffff" stroke="#2d3436" stroke-width="5" /><rect x="160" y="216" width="120" height="140" rx="6" fill="#ffffff" stroke="#2d3436" stroke-width="5" />
+          <path d="M180,250 L260,250 M180,280 L260,280 M180,310 L240,310" stroke="#b2bec3" stroke-width="6" />
+          <text x="222" y="410" font-size="28" class="b" text-anchor="middle" fill="#636e72" >recetas firmadas</text>
+          <path id="c6-x" d="M120,220 L320,380 M320,220 L120,380" stroke="#d63031" stroke-width="10" pathLength="2" stroke-dasharray="2" stroke-dashoffset="2" />
+        </g>
+        <g id="c6-b3" class="h">
+          <circle cx="657" cy="280" r="60" fill="#f5c9a0" /><circle cx="637" cy="268" r="7" fill="#2d3436" /><circle cx="677" cy="268" r="7" fill="#2d3436" />
+          <path d="M630,298 Q657,322 684,298" stroke="#7a3b3b" stroke-width="7" fill="none" stroke-linecap="round" />
+          <path d="M740,240 L724,224 A10,10 0 0,1 740,212 A10,10 0 0,1 756,224 Z" fill="#e84393" transform="scale(1.4) translate(-210 -66)" />
+          <text x="657" y="410" font-size="28" class="b" text-anchor="middle" fill="#138a8e" >pacientes que mejoraron</text>
+        </g>
+      </g>
+      <g id="c6-c" class="h">
+        <rect x="40" y="30" width="800" height="120" rx="20" fill="#e0f4f4" />
+        <rect x="70" y="48" width="64" height="84" rx="6" fill="#ffffff" stroke="#2d3436" stroke-width="4" />
+        <path d="M84,72 L120,72 M84,90 L120,90 M84,108 L110,108" stroke="#b2bec3" stroke-width="5" />
+        <text x="160" y="85" font-size="34" class="b" text-anchor="start" fill="#138a8e" >Decreto Acuerdo 984/2016</text>
+        <text x="160" y="125" font-size="28" class="m" text-anchor="start" fill="#2d3436" >Catamarca adhiere al plan nacional</text>
+        <g id="c6-e1" class="h"><g><rect x="40" y="170" width="800" height="56" rx="14" fill="#138a8e" /><text x="440.0" y="207.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >Gobierno digital y abierto</text></g></g>
+        <g id="c6-e2" class="h"><g><rect x="40" y="236" width="800" height="56" rx="14" fill="#138a8e" /><text x="440.0" y="273.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >Gestión integral de recursos humanos y calidad</text></g></g>
+        <g id="c6-e3" class="h"><g><rect x="40" y="302" width="800" height="56" rx="14" fill="#138a8e" /><text x="440.0" y="339.8" font-size="28" class="b" text-anchor="middle" fill="#ffffff" >Gestión por resultados y planificación estratégica</text></g></g>
+        <g id="c6-e4" class="h"><text x="440" y="410" font-size="30" class="b" text-anchor="middle" fill="#2d3436" >Coordina: Secretaría General de Gobernación</text></g>
+      </g>
+    </svg></div>
+    <div id="c6-ttl" class="ttl" style="background: #138a8e">
+      <div class="ttl-n">Capítulo 6</div><div class="ttl-t">Gestión pública y modernización</div>
+    </div>
+    <div class="pill-slot"><div id="c6-pill" class="pill h"><span class="pill-n" style="background: #9fe6e8">Cap. 6/6</span>Gestión pública y modernización</div></div>
+    <div id="c6-ej" class="ej h">EJEMPLO DEL APUNTE</div>
+  </div>
+  <script>
+    const T0 = 217.43;
+    const tl = gsap.timeline({ paused: true });
+    const A = (t) => Math.max(0, +(t - T0).toFixed(3));
+    const C = "50% 50%";
+    function show(s, t, d) {
+      tl.set(s, { scale: 0.85, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: d || 0.35, ease: "back.out(2)" }, A(t));
+    }
+    function fade(s, t, d) {
+      tl.to(s, { opacity: 1, duration: d || 0.3, ease: "power1.out" }, A(t));
+    }
+    function hide(s, t) {
+      tl.to(s, { opacity: 0, duration: 0.25, ease: "power2.in" }, A(t - 0.25));
+    }
+    function draw(s, t, d) {
+      tl.to(s, { strokeDashoffset: 0, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+    }
+    function pulse(s, t) {
+      tl.to(s, { scale: 1.12, transformOrigin: C, duration: 0.18, yoyo: true, repeat: 1, ease: "sine.inOut" }, A(t));
+    }
+
+    tl.fromTo("#c6-ttl", { opacity: 1, scale: 0.94, transformOrigin: C }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, 0);
+    hide("#c6-ttl", 220.9);
+    show("#c6-pill", 220.8);
+    hide("#c6-pill", 284.8);
+    show("#c6-ej", 223.79);
+    hide("#c6-ej", 254.5);
+    show("#c6-ej", 259.72);
+    hide("#c6-ej", 264.85);
+
+    fade("#c6-a", 220.97);
+    hide("#c6-h1", 223.79);
+    show("#c6-h2", 223.79);
+    tl.to("#c6-hl", { y: 0, opacity: 0.2, duration: 0.3, ease: "power2.inOut" }, A(228.61));
+    tl.to("#c6-n0", { opacity: 1, duration: 0.2 }, A(228.61));
+    show("#c6-p0", 228.61);
+    tl.to("#c6-hl", { y: 62, opacity: 0.2, duration: 0.3, ease: "power2.inOut" }, A(233.48));
+    tl.to("#c6-n1", { opacity: 1, duration: 0.2 }, A(233.48));
+    hide("#c6-p0", 233.48);
+    show("#c6-p1", 233.48);
+    tl.to("#c6-hl", { y: 124, opacity: 0.2, duration: 0.3, ease: "power2.inOut" }, A(238.53));
+    tl.to("#c6-n2", { opacity: 1, duration: 0.2 }, A(238.53));
+    hide("#c6-p1", 238.53);
+    show("#c6-p2", 238.53);
+    tl.to("#c6-hl", { y: 186, opacity: 0.2, duration: 0.3, ease: "power2.inOut" }, A(244.55));
+    tl.to("#c6-n3", { opacity: 1, duration: 0.2 }, A(244.55));
+    hide("#c6-p2", 244.55);
+    show("#c6-p3", 244.55);
+    tl.to("#c6-hl", { y: 248, opacity: 0.2, duration: 0.3, ease: "power2.inOut" }, A(248.67));
+    tl.to("#c6-n4", { opacity: 1, duration: 0.2 }, A(248.67));
+    hide("#c6-p3", 248.67);
+    show("#c6-p4", 248.67);
+    tl.set("#c6-bar", { scaleX: 0, transformOrigin: "0% 50%" }, A(238.53));
+    tl.to("#c6-bar", { scaleX: 1, duration: 2.2, ease: "power2.out" }, A(239.6));
+    show("#c6-90", 242.3);
+    draw("#c6-curva", 249.9, 2.0);
+    hide("#c6-a", 254.55);
+    fade("#c6-b", 254.6);
+    show("#c6-b2", 259.72);
+    draw("#c6-x", 261.2, 0.5);
+    show("#c6-b3", 262.2);
+    hide("#c6-b", 264.9);
+    fade("#c6-c", 264.95);
+    show("#c6-e1", 274.0);
+    show("#c6-e2", 275.9);
+    show("#c6-e3", 278.2);
+    show("#c6-e4", 280.91);
+    tl.set({}, {}, 67.42);
+    window.__timelines["c6"] = tl;
+  </script>
+</template>

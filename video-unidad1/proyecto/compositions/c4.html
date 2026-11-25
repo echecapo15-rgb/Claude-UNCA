@@ -1,0 +1,154 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: Nunito, sans-serif; }
+    .h { opacity: 0; }
+    .brd { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; }
+    .brd svg { position: absolute; left: 0; top: 0; width: 880px; height: 470px; overflow: visible; }
+    .brd text { font-family: Nunito, sans-serif; }
+    .b { font-weight: 900; }
+    .m { font-weight: 700; }
+    .ttl { position: absolute; left: 100px; top: 430px; width: 880px; height: 470px; border-radius: 22px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      color: #ffffff; text-align: center; }
+    .ttl-n { font-size: 40px; font-weight: 700; letter-spacing: 0.06em; opacity: 0.9; }
+    .ttl-t { font-size: 66px; font-weight: 900; line-height: 1.05; max-width: 760px; }
+    .pill-slot { position: absolute; left: 0; right: 0; top: 300px; display: flex; justify-content: center; }
+    .pill { display: flex; align-items: center; gap: 14px; padding: 12px 28px; border-radius: 999px;
+      background: rgba(16, 18, 42, 0.82); color: #ffffff; font-size: 34px; font-weight: 900; max-width: 840px; }
+    .pill-n { font-size: 30px; font-weight: 900; padding: 3px 14px; border-radius: 999px; color: #10122a; }
+    .ej { position: absolute; left: 130px; top: 396px; padding: 8px 20px; border-radius: 12px;
+      background: #ffd166; color: #2d2200; font-size: 28px; font-weight: 900; letter-spacing: 0.04em;
+      box-shadow: 0 5px 0 rgba(0, 0, 0, 0.18); }
+
+    #c4-pill .pill-n { background: #ffd3a8; }
+    .acc { fill: #d9761e; }
+    .accs { stroke: #d9761e; }
+  </style>
+  <div id="root" data-composition-id="c4" data-width="1080" data-height="1920">
+    <div class="brd"><svg viewBox="0 0 880 470" xmlns="http://www.w3.org/2000/svg">
+      <g id="c4-a">
+        <g id="c4-t0" class="h">
+          <rect x="15" y="20" width="420" height="205" rx="18" fill="#fff1e3" />
+          <g transform="translate(73 82)"><path d="M-26,-22 L0,-32 L26,-22 L26,4 Q26,26 0,34 Q-26,26 -26,4 Z" fill="#2d3436"/></g>
+          <text x="120" y="94" font-size="32" class="b" text-anchor="start" fill="#d9761e" >Liberal o gendarme</text>
+          <text x="45" y="155" font-size="30" class="m" text-anchor="start" fill="#2d3436" >interviene lo mínimo:</text>
+          <text x="45" y="195" font-size="30" class="m" text-anchor="start" fill="#2d3436" >orden y propiedad</text>
+        </g>
+        <g id="c4-t1" class="h">
+          <rect x="445" y="20" width="420" height="205" rx="18" fill="#fff1e3" />
+          <g transform="translate(503 82)"><circle r="30" fill="#636e72"/><text y="11" font-size="32" text-anchor="middle" fill="#ffffff" class="b">2°</text></g>
+          <text x="550" y="94" font-size="32" class="b" text-anchor="start" fill="#d9761e" >Subsidiario</text>
+          <text x="475" y="155" font-size="30" class="m" text-anchor="start" fill="#2d3436" >solo si el particular</text>
+          <text x="475" y="195" font-size="30" class="m" text-anchor="start" fill="#2d3436" >no puede</text>
+        </g>
+        <g id="c4-t2" class="h">
+          <rect x="15" y="240" width="420" height="205" rx="18" fill="#fff1e3" />
+          <g transform="translate(73 302)"><path d="M0,26 L-28,-2 A16,16 0 0,1 0,-22 A16,16 0 0,1 28,-2 Z" fill="#e84393"/></g>
+          <text x="120" y="314" font-size="32" class="b" text-anchor="start" fill="#d9761e" >De bienestar</text>
+          <text x="45" y="375" font-size="30" class="m" text-anchor="start" fill="#2d3436" >garantiza derechos</text>
+          <text x="45" y="415" font-size="30" class="m" text-anchor="start" fill="#2d3436" >sociales</text>
+        </g>
+        <g id="c4-t3" class="h">
+          <rect x="445" y="240" width="420" height="205" rx="18" fill="#fff1e3" />
+          <g transform="translate(503 302)"><circle r="22" fill="none" stroke="#d63031" stroke-width="12" stroke-dasharray="10 7"/><circle r="9" fill="#d63031"/></g>
+          <text x="550" y="314" font-size="32" class="b" text-anchor="start" fill="#d9761e" >Socialista</text>
+          <text x="475" y="375" font-size="30" class="m" text-anchor="start" fill="#2d3436" >planifica y controla</text>
+          <text x="475" y="415" font-size="30" class="m" text-anchor="start" fill="#2d3436" >la producción</text>
+        </g>
+      </g>
+      <g id="c4-b" class="h">
+        <rect id="c4-hl" x="15" y="20" width="190" height="56" rx="28" fill="#d9761e" opacity="0.25" />
+        <text x="110" y="58" font-size="28" class="b" text-anchor="middle" fill="#636e72" >Liberal</text><text x="330" y="58" font-size="28" class="b" text-anchor="middle" fill="#636e72" >Subsidiario</text><text x="550" y="58" font-size="28" class="b" text-anchor="middle" fill="#636e72" >Bienestar</text><text x="770" y="58" font-size="28" class="b" text-anchor="middle" fill="#636e72" >Socialista</text>
+        <g id="c4-r0" class="h"><text x="440" y="125" font-size="32" class="b" text-anchor="middle" fill="#d9761e" >No interviene</text></g>
+        <g id="c4-r1" class="h"><text x="440" y="125" font-size="30" class="b" text-anchor="middle" fill="#d9761e" >Interviene solo si ningún privado la construye</text></g>
+        <g id="c4-r2" class="h"><text x="440" y="125" font-size="30" class="b" text-anchor="middle" fill="#d9761e" >La construye y la financia como derecho social</text></g>
+        <g id="c4-r3" class="h"><text x="440" y="125" font-size="32" class="b" text-anchor="middle" fill="#d9761e" >Planifica toda la educación</text></g>
+        <path d="M20,400 L860,400" stroke="#2d3436" stroke-width="6" />
+        <g fill="#74b9ff">
+          <path d="M40,330 L90,290 L140,330 Z" fill="#e17055"/><rect x="50" y="330" width="80" height="70" />
+          <path d="M150,340 L195,305 L240,340 Z" fill="#e17055"/><rect x="160" y="340" width="70" height="60" />
+          <path d="M660,330 L710,290 L760,330 Z" fill="#e17055"/><rect x="670" y="330" width="80" height="70" />
+          <path d="M770,340 L815,305 L860,340 Z" fill="#e17055"/><rect x="780" y="340" width="70" height="60" />
+        </g>
+        <g id="c4-lote">
+          <rect x="300" y="380" width="280" height="20" fill="#c8a27a" />
+          <rect x="436" y="300" width="8" height="80" fill="#a86e45" />
+          <rect x="350" y="250" width="180" height="60" rx="8" fill="#ffffff" stroke="#2d3436" stroke-width="4" />
+          <text x="440" y="290" font-size="28" class="b" text-anchor="middle" fill="#2d3436" >falta escuela</text>
+        </g>
+        <g id="c4-priv" class="h">
+          <circle cx="620" cy="230" r="34" fill="#ffffff" stroke="#2d3436" stroke-width="4" />
+          <text x="620" y="244" font-size="36" class="b" text-anchor="middle" fill="#2d3436" >?</text>
+          <text x="620" y="190" font-size="28" class="m" text-anchor="middle" fill="#636e72" >¿un privado?</text>
+        </g>
+        <g id="c4-esc" class="h">
+          <path d="M320,260 L440,190 L560,260 Z" fill="#e17055" /><rect x="335" y="260" width="210" height="140" fill="#fdcb6e" />
+          <rect x="415" y="320" width="50" height="80" fill="#a86e45" /><rect x="355" y="280" width="40" height="34" fill="#ffffff" /><rect x="485" y="280" width="40" height="34" fill="#ffffff" />
+        </g>
+        <g id="c4-plan" class="h">
+          <rect x="20" y="160" width="840" height="240" fill="#0984e3" opacity="0.16" />
+          <path d="M20,220 L860,220 M20,280 L860,280 M20,340 L860,340 M230,160 L230,400 M440,160 L440,400 M650,160 L650,400" stroke="#0984e3" stroke-width="3" stroke-dasharray="10 8" />
+        </g>
+      </g>
+    </svg></div>
+    <div id="c4-ttl" class="ttl" style="background: #d9761e">
+      <div class="ttl-n">Capítulo 4</div><div class="ttl-t">Tipos de Estado</div>
+    </div>
+    <div class="pill-slot"><div id="c4-pill" class="pill h"><span class="pill-n" style="background: #ffd3a8">Cap. 4/6</span>Tipos de Estado</div></div>
+    <div id="c4-ej" class="ej h">EJEMPLO DEL APUNTE</div>
+  </div>
+  <script>
+    const T0 = 122.45;
+    const tl = gsap.timeline({ paused: true });
+    const A = (t) => Math.max(0, +(t - T0).toFixed(3));
+    const C = "50% 50%";
+    function show(s, t, d) {
+      tl.set(s, { scale: 0.85, transformOrigin: C }, A(t));
+      tl.to(s, { opacity: 1, scale: 1, duration: d || 0.35, ease: "back.out(2)" }, A(t));
+    }
+    function fade(s, t, d) {
+      tl.to(s, { opacity: 1, duration: d || 0.3, ease: "power1.out" }, A(t));
+    }
+    function hide(s, t) {
+      tl.to(s, { opacity: 0, duration: 0.25, ease: "power2.in" }, A(t - 0.25));
+    }
+    function draw(s, t, d) {
+      tl.to(s, { strokeDashoffset: 0, duration: d || 0.8, ease: "power1.inOut" }, A(t));
+    }
+    function pulse(s, t) {
+      tl.to(s, { scale: 1.12, transformOrigin: C, duration: 0.18, yoyo: true, repeat: 1, ease: "sine.inOut" }, A(t));
+    }
+
+    tl.fromTo("#c4-ttl", { opacity: 1, scale: 0.94, transformOrigin: C }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, 0);
+    hide("#c4-ttl", 125.2);
+    show("#c4-pill", 125.10000000000001);
+    hide("#c4-pill", 158.76);
+    show("#c4-ej", 143.02);
+    hide("#c4-ej", 158.6);
+
+    show("#c4-t0", 125.33);
+    show("#c4-t1", 131.2);
+    show("#c4-t2", 134.8);
+    show("#c4-t3", 139.82);
+    hide("#c4-a", 142.95);
+    fade("#c4-b", 143.02);
+    show("#c4-r0", 146.18);
+    hide("#c4-r0", 148.3);
+    tl.to("#c4-hl", { x: 220, duration: 0.35, ease: "power2.inOut" }, A(148.35));
+    show("#c4-r1", 148.35);
+    show("#c4-priv", 148.6);
+    hide("#c4-r1", 151.9);
+    hide("#c4-priv", 151.9);
+    tl.to("#c4-hl", { x: 440, duration: 0.35, ease: "power2.inOut" }, A(151.94));
+    show("#c4-r2", 151.94);
+    hide("#c4-lote", 152.2);
+    tl.set("#c4-esc", { scaleY: 0, transformOrigin: "50% 100%" }, A(152.2));
+    tl.to("#c4-esc", { opacity: 1, scaleY: 1, duration: 1.1, ease: "power2.out" }, A(152.2));
+    hide("#c4-r2", 155.8);
+    tl.to("#c4-hl", { x: 660, duration: 0.35, ease: "power2.inOut" }, A(155.82));
+    show("#c4-r3", 155.82);
+    fade("#c4-plan", 156.0, 0.5);
+    tl.set({}, {}, 36.36);
+    window.__timelines["c4"] = tl;
+  </script>
+</template>

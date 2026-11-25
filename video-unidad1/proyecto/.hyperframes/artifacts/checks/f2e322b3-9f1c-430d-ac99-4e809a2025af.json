@@ -1,0 +1,884 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 8,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "svg_round_cap_hidden_dash",
+        "severity": "warning",
+        "message": "<path> is hidden with stroke-dasharray 1 and stroke-dashoffset 1 on pathLength 1, but its round cap can still paint a dot at the end of the path (Chrome rounds the zero-length dash differently per curve).",
+        "selector": "#c2-ruta",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/Claude-UNCA/video-unidad1/proyecto/compositions/c2.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Make the gap longer than the path (stroke-dasharray \"1 1.2\" with stroke-dashoffset 1.1), or keep the element visibility:hidden until its draw tween starts."
+      },
+      {
+        "code": "svg_round_cap_hidden_dash",
+        "severity": "warning",
+        "message": "<path> is hidden with stroke-dasharray 1 and stroke-dashoffset 1 on pathLength 1, but its round cap can still paint a dot at the end of the path (Chrome rounds the zero-length dash differently per curve).",
+        "selector": "#c6-curva",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/Claude-UNCA/video-unidad1/proyecto/compositions/c6.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Make the gap longer than the path (stroke-dasharray \"1 1.2\" with stroke-dashoffset 1.1), or keep the element visibility:hidden until its draw tween starts."
+      },
+      {
+        "code": "svg_round_cap_hidden_dash",
+        "severity": "warning",
+        "message": "<path> is hidden with stroke-dasharray 2 and stroke-dashoffset 2 on pathLength 2, but its round cap can still paint a dot at the end of the path (Chrome rounds the zero-length dash differently per curve).",
+        "selector": "#c6-x",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/Claude-UNCA/video-unidad1/proyecto/compositions/c6.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Make the gap longer than the path (stroke-dasharray \"2 2.4\" with stroke-dashoffset 2.2), or keep the element visibility:hidden until its draw tween starts."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#est-girl\" for y between 55.80s and 56.52s.",
+        "selector": "#est-girl",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/Claude-UNCA/video-unidad1/proyecto/compositions/estudiante.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#est-girl\" for y between 69.70s and 69.82s.",
+        "selector": "#est-girl",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/Claude-UNCA/video-unidad1/proyecto/compositions/estudiante.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#est-eyes\" for x, y between 174.00s and 174.15s.",
+        "selector": "#est-eyes",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/Claude-UNCA/video-unidad1/proyecto/compositions/estudiante.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#est-girl\" for y between 240.80s and 241.52s.",
+        "selector": "#est-girl",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/Claude-UNCA/video-unidad1/proyecto/compositions/estudiante.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "composition_file_too_large",
+        "severity": "warning",
+        "message": "This HTML composition file has 408 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/Claude-UNCA/video-unidad1/proyecto/compositions/estudiante.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Split this sub-composition further into smaller .html files, then mount them from the parent with data-composition-src so each file stays small enough to inspect, revise, and validate independently."
+      }
+    ],
+    "filesScanned": 10
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 14,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "rotation_pivot_drift",
+        "severity": "warning",
+        "time": 283.333,
+        "selector": "#est-arm-r",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 556,
+          "y": 1301.91,
+          "width": 116.24,
+          "height": 212
+        },
+        "rect": {
+          "left": 556,
+          "top": 1301.91,
+          "right": 672.24,
+          "bottom": 1513.91,
+          "width": 116.24,
+          "height": 212
+        },
+        "message": "Rotating element's bounding-box center drifts 74px across rotation — it is not spinning about its own center (check transformOrigin/svgOrigin).",
+        "fixHint": "The bounding-box center should stay fixed while the element spins; check its transformOrigin/svgOrigin so rotation pivots about the element's own center rather than a point in a coordinate space it was resized out of.",
+        "firstSeen": 283.333,
+        "lastSeen": 283.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          283.333
+        ]
+      },
+      {
+        "selector": "#c1-a > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 624.4,
+          "y": 639,
+          "width": 291.2,
+          "height": 49
+        },
+        "time": 16.667,
+        "rect": {
+          "left": 624.4,
+          "top": 639,
+          "right": 915.6,
+          "bottom": 688,
+          "width": 291.2,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Empresa privada",
+        "message": "<text> \"Empresa privada\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 16.667,
+        "lastSeen": 16.667,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          16.667
+        ]
+      },
+      {
+        "selector": "#c1-t2 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 734.18,
+          "y": 581,
+          "width": 171.64,
+          "height": 43
+        },
+        "time": 50,
+        "rect": {
+          "left": 734.18,
+          "top": 581,
+          "right": 905.82,
+          "bottom": 624,
+          "width": 171.64,
+          "height": 43
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Perdurable",
+        "message": "<text> \"Perdurable\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 50,
+        "lastSeen": 50,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          50
+        ]
+      },
+      {
+        "selector": "#c1-t2 > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 733.6,
+          "y": 620,
+          "width": 172.8,
+          "height": 38
+        },
+        "time": 50,
+        "rect": {
+          "left": 733.6,
+          "top": 620,
+          "right": 906.4,
+          "bottom": 658,
+          "width": 172.8,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "sigue aunque",
+        "message": "<text> \"sigue aunque\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 50,
+        "lastSeen": 50,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          50
+        ]
+      },
+      {
+        "selector": "#c1-t2 > text:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 696.48,
+          "y": 652,
+          "width": 247.04,
+          "height": 38
+        },
+        "time": 50,
+        "rect": {
+          "left": 696.48,
+          "top": 652,
+          "right": 943.52,
+          "bottom": 690,
+          "width": 247.04,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "cambie el gobierno",
+        "message": "<text> \"cambie el gobierno\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 50,
+        "lastSeen": 50,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          50
+        ]
+      },
+      {
+        "selector": "#c1-t5 > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 697.84,
+          "y": 816,
+          "width": 244.32,
+          "height": 38
+        },
+        "time": 50,
+        "rect": {
+          "left": 697.84,
+          "top": 816,
+          "right": 942.16,
+          "bottom": 854,
+          "width": 244.32,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "se divide en partes",
+        "message": "<text> \"se divide en partes\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 50,
+        "lastSeen": 50,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          50
+        ]
+      },
+      {
+        "selector": "#c1-t5 > text:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 688.3,
+          "y": 848,
+          "width": 263.4,
+          "height": 38
+        },
+        "time": 50,
+        "rect": {
+          "left": 688.3,
+          "top": 848,
+          "right": 951.7,
+          "bottom": 886,
+          "width": 263.4,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "para cada necesidad",
+        "message": "<text> \"para cada necesidad\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 50,
+        "lastSeen": 50,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          50
+        ]
+      },
+      {
+        "selector": "#c3-r > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c3.html",
+        "bbox": {
+          "x": 636.8,
+          "y": 622,
+          "width": 256.4,
+          "height": 46
+        },
+        "time": 116.667,
+        "rect": {
+          "left": 636.8,
+          "top": 622,
+          "right": 893.2,
+          "bottom": 668,
+          "width": 256.4,
+          "height": 46
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Poder Ejecutivo",
+        "message": "<text> \"Poder Ejecutivo\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 116.667,
+        "lastSeen": 116.667,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          116.667
+        ]
+      },
+      {
+        "selector": "#c3-r > text:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c3.html",
+        "bbox": {
+          "x": 593.38,
+          "y": 664,
+          "width": 343.25,
+          "height": 38
+        },
+        "time": 116.667,
+        "rect": {
+          "left": 593.38,
+          "top": 664,
+          "right": 936.63,
+          "bottom": 702,
+          "width": 343.25,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "órgano directivo · ejecuta",
+        "message": "<text> \"órgano directivo · ejecuta\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 116.667,
+        "lastSeen": 116.667,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          116.667
+        ]
+      },
+      {
+        "selector": "#c4-b > text:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c4.html",
+        "bbox": {
+          "x": 804.2,
+          "y": 460,
+          "width": 131.6,
+          "height": 38
+        },
+        "time": 150,
+        "rect": {
+          "left": 804.2,
+          "top": 460,
+          "right": 935.8,
+          "bottom": 498,
+          "width": 131.6,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Socialista",
+        "message": "<text> \"Socialista\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 150,
+        "lastSeen": 150,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          150
+        ]
+      },
+      {
+        "selector": "#c5-des > text:nth-of-type(8)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c5.html",
+        "bbox": {
+          "x": 748.48,
+          "y": 726,
+          "width": 143.04,
+          "height": 38
+        },
+        "time": 183.333,
+        "rect": {
+          "left": 748.48,
+          "top": 726,
+          "right": 891.52,
+          "bottom": 764,
+          "width": 143.04,
+          "height": 38
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "del interior",
+        "message": "<text> \"del interior\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 183.333,
+        "lastSeen": 183.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          183.333
+        ]
+      },
+      {
+        "selector": "#c5-des2 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c5.html",
+        "bbox": {
+          "x": 219.1,
+          "y": 822.75,
+          "width": 641.82,
+          "height": 36.54
+        },
+        "time": 183.333,
+        "rect": {
+          "left": 219.1,
+          "top": 822.75,
+          "right": 860.92,
+          "bottom": 859.29,
+          "width": 641.82,
+          "height": 36.54
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "misma jerarquía · sin personalidad jurídica prop",
+        "message": "<text> \"misma jerarquía · sin personalidad jurídica prop\" is outside the safe area: TikTok (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 183.333,
+        "lastSeen": 183.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          183.333
+        ]
+      },
+      {
+        "selector": "#c6-p4 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c6.html",
+        "bbox": {
+          "x": 455.33,
+          "y": 534,
+          "width": 449.34,
+          "height": 49
+        },
+        "time": 250,
+        "rect": {
+          "left": 455.33,
+          "top": 534,
+          "right": 904.67,
+          "bottom": 583,
+          "width": 449.34,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "gastar satisfactoriamente",
+        "message": "<text> \"gastar satisfactoriamente\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 250,
+        "lastSeen": 250,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          250
+        ]
+      },
+      {
+        "selector": "#c6-e4 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c6.html",
+        "bbox": {
+          "x": 212.95,
+          "y": 810,
+          "width": 654.1,
+          "height": 41
+        },
+        "time": 283.333,
+        "rect": {
+          "left": 212.95,
+          "top": 810,
+          "right": 867.05,
+          "bottom": 851,
+          "width": 654.1,
+          "height": 41
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Coordina: Secretaría General de Gobernación",
+        "message": "<text> \"Coordina: Secretaría General de Gobernación\" is outside the safe area: TikTok (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 283.333,
+        "lastSeen": 283.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          283.333
+        ]
+      }
+    ],
+    "duration": 300,
+    "samples": [
+      16.667,
+      50,
+      83.333,
+      116.667,
+      150,
+      183.333,
+      216.667,
+      250,
+      283.333
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 14,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.91:1; WCAG AA requires 3:1.",
+        "text": "La diferencia: el FIN",
+        "fg": "rgb(255,255,255)",
+        "bg": "rgb(151,139,235)",
+        "ratio": 2.91,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(74,74,74)",
+        "large": true,
+        "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(1) > svg > g:nth-of-type(1) > g > text",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 357.5859375,
+          "y": 755,
+          "width": 364.828125,
+          "height": 51
+        },
+        "time": 16.667,
+        "times": [
+          16.667
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      16.667,
+      83.333,
+      150,
+      216.667,
+      283.333
+    ],
+    "checked": 40,
+    "passed": 39
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 4,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"La diferencia: el FIN\" (4 words) is on screen 0.81 s (±0.02 s), under its 1.27 s floor: hold it about 0.5 s + 0.3 s a word (1.70 s here) before it leaves or changes; see references/motion.md.",
+        "text": "La diferencia: el FIN",
+        "selector": "#c1-a2 > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c1.html",
+        "bbox": {
+          "x": 354.59,
+          "y": 754.59,
+          "width": 370.82,
+          "height": 51.84000000000003
+        },
+        "time": 15.902,
+        "words": 4,
+        "seconds": 0.814,
+        "floorSeconds": 1.275,
+        "measured": [
+          {
+            "time": 14.524,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 15.025,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 15.526,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 16.027,
+            "opacity": 1,
+            "heightPx": 52
+          },
+          {
+            "time": 16.528,
+            "opacity": 1,
+            "heightPx": 51
+          },
+          {
+            "time": 17.028,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 17.529,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.03,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"Art. 110 · Const. de Catamarca\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Art. 110 · Const. de Catamarca",
+        "selector": "#c3-art > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c3.html",
+        "bbox": {
+          "x": 118.07,
+          "y": 836.98,
+          "width": 393.86,
+          "height": 35.94
+        },
+        "time": 104.174,
+        "times": [
+          104.174,
+          115.192
+        ],
+        "fontPx": 26.48,
+        "floorPx": 28,
+        "seconds": 0.501,
+        "elements": [
+          {
+            "selector": "#c3-art > text:nth-of-type(1)",
+            "text": "Art. 110 · Const. de Catamarca",
+            "fontPx": 26.48,
+            "time": 104.174,
+            "seconds": 0.501
+          },
+          {
+            "selector": "#c3-ej",
+            "text": "EJEMPLO DEL APUNTE",
+            "fontPx": 26.82,
+            "time": 115.192,
+            "seconds": 0.501
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"(ordenanzas)\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "(ordenanzas)",
+        "selector": "#c5-aut2 > text:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c5.html",
+        "bbox": {
+          "x": 678.73,
+          "y": 720.7,
+          "width": 156.61,
+          "height": 35.25
+        },
+        "time": 212.855,
+        "times": [
+          183.306,
+          212.855
+        ],
+        "fontPx": 25.97,
+        "floorPx": 28,
+        "seconds": 0.501,
+        "elements": [
+          {
+            "selector": "#c5-aut2 > text:nth-of-type(5)",
+            "text": "(ordenanzas)",
+            "fontPx": 25.97,
+            "time": 212.855,
+            "seconds": 0.501
+          },
+          {
+            "selector": "#c5-des2 > text:nth-of-type(1)",
+            "text": "misma jerarquía · sin personalidad jurídica propia",
+            "fontPx": 26.92,
+            "time": 183.306,
+            "seconds": 0.501
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"Cap. 6/6\" at 27 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Cap. 6/6",
+        "selector": "#c6-pill > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/c6.html",
+        "bbox": {
+          "x": 225.15,
+          "y": 316.8,
+          "width": 105.97,
+          "height": 36.4
+        },
+        "time": 220.868,
+        "times": [
+          220.868,
+          223.873
+        ],
+        "fontPx": 26.82,
+        "floorPx": 28,
+        "seconds": 0.501,
+        "elements": [
+          {
+            "selector": "#c6-pill > span:nth-of-type(1)",
+            "text": "Cap. 6/6",
+            "fontPx": 26.82,
+            "time": 220.868,
+            "seconds": 0.501
+          },
+          {
+            "selector": "#c6-ej",
+            "text": "EJEMPLO DEL APUNTE",
+            "fontPx": 27.12,
+            "time": 223.873,
+            "seconds": 0.501
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.5010000000000012,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}
