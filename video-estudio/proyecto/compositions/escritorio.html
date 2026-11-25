@@ -1,0 +1,550 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #4b4e8c;
+    }
+    #esc-svg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+      height: 1920px;
+    }
+    .esc-hide {
+      opacity: 0;
+    }
+    .esc-num {
+      font-family: Nunito, sans-serif;
+      font-weight: 900;
+    }
+  </style>
+  <div id="root" data-composition-id="escritorio" data-width="1080" data-height="1920">
+    <svg id="esc-svg" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+      <!-- Pared y piso -->
+      <rect id="esc-wall" x="0" y="0" width="1080" height="1560" fill="#4b4e8c" />
+      <rect id="esc-floor" x="0" y="1560" width="1080" height="360" fill="#2e3060" />
+
+      <!-- Ventana -->
+      <g id="esc-window">
+        <rect x="90" y="560" width="240" height="300" rx="18" fill="#ffffff" />
+        <rect id="esc-sky" x="106" y="576" width="208" height="268" rx="8" fill="#8fd3ff" />
+        <circle id="esc-sun" cx="262" cy="640" r="32" fill="#ffd166" />
+        <g id="esc-moon" class="esc-hide">
+          <circle cx="250" cy="645" r="32" fill="#fff3c4" />
+          <circle cx="266" cy="634" r="28" fill="#1b2350" />
+          <circle cx="150" cy="620" r="4" fill="#fff3c4" />
+          <circle cx="180" cy="700" r="3" fill="#fff3c4" />
+          <circle cx="280" cy="760" r="4" fill="#fff3c4" />
+          <circle cx="140" cy="790" r="3" fill="#fff3c4" />
+        </g>
+        <rect x="206" y="576" width="8" height="268" fill="#ffffff" />
+        <rect x="106" y="706" width="208" height="8" fill="#ffffff" />
+      </g>
+
+      <!-- Calendario -->
+      <g id="esc-cal" data-layout-ignore>
+        <rect x="748" y="560" width="244" height="226" rx="16" fill="#ffffff" />
+        <rect x="748" y="560" width="244" height="60" rx="16" fill="#ff6b6b" />
+        <rect x="748" y="596" width="244" height="24" fill="#ff6b6b" />
+        <circle cx="800" cy="560" r="9" fill="#2d3436" />
+        <circle cx="940" cy="560" r="9" fill="#2d3436" />
+        <g fill="#f1f2f6">
+          <rect x="762" y="636" width="50" height="50" rx="8" />
+          <rect x="818" y="636" width="50" height="50" rx="8" />
+          <rect x="874" y="636" width="50" height="50" rx="8" />
+          <rect x="930" y="636" width="50" height="50" rx="8" />
+          <rect x="762" y="698" width="50" height="50" rx="8" />
+          <rect x="818" y="698" width="50" height="50" rx="8" />
+          <rect x="874" y="698" width="50" height="50" rx="8" />
+        </g>
+        <g class="esc-num" font-size="24" fill="#636e72" text-anchor="middle">
+          <text x="787" y="670">1</text>
+          <text x="843" y="670">2</text>
+          <text x="899" y="670">3</text>
+          <text x="955" y="670">4</text>
+          <text x="787" y="732">5</text>
+          <text x="843" y="732">6</text>
+          <text x="899" y="732">7</text>
+        </g>
+        <g fill="none" stroke="#00b894" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+          <path id="esc-chk1" class="esc-hide" d="M770,662 L784,678 L808,644" />
+          <path id="esc-chk3" class="esc-hide" d="M882,662 L896,678 L920,644" />
+          <path id="esc-chk7" class="esc-hide" d="M882,724 L896,740 L920,706" />
+        </g>
+      </g>
+
+      <!-- Silla -->
+      <rect x="380" y="900" width="320" height="320" rx="44" fill="#2d3436" />
+
+      <!-- Estudiante -->
+      <g id="esc-girl">
+        <path
+          d="M410,1200 L420,1010 Q430,958 492,954 L588,954 Q650,958 660,1010 L670,1200 Z"
+          fill="#ff7675"
+        />
+        <path d="M500,956 Q540,990 580,956" fill="none" stroke="#e8605f" stroke-width="8" />
+        <rect x="518" y="900" width="44" height="66" rx="10" fill="#e3a57c" />
+
+        <g id="esc-head">
+          <circle cx="540" cy="790" r="140" fill="#3d2c2e" />
+          <circle id="esc-bun" cx="540" cy="640" r="58" fill="#3d2c2e" />
+          <rect x="500" y="684" width="80" height="16" rx="8" fill="#fdcb6e" />
+          <circle cx="414" cy="815" r="22" fill="#eab48d" />
+          <circle cx="666" cy="815" r="22" fill="#eab48d" />
+          <ellipse cx="540" cy="808" rx="125" ry="128" fill="#f5c9a0" />
+          <path
+            d="M416,790 Q424,664 540,656 Q656,664 664,790 Q622,724 566,736 Q524,700 470,744 Q438,758 416,790 Z"
+            fill="#3d2c2e"
+          />
+          <g id="esc-brows" fill="none" stroke="#3d2c2e" stroke-width="8" stroke-linecap="round">
+            <path d="M472,768 Q494,758 516,766" />
+            <path d="M564,766 Q586,758 608,768" />
+          </g>
+          <g id="esc-eyes">
+            <g id="esc-eyes-open">
+              <ellipse cx="495" cy="818" rx="13" ry="17" fill="#2d2d2d" />
+              <ellipse cx="585" cy="818" rx="13" ry="17" fill="#2d2d2d" />
+              <circle cx="499" cy="811" r="5" fill="#ffffff" />
+              <circle cx="589" cy="811" r="5" fill="#ffffff" />
+            </g>
+            <g id="esc-lids">
+              <rect x="476" y="798" width="38" height="20" fill="#f5c9a0" />
+              <rect x="566" y="798" width="38" height="20" fill="#f5c9a0" />
+              <path d="M478,818 L512,818 M568,818 L602,818" stroke="#3d2c2e" stroke-width="5" stroke-linecap="round" />
+            </g>
+            <g
+              id="esc-eyes-closed"
+              class="esc-hide"
+              fill="none"
+              stroke="#2d2d2d"
+              stroke-width="6"
+              stroke-linecap="round"
+            >
+              <path d="M479,816 Q495,832 511,816" />
+              <path d="M569,816 Q585,832 601,816" />
+            </g>
+          </g>
+          <g fill="none" stroke="#2d3436" stroke-width="6">
+            <circle cx="495" cy="818" r="34" />
+            <circle cx="585" cy="818" r="34" />
+            <path d="M529,814 Q540,806 551,814" />
+          </g>
+          <circle cx="462" cy="870" r="17" fill="#ff9aa2" opacity="0.7" />
+          <circle cx="618" cy="870" r="17" fill="#ff9aa2" opacity="0.7" />
+          <path
+            id="esc-m-smile"
+            class="esc-hide"
+            d="M512,884 Q540,910 568,884"
+            fill="none"
+            stroke="#7a3b3b"
+            stroke-width="7"
+            stroke-linecap="round"
+          />
+          <path
+            id="esc-m-flat"
+            d="M518,892 Q540,886 562,892"
+            fill="none"
+            stroke="#7a3b3b"
+            stroke-width="7"
+            stroke-linecap="round"
+          />
+          <ellipse id="esc-m-open" class="esc-hide" cx="540" cy="892" rx="19" ry="16" fill="#7a3b3b" />
+          <path id="esc-sweat" class="esc-hide" d="M676,740 Q690,764 676,776 Q662,764 676,740 Z" fill="#74b9ff" />
+        </g>
+
+        <g id="esc-arm-l">
+          <path
+            d="M432,1002 Q392,1100 418,1168 L482,1174"
+            fill="none"
+            stroke="#ff7675"
+            stroke-width="52"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <circle cx="492" cy="1172" r="26" fill="#f5c9a0" />
+        </g>
+        <g id="esc-arm-r">
+          <path
+            d="M648,1002 Q688,1100 662,1168 L598,1174"
+            fill="none"
+            stroke="#ff7675"
+            stroke-width="52"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <circle cx="588" cy="1172" r="26" fill="#f5c9a0" />
+          <path
+            id="esc-thumb"
+            class="esc-hide"
+            d="M588,1172 L612,1212"
+            stroke="#f5c9a0"
+            stroke-width="22"
+            stroke-linecap="round"
+          />
+        </g>
+      </g>
+
+      <!-- Escritorio -->
+      <rect x="80" y="1224" width="920" height="336" fill="#a86e45" />
+      <rect x="120" y="1270" width="360" height="110" rx="12" fill="#95603b" />
+      <rect x="600" y="1270" width="360" height="110" rx="12" fill="#95603b" />
+      <rect x="270" y="1316" width="60" height="16" rx="8" fill="#e0b48a" />
+      <rect x="750" y="1316" width="60" height="16" rx="8" fill="#e0b48a" />
+      <rect x="60" y="1178" width="960" height="48" rx="12" fill="#c98b5a" />
+
+      <!-- Libro abierto -->
+      <g id="esc-book">
+        <path d="M424,1186 L540,1192 L656,1186 L650,1178 L430,1178 Z" fill="#00a8a8" />
+        <path id="esc-book-l" d="M432,1180 L540,1186 L540,1136 L442,1128 Z" fill="#ffffff" />
+        <path id="esc-book-r" d="M540,1186 L648,1180 L638,1128 L540,1136 Z" fill="#ffffff" />
+        <path id="esc-book-cover" class="esc-hide" d="M432,1180 L540,1186 L540,1136 L442,1128 Z" fill="#00a8a8" />
+        <g stroke="#b2bec3" stroke-width="4" stroke-linecap="round">
+          <path d="M458,1146 L520,1150 M456,1160 L520,1164" />
+        </g>
+      </g>
+
+      <!-- Pila de libros (gancho) -->
+      <g id="esc-stack">
+        <rect id="esc-sb1" x="120" y="1136" width="220" height="44" rx="8" fill="#e17055" />
+        <rect id="esc-sb2" x="138" y="1094" width="190" height="42" rx="8" fill="#0984e3" />
+        <rect id="esc-sb3" x="128" y="1054" width="200" height="40" rx="8" fill="#fdcb6e" />
+        <rect id="esc-sb4" x="150" y="1016" width="170" height="38" rx="8" fill="#00b894" />
+        <rect id="esc-sb5" x="140" y="980" width="186" height="36" rx="8" fill="#a29bfe" />
+      </g>
+
+      <!-- Celular -->
+      <g id="esc-phone">
+        <rect x="726" y="1040" width="84" height="140" rx="16" fill="#2d3436" />
+        <rect x="734" y="1052" width="68" height="112" rx="8" fill="#74b9ff" />
+        <circle id="esc-notif" cx="800" cy="1046" r="14" fill="#ff4757" />
+      </g>
+
+      <!-- Tomate Pomodoro -->
+      <g id="esc-timer" class="esc-hide" data-layout-ignore>
+        <circle cx="250" cy="1100" r="96" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="12" />
+        <circle
+          id="esc-ring"
+          cx="250"
+          cy="1100"
+          r="96"
+          fill="none"
+          stroke="#ffffff"
+          stroke-width="12"
+          stroke-linecap="round"
+          stroke-dasharray="603"
+          stroke-dashoffset="603"
+          transform="rotate(-90 250 1100)"
+        />
+        <circle cx="250" cy="1104" r="76" fill="#d63c46" />
+        <path d="M250,1030 Q226,1010 214,1022 Q236,1036 250,1032 Q266,1008 288,1018 Q270,1036 250,1032" fill="#00b894" />
+        <text id="esc-t25" class="esc-num" x="250" y="1118" font-size="40" fill="#ffffff" text-anchor="middle">25:00</text>
+        <text id="esc-t05" class="esc-num esc-hide" x="250" y="1118" font-size="40" fill="#ffffff" text-anchor="middle">05:00</text>
+      </g>
+
+      <!-- Taza -->
+      <g id="esc-mug" class="esc-hide">
+        <path d="M842,1112 Q884,1112 884,1140 Q884,1166 842,1164" fill="none" stroke="#e1a940" stroke-width="12" />
+        <rect x="760" y="1092" width="90" height="88" rx="14" fill="#fdcb6e" />
+        <g id="esc-steam" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.8">
+          <path id="esc-st1" d="M785,1076 Q775,1056 787,1040 Q799,1024 789,1004" />
+          <path id="esc-st2" d="M822,1076 Q812,1056 824,1040 Q836,1024 826,1004" />
+        </g>
+      </g>
+
+      <!-- Gato amigo -->
+      <g id="esc-cat" class="esc-hide">
+        <path d="M884,1170 Q950,1150 936,1080" fill="none" stroke="#636e72" stroke-width="16" stroke-linecap="round" />
+        <ellipse cx="840" cy="1136" rx="62" ry="48" fill="#b2bec3" />
+        <g id="esc-cat-head">
+          <path d="M800,1050 L806,996 L838,1030 Z M880,1050 L874,996 L842,1030 Z" fill="#b2bec3" />
+          <circle cx="840" cy="1056" r="46" fill="#b2bec3" />
+          <circle cx="824" cy="1052" r="6" fill="#2d3436" />
+          <circle cx="856" cy="1052" r="6" fill="#2d3436" />
+          <path d="M834,1068 L840,1074 L846,1068" fill="none" stroke="#2d3436" stroke-width="4" stroke-linecap="round" />
+        </g>
+      </g>
+
+      <!-- Globo de diálogo -->
+      <g id="esc-bubble" class="esc-hide">
+        <path d="M700,862 L938,862 Q958,862 958,882 L958,972 Q958,992 938,992 L736,992 L690,1018 L706,992 L700,992 Q680,992 680,972 L680,882 Q680,862 700,862 Z" fill="#ffffff" />
+        <g stroke="#2fb383" stroke-width="10" stroke-linecap="round" fill="none">
+          <path d="M712,902 L880,902" />
+          <path d="M712,930 Q760,912 800,930 T900,930" />
+          <path d="M712,958 L840,958" />
+        </g>
+      </g>
+
+      <!-- Signos: duda e idea -->
+      <g id="esc-q1" class="esc-hide" data-layout-ignore>
+        <text class="esc-num" x="372" y="680" font-size="96" fill="#ffffff" text-anchor="middle">?</text>
+      </g>
+      <g id="esc-q2" class="esc-hide" data-layout-ignore>
+        <text class="esc-num" x="712" y="660" font-size="110" fill="#ffffff" text-anchor="middle">?</text>
+      </g>
+      <g id="esc-bulb" class="esc-hide">
+        <circle cx="712" cy="610" r="64" fill="#ffd166" opacity="0.35" />
+        <circle cx="712" cy="604" r="40" fill="#ffd166" />
+        <rect x="694" y="640" width="36" height="26" rx="6" fill="#636e72" />
+        <path d="M698,604 Q712,584 726,604" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+      </g>
+
+      <!-- Cerebro -->
+      <g transform="translate(-318 0)">
+      <g id="esc-brain" class="esc-hide">
+        <circle cx="720" cy="610" r="78" fill="#ffffff" opacity="0.22" />
+        <path
+          d="M672,630 Q652,620 662,598 Q656,572 684,566 Q694,544 720,552 Q746,542 758,566 Q786,572 780,598 Q790,624 766,632 Q760,654 736,650 Q720,662 704,650 Q680,654 672,630 Z"
+          fill="#fd79a8"
+        />
+        <g fill="none" stroke="#e05596" stroke-width="5" stroke-linecap="round">
+          <path d="M720,556 L720,648" />
+          <path d="M684,586 Q700,592 704,612 M736,612 Q740,592 758,586 M688,628 Q700,620 712,628 M728,628 Q740,620 752,628" />
+        </g>
+        <g fill="#ffd166">
+          <path id="esc-spark1" d="M800,550 L806,566 L822,572 L806,578 L800,594 L794,578 L778,572 L794,566 Z" />
+          <path id="esc-spark2" d="M640,542 L644,554 L656,558 L644,562 L640,574 L636,562 L624,558 L636,554 Z" />
+        </g>
+      </g>
+      </g>
+
+      <!-- Noche -->
+      <rect id="esc-dim" class="esc-hide" x="0" y="0" width="1080" height="1920" fill="#0b1030" />
+
+      <!-- Zzz -->
+      <g class="esc-num" fill="#ffffff" text-anchor="middle" data-layout-ignore>
+        <text id="esc-z1" class="esc-hide" x="700" y="930" font-size="56">Z</text>
+        <text id="esc-z2" class="esc-hide" x="700" y="930" font-size="72">Z</text>
+        <text id="esc-z3" class="esc-hide" x="700" y="930" font-size="90">Z</text>
+      </g>
+    </svg>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const C = "50% 50%";
+
+    function pop(sel, t, d) {
+      tl.fromTo(
+        sel,
+        { scale: 0, opacity: 0, transformOrigin: C },
+        { scale: 1, opacity: 1, duration: d || 0.4, ease: "back.out(2.4)" },
+        t,
+      );
+    }
+    function popAgain(sel, t, d) {
+      tl.to(sel, { scale: 1, opacity: 1, duration: d || 0.4, ease: "back.out(2.4)", transformOrigin: C }, t);
+    }
+    function out(sel, t) {
+      tl.to(sel, { scale: 0, opacity: 0, duration: 0.25, ease: "power2.in", transformOrigin: C }, t);
+    }
+    function wall(t, wallFill, floorFill) {
+      tl.to("#esc-wall", { fill: wallFill, duration: 0.6, ease: "power2.inOut" }, t);
+      tl.to("#esc-floor", { fill: floorFill, duration: 0.6, ease: "power2.inOut" }, t);
+    }
+    // Boca: "smile" | "flat" | "open"
+    function mouth(state, t) {
+      tl.to("#esc-m-smile", { opacity: state === "smile" ? 1 : 0, duration: 0.1 }, t);
+      tl.to("#esc-m-flat", { opacity: state === "flat" ? 1 : 0, duration: 0.1 }, t);
+      tl.to("#esc-m-open", { opacity: state === "open" ? 1 : 0, duration: 0.1 }, t);
+    }
+    function talk(t0, t1) {
+      mouth("open", t0);
+      const amps = [0.45, 1, 0.7, 0.3, 0.9, 0.55, 0.8, 0.4];
+      let i = 0;
+      for (let t = t0; t < t1 - 0.26; t += 0.14) {
+        tl.to("#esc-m-open", { scaleY: amps[i % amps.length], svgOrigin: "540 892", duration: 0.12, ease: "sine.inOut" }, t);
+        i++;
+      }
+      tl.to("#esc-m-open", { scaleY: 1, svgOrigin: "540 892", duration: 0.1 }, t1 - 0.1);
+    }
+    function eyesClosed(closed, t) {
+      tl.to("#esc-eyes-open", { opacity: closed ? 0 : 1, duration: 0.08 }, t);
+      tl.to("#esc-eyes-closed", { opacity: closed ? 1 : 0, duration: 0.08 }, t);
+    }
+    function blink(t) {
+      tl.to("#esc-eyes-open", { scaleY: 0.1, svgOrigin: "540 818", duration: 0.06 }, t);
+      tl.to("#esc-eyes-open", { scaleY: 1, svgOrigin: "540 818", duration: 0.09 }, t + 0.08);
+    }
+
+    // Respiración de fondo
+    tl.fromTo(
+      "#esc-girl",
+      { y: 0 },
+      { y: -5, duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: 31 },
+      0,
+    );
+
+    // ---------- GANCHO 0 – 3.6: cansada frente a la pila ----------
+    tl.fromTo("#esc-head", { rotation: 4, svgOrigin: "540 930" }, { rotation: 6, svgOrigin: "540 930", duration: 1, ease: "sine.inOut" }, 0);
+    tl.fromTo("#esc-lids", { scaleY: 1, svgOrigin: "540 798" }, { scaleY: 1.15, svgOrigin: "540 798", duration: 0.8 }, 0);
+    tl.fromTo("#esc-q1", { opacity: 1, y: 0 }, { opacity: 1, y: -14, duration: 0.6, ease: "sine.inOut", yoyo: true, repeat: 2 }, 0);
+    pop("#esc-q2", 0.35);
+    tl.fromTo("#esc-stack", { rotation: 0, svgOrigin: "230 1180" }, { rotation: -2.5, svgOrigin: "230 1180", duration: 0.25, ease: "sine.inOut", yoyo: true, repeat: 5 }, 0.2);
+    // cabeceo de sueño y sobresalto
+    tl.to("#esc-head", { y: 16, rotation: 9, svgOrigin: "540 930", duration: 0.5, ease: "power2.in" }, 1.0);
+    tl.to("#esc-head", { y: -10, rotation: 0, svgOrigin: "540 930", duration: 0.22, ease: "back.out(3)" }, 1.55);
+    tl.to("#esc-head", { y: 0, svgOrigin: "540 930", duration: 0.3, ease: "power2.out" }, 1.8);
+    // "Probá estos tres tips": se despierta
+    tl.to("#esc-lids", { scaleY: 0, svgOrigin: "540 798", duration: 0.18 }, 2.07);
+    tl.fromTo("#esc-eyes", { scale: 1, svgOrigin: "540 818" }, { scale: 1.18, svgOrigin: "540 818", duration: 0.16, ease: "back.out(3)" }, 2.07);
+    tl.to("#esc-eyes", { scale: 1, svgOrigin: "540 818", duration: 0.3 }, 2.4);
+    tl.to("#esc-brows", { y: -8, duration: 0.2, ease: "back.out(3)" }, 2.07);
+    mouth("smile", 2.15);
+    out("#esc-q1", 2.2);
+    out("#esc-q2", 2.3);
+    tl.to("#esc-sb5", { x: -700, rotation: -30, svgOrigin: "230 1000", duration: 0.45, ease: "power3.in" }, 3.2);
+    tl.to("#esc-sb4", { x: -700, rotation: -24, svgOrigin: "230 1035", duration: 0.45, ease: "power3.in" }, 3.27);
+    tl.to("#esc-sb3", { x: -700, rotation: -18, svgOrigin: "230 1075", duration: 0.45, ease: "power3.in" }, 3.34);
+    tl.to("#esc-sb2", { x: -700, rotation: -12, svgOrigin: "230 1115", duration: 0.45, ease: "power3.in" }, 3.41);
+    tl.to("#esc-sb1", { x: -700, rotation: -6, svgOrigin: "230 1158", duration: 0.45, ease: "power3.in" }, 3.48);
+
+    // ---------- TIP 1 3.6 – 13.1: Pomodoro ----------
+    wall(3.6, "#7c6cf2", "#4a3fa8");
+    tl.to("#esc-brows", { y: 0, duration: 0.3 }, 3.7);
+    pop("#esc-timer", 3.9, 0.5);
+    // foco: mira el libro, cejas concentradas
+    tl.to("#esc-eyes", { y: 8, duration: 0.3, ease: "power2.out" }, 5.6);
+    tl.to("#esc-brows", { y: 5, duration: 0.3 }, 5.6);
+    mouth("flat", 5.6);
+    tl.to("#esc-ring", { strokeDashoffset: 0, duration: 3.0, ease: "none" }, 5.65);
+    tl.fromTo("#esc-notif", { scale: 1, transformOrigin: C }, { scale: 1.45, duration: 0.2, ease: "sine.inOut", yoyo: true, repeat: 5, transformOrigin: C }, 6.1);
+    // "con el celular lejos": lo empuja fuera
+    tl.to("#esc-eyes", { x: 10, y: 4, duration: 0.2 }, 7.3);
+    tl.to("#esc-arm-r", { rotation: -32, svgOrigin: "648 1002", duration: 0.3, ease: "power2.out" }, 7.4);
+    tl.to("#esc-phone", { x: 560, rotation: 35, svgOrigin: "768 1180", duration: 0.45, ease: "power3.in" }, 7.68);
+    tl.to("#esc-arm-r", { rotation: 0, svgOrigin: "648 1002", duration: 0.4, ease: "power2.inOut" }, 8.05);
+    tl.to("#esc-eyes", { x: 0, y: 0, duration: 0.25 }, 8.1);
+    tl.to("#esc-brows", { y: 0, duration: 0.25 }, 8.1);
+    // "y cinco de descanso"
+    tl.to("#esc-t25", { opacity: 0, duration: 0.15 }, 8.6);
+    tl.to("#esc-t05", { opacity: 1, duration: 0.15 }, 8.65);
+    tl.to("#esc-ring", { stroke: "#ffd166", duration: 0.2 }, 8.6);
+    pop("#esc-mug", 8.7);
+    mouth("smile", 8.75);
+    eyesClosed(true, 8.85);
+    tl.fromTo("#esc-st1", { y: 10, opacity: 0 }, { y: -18, opacity: 1, duration: 0.7, ease: "sine.out", yoyo: true, repeat: 5 }, 8.9);
+    tl.fromTo("#esc-st2", { y: 10, opacity: 0 }, { y: -18, opacity: 1, duration: 0.7, ease: "sine.out", yoyo: true, repeat: 5 }, 9.25);
+    // "cada cuatro vueltas, un rato más largo": estirada
+    tl.to("#esc-arm-l", { rotation: 165, svgOrigin: "432 1002", duration: 0.55, ease: "back.out(1.6)" }, 10.35);
+    tl.to("#esc-arm-r", { rotation: -160, svgOrigin: "648 1002", duration: 0.55, ease: "back.out(1.6)" }, 10.52);
+    tl.to("#esc-head", { rotation: -5, y: -6, svgOrigin: "540 930", duration: 0.5, ease: "sine.inOut" }, 10.45);
+    mouth("open", 10.6);
+    tl.to("#esc-head", { rotation: 4, y: -6, svgOrigin: "540 930", duration: 0.7, ease: "sine.inOut" }, 11.0);
+    tl.to("#esc-head", { rotation: 0, y: 0, svgOrigin: "540 930", duration: 0.5, ease: "sine.inOut" }, 11.8);
+    mouth("smile", 11.8);
+    tl.to("#esc-arm-r", { rotation: 0, svgOrigin: "648 1002", duration: 0.5, ease: "power2.inOut" }, 12.1);
+    tl.to("#esc-arm-l", { rotation: 0, svgOrigin: "432 1002", duration: 0.5, ease: "power2.inOut" }, 12.25);
+    eyesClosed(false, 12.6);
+
+    // ---------- TIP 2 13.1 – 22.6: no releas, preguntate ----------
+    wall(13.1, "#2fb383", "#1f7d5b");
+    out("#esc-mug", 13.15);
+    out("#esc-timer", 13.25);
+    tl.to("#esc-eyes", { y: 8, duration: 0.25 }, 13.5);
+    // "Cerrá el apunte"
+    tl.to("#esc-book-r", { scaleX: 0, svgOrigin: "540 1160", duration: 0.2, ease: "power2.in" }, 15.3);
+    tl.fromTo("#esc-book-cover", { opacity: 0, scaleX: 0, svgOrigin: "540 1160" }, { opacity: 1, scaleX: 1, svgOrigin: "540 1160", duration: 0.18, ease: "power2.out" }, 15.5);
+    tl.to("#esc-eyes", { y: 0, duration: 0.25 }, 15.7);
+    // "explicar el tema en voz alta"
+    pop("#esc-bubble", 16.45);
+    talk(16.45, 19.85);
+    tl.to("#esc-arm-l", { rotation: 38, svgOrigin: "432 1002", duration: 0.35, ease: "back.out(2)" }, 16.6);
+    tl.to("#esc-arm-l", { rotation: 26, svgOrigin: "432 1002", duration: 0.4, ease: "sine.inOut", yoyo: true, repeat: 5 }, 17.0);
+    // "como si se lo contaras a un amigo"
+    pop("#esc-cat", 17.95, 0.5);
+    tl.to("#esc-eyes", { x: 10, duration: 0.25 }, 18.1);
+    tl.to("#esc-head", { rotation: 6, svgOrigin: "540 930", duration: 0.35, ease: "power2.out" }, 18.1);
+    tl.to("#esc-cat-head", { rotation: 14, svgOrigin: "840 1090", duration: 0.35, ease: "back.out(2)" }, 18.6);
+    tl.to("#esc-arm-l", { rotation: 0, svgOrigin: "432 1002", duration: 0.4 }, 19.6);
+    // "Si te trabás": se traba
+    out("#esc-bubble", 20.1);
+    mouth("flat", 20.25);
+    tl.to("#esc-eyes", { x: 0, scale: 1.2, svgOrigin: "540 818", duration: 0.15, ease: "back.out(3)" }, 20.26);
+    tl.to("#esc-head", { rotation: -6, svgOrigin: "540 930", duration: 0.3 }, 20.26);
+    popAgain("#esc-q2", 20.3);
+    pop("#esc-sweat", 20.45, 0.3);
+    tl.to("#esc-sweat", { y: 30, duration: 0.6, ease: "power1.in" }, 20.8);
+    // "ahí está lo que te falta"
+    out("#esc-q2", 21.25);
+    pop("#esc-bulb", 21.35);
+    tl.to("#esc-sweat", { opacity: 0, duration: 0.15 }, 21.3);
+    tl.to("#esc-eyes", { scale: 1, svgOrigin: "540 818", duration: 0.2 }, 21.35);
+    tl.to("#esc-head", { rotation: 0, svgOrigin: "540 930", duration: 0.3 }, 21.35);
+    tl.to("#esc-brows", { y: -8, duration: 0.2, ease: "back.out(3)" }, 21.35);
+    mouth("smile", 21.4);
+    tl.to("#esc-cat-head", { rotation: 0, svgOrigin: "840 1090", duration: 0.3 }, 21.5);
+    out("#esc-bulb", 22.45);
+    out("#esc-cat", 22.5);
+
+    // ---------- TIP 3 22.6 – 30.55: repaso espaciado ----------
+    wall(22.6, "#f39c4a", "#b96a22");
+    tl.to("#esc-brows", { y: 0, duration: 0.3 }, 22.7);
+    tl.to("#esc-cal", { scale: 1.1, transformOrigin: C, duration: 0.3, ease: "back.out(2)" }, 22.9);
+    tl.to("#esc-cal", { scale: 1, transformOrigin: C, duration: 0.3, ease: "power2.inOut" }, 23.4);
+    tl.to("#esc-head", { rotation: 7, svgOrigin: "540 930", duration: 0.35, ease: "power2.out" }, 23.0);
+    tl.to("#esc-eyes", { x: 11, y: -8, duration: 0.3 }, 23.0);
+    pop("#esc-chk1", 25.5, 0.3);
+    pop("#esc-chk3", 26.55, 0.3);
+    pop("#esc-chk7", 27.6, 0.3);
+    tl.to("#esc-head", { y: -6, svgOrigin: "540 930", duration: 0.12, ease: "power2.out", yoyo: true, repeat: 1 }, 25.5);
+    tl.to("#esc-head", { y: -6, svgOrigin: "540 930", duration: 0.12, ease: "power2.out", yoyo: true, repeat: 1 }, 26.55);
+    tl.to("#esc-head", { y: -6, svgOrigin: "540 930", duration: 0.12, ease: "power2.out", yoyo: true, repeat: 1 }, 27.6);
+    // "Así la memoria se fija de verdad"
+    tl.to("#esc-head", { rotation: 0, svgOrigin: "540 930", duration: 0.35 }, 28.5);
+    tl.to("#esc-eyes", { x: 0, y: 0, duration: 0.3 }, 28.5);
+    pop("#esc-brain", 28.6, 0.5);
+    tl.fromTo("#esc-spark1", { scale: 0.4, transformOrigin: C }, { scale: 1.2, transformOrigin: C, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut" }, 28.9);
+    tl.fromTo("#esc-spark2", { scale: 1.2, transformOrigin: C }, { scale: 0.4, transformOrigin: C, duration: 0.3, yoyo: true, repeat: 3, ease: "sine.inOut" }, 28.9);
+    out("#esc-brain", 30.25);
+
+    // ---------- BONUS 30.55 – 35.35: dormí bien ----------
+    wall(30.55, "#1e2452", "#12163a");
+    tl.to("#esc-sky", { fill: "#1b2350", duration: 0.6 }, 30.6);
+    tl.to("#esc-sun", { y: 220, opacity: 0, duration: 0.6, ease: "power2.in" }, 30.6);
+    tl.fromTo("#esc-moon", { opacity: 0, y: -60 }, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 30.9);
+    tl.to("#esc-dim", { opacity: 0.32, duration: 0.6 }, 30.6);
+    // bostezo
+    mouth("open", 30.85);
+    tl.to("#esc-m-open", { scaleY: 1.5, svgOrigin: "540 892", duration: 0.4, ease: "sine.out" }, 30.85);
+    tl.to("#esc-m-open", { scaleY: 1, svgOrigin: "540 892", duration: 0.3 }, 31.4);
+    eyesClosed(true, 31.0);
+    mouth("smile", 31.7);
+    // apoya la cabeza
+    tl.to("#esc-arm-l", { rotation: -18, svgOrigin: "432 1002", duration: 0.6, ease: "power2.inOut" }, 31.5);
+    tl.to("#esc-arm-r", { rotation: 18, svgOrigin: "648 1002", duration: 0.6, ease: "power2.inOut" }, 31.62);
+    tl.to("#esc-head", { y: 175, rotation: -14, svgOrigin: "540 930", duration: 0.9, ease: "power2.inOut" }, 31.7);
+    tl.fromTo("#esc-z1", { opacity: 0, x: 0, y: 0 }, { opacity: 1, x: 40, y: -90, duration: 1, ease: "sine.out" }, 32.4);
+    tl.fromTo("#esc-z2", { opacity: 0, x: 0, y: 0 }, { opacity: 1, x: 80, y: -200, duration: 1.2, ease: "sine.out" }, 32.85);
+    tl.fromTo("#esc-z3", { opacity: 0, x: 0, y: 0 }, { opacity: 1, x: 120, y: -330, duration: 1.4, ease: "sine.out" }, 33.3);
+    // "el cerebro ordena todo"
+    popAgain("#esc-brain", 32.85, 0.5);
+    tl.to("#esc-spark1", { scale: 1.2, transformOrigin: C, duration: 0.35, yoyo: true, repeat: 3, ease: "sine.inOut" }, 33.2);
+    tl.to("#esc-head", { y: 182, svgOrigin: "540 930", duration: 0.9, ease: "sine.inOut", yoyo: true, repeat: 1 }, 33.0);
+
+    // ---------- CIERRE 35.35 – 38.6: guardá este video ----------
+    out("#esc-brain", 35.2);
+    tl.to(["#esc-z1", "#esc-z2", "#esc-z3"], { opacity: 0, duration: 0.2 }, 35.3);
+    wall(35.35, "#7c6cf2", "#4a3fa8");
+    tl.to("#esc-dim", { opacity: 0, duration: 0.4 }, 35.35);
+    tl.to("#esc-sky", { fill: "#8fd3ff", duration: 0.5 }, 35.35);
+    tl.to("#esc-moon", { opacity: 0, duration: 0.3 }, 35.35);
+    tl.to("#esc-sun", { y: 0, opacity: 1, duration: 0.5, ease: "power2.out" }, 35.45);
+    tl.to("#esc-head", { y: 0, rotation: 0, svgOrigin: "540 930", duration: 0.4, ease: "back.out(2.2)" }, 35.4);
+    eyesClosed(false, 35.5);
+    tl.to("#esc-arm-l", { rotation: 0, svgOrigin: "432 1002", duration: 0.4 }, 35.45);
+    tl.to("#esc-arm-r", { rotation: -150, svgOrigin: "648 1002", duration: 0.45, ease: "back.out(1.8)" }, 35.7);
+    tl.to("#esc-thumb", { opacity: 1, duration: 0.1 }, 35.85);
+    tl.to("#esc-brows", { y: -8, duration: 0.2, ease: "back.out(3)" }, 35.7);
+    talk(35.6, 37.55);
+    mouth("smile", 37.6);
+    tl.to("#esc-arm-r", { rotation: -140, svgOrigin: "648 1002", duration: 0.25, ease: "sine.inOut", yoyo: true, repeat: 3 }, 36.2);
+
+    // Parpadeos
+    [4.6, 7.0, 12.0, 14.6, 17.4, 19.2, 23.8, 26.0, 29.4, 36.9].forEach(blink);
+
+    tl.set({}, {}, 38.6);
+    window.__timelines["escritorio"] = tl;
+  </script>
+</template>
