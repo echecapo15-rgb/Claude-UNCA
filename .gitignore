@@ -3,3 +3,4 @@ node_modules/
 **/.*.hf-transaction-*/
 **/work-*-*/
 **/*-raw.mp4
+**/.hyperframes/artifacts/
