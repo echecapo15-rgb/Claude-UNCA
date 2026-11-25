@@ -1,0 +1,576 @@
+[
+ {
+  "n": 1,
+  "cap": "intro",
+  "ini": 0.0,
+  "fin": 5.59,
+  "texto": "El Gobierno presenta el presupuesto el treinta de noviembre, y la Legislatura lo aprueba en diciembre."
+ },
+ {
+  "n": 2,
+  "cap": "intro",
+  "ini": 6.14,
+  "fin": 8.17,
+  "texto": "¿Y si el uno de enero no hay ley?"
+ },
+ {
+  "n": 3,
+  "cap": "intro",
+  "ini": 8.72,
+  "fin": 11.15,
+  "texto": "Rige el presupuesto anterior, con ajustes."
+ },
+ {
+  "n": 4,
+  "cap": "intro",
+  "ini": 11.7,
+  "fin": 16.5,
+  "texto": "Esta es la Unidad 4: cómo se elabora, se aprueba y se controla el presupuesto."
+ },
+ {
+  "n": 5,
+  "cap": "c1",
+  "ini": 17.8,
+  "fin": 20.91,
+  "texto": "Capítulo uno: la formulación. Tiene tres pasos."
+ },
+ {
+  "n": 6,
+  "cap": "c1",
+  "ini": 21.46,
+  "fin": 28.29,
+  "texto": "Primero, la fijación de lineamientos. El Ministerio de Hacienda y Finanzas fija cada año las pautas del proyecto."
+ },
+ {
+  "n": 7,
+  "cap": "c1",
+  "ini": 28.84,
+  "fin": 37.37,
+  "texto": "Evalúa los planes de gobierno, proyecta variables macroeconómicas, propone prioridades, y arma un cronograma. Lo dice el artículo veintidós."
+ },
+ {
+  "n": 8,
+  "cap": "c1",
+  "ini": 37.92,
+  "fin": 45.26,
+  "texto": "Segundo, el anteproyecto. Cada jurisdicción y entidad arma su primer borrador: pide los recursos y gastos que necesita."
+ },
+ {
+  "n": 9,
+  "cap": "c1",
+  "ini": 45.81,
+  "fin": 54.58,
+  "texto": "Tercero, la confección del proyecto. La Dirección Provincial de Programación Presupuestaria junta los anteproyectos, salvo el del Poder Legislativo."
+ },
+ {
+  "n": 10,
+  "cap": "c1",
+  "ini": 55.13,
+  "fin": 60.68,
+  "texto": "Arma el proyecto de ley de presupuesto general, y lo envía al Ejecutivo, en acuerdo de ministros."
+ },
+ {
+  "n": 11,
+  "cap": "c2",
+  "ini": 61.98,
+  "fin": 66.67,
+  "texto": "Capítulo dos: la estructura de la ley. Tiene cuatro títulos. Artículo dieciocho."
+ },
+ {
+  "n": 12,
+  "cap": "c2",
+  "ini": 67.22,
+  "fin": 72.53,
+  "texto": "Título uno: las disposiciones generales. Las reglas que valen para todo el presupuesto."
+ },
+ {
+  "n": 13,
+  "cap": "c2",
+  "ini": 73.08,
+  "fin": 79.42,
+  "texto": "Título dos: los recursos y gastos de la administración central. Los recursos van brutos, sin deducciones."
+ },
+ {
+  "n": 14,
+  "cap": "c2",
+  "ini": 79.97,
+  "fin": 88.01,
+  "texto": "Título tres: los organismos descentralizados y la seguridad social. Tienen su propio presupuesto, porque administran sus propios fondos."
+ },
+ {
+  "n": 15,
+  "cap": "c2",
+  "ini": 88.56,
+  "fin": 93.87,
+  "texto": "Título cuatro: las empresas y sociedades del Estado, que obtienen ingresos de sus ventas."
+ },
+ {
+  "n": 16,
+  "cap": "c2",
+  "ini": 94.42,
+  "fin": 102.27,
+  "texto": "Además, el proyecto incluye objetivos y metas, la cantidad de cargos y horas cátedra, y la información de los proyectos de inversión."
+ },
+ {
+  "n": 17,
+  "cap": "c3",
+  "ini": 103.57,
+  "fin": 106.99,
+  "texto": "Capítulo tres: la apertura y los presupuestos de los poderes."
+ },
+ {
+  "n": 18,
+  "cap": "c3",
+  "ini": 107.54,
+  "fin": 114.94,
+  "texto": "Los créditos aprobados son el límite máximo para gastar. Los recursos, en cambio, son estimativos. Artículo veintisiete."
+ },
+ {
+  "n": 19,
+  "cap": "c3",
+  "ini": 115.49,
+  "fin": 122.02,
+  "texto": "El Poder Judicial: su presupuesto de gastos va incluido en el general, y el Ejecutivo lo remite a la Legislatura."
+ },
+ {
+  "n": 20,
+  "cap": "c3",
+  "ini": 122.57,
+  "fin": 127.13,
+  "texto": "El Poder Legislativo sanciona su propio presupuesto, y define su personal."
+ },
+ {
+  "n": 21,
+  "cap": "c3",
+  "ini": 127.68,
+  "fin": 136.13,
+  "texto": "El Ejecutivo no puede vetarlo, salvo que el veto se funde en insuficiencia de recursos. Lo dice el artículo noventa y nueve de la Constitución."
+ },
+ {
+  "n": 22,
+  "cap": "c3",
+  "ini": 136.68,
+  "fin": 145.6,
+  "texto": "Si la Legislatura no sanciona la ley, rige el presupuesto reconducido: la última ley aprobada, sea cual sea el tiempo que pasó. Artículo ciento trece."
+ },
+ {
+  "n": 23,
+  "cap": "c3",
+  "ini": 146.15,
+  "fin": 151.01,
+  "texto": "El ejemplo del apunte: si el uno de enero no hay ley, sigue la del año anterior, ajustada."
+ },
+ {
+  "n": 24,
+  "cap": "c3",
+  "ini": 151.56,
+  "fin": 156.43,
+  "texto": "Y quedan afuera los gastos que solo valían para ese año, como una obra ya terminada."
+ },
+ {
+  "n": 25,
+  "cap": "c3",
+  "ini": 156.98,
+  "fin": 165.49,
+  "texto": "Además, la Constitución dice que todo gasto se sujeta a la ley de presupuesto, y que no se pueden tomar empréstitos para cubrir gastos ordinarios."
+ },
+ {
+  "n": 26,
+  "cap": "c4",
+  "ini": 166.79,
+  "fin": 173.25,
+  "texto": "Capítulo cuatro: la presentación. El Ejecutivo tiene que presentar el proyecto hasta el treinta de noviembre."
+ },
+ {
+  "n": 27,
+  "cap": "c4",
+  "ini": 173.8,
+  "fin": 180.71,
+  "texto": "Junto con los objetivos, la metodología de estimación, y la cuenta de inversión del año anterior. Artículo veinticuatro."
+ },
+ {
+  "n": 28,
+  "cap": "c4",
+  "ini": 181.26,
+  "fin": 185.21,
+  "texto": "Las sesiones ordinarias van del uno de mayo al treinta de noviembre."
+ },
+ {
+  "n": 29,
+  "cap": "c4",
+  "ini": 185.76,
+  "fin": 195.0,
+  "texto": "Si el proyecto llega el veintiocho o el veintinueve de noviembre, se acepta. Pero se puede pedir una sesión extraordinaria, porque no hay tiempo para discutirlo."
+ },
+ {
+  "n": 30,
+  "cap": "c4",
+  "ini": 195.55,
+  "fin": 202.74,
+  "texto": "El proyecto entra por la Cámara de Diputados, la cámara iniciadora. Igual que la ley impositiva y la de crédito público."
+ },
+ {
+  "n": 31,
+  "cap": "c4",
+  "ini": 203.29,
+  "fin": 205.46,
+  "texto": "El Senado es la cámara revisora."
+ },
+ {
+  "n": 32,
+  "cap": "c4",
+  "ini": 206.01,
+  "fin": 211.43,
+  "texto": "Y todo aumento del total de gastos tiene que venir con su financiamiento. Artículo veintiséis."
+ },
+ {
+  "n": 33,
+  "cap": "c5",
+  "ini": 212.73,
+  "fin": 215.55,
+  "texto": "Capítulo cinco: el trámite y la promulgación."
+ },
+ {
+  "n": 34,
+  "cap": "c5",
+  "ini": 216.1,
+  "fin": 222.35,
+  "texto": "Diputados aprueba o no, por mayoría. Si hay observaciones, vuelve al Ejecutivo, y después a Diputados."
+ },
+ {
+  "n": 35,
+  "cap": "c5",
+  "ini": 222.9,
+  "fin": 230.22,
+  "texto": "Después pasa a Senadores, que aprueba o modifica. Si aprueba, la Legislatura sanciona la ley y la comunica al Ejecutivo."
+ },
+ {
+  "n": 36,
+  "cap": "c5",
+  "ini": 230.77,
+  "fin": 235.78,
+  "texto": "Si Senadores la modifica, vuelve a Diputados. Si Diputados acepta, se sanciona."
+ },
+ {
+  "n": 37,
+  "cap": "c5",
+  "ini": 236.33,
+  "fin": 241.19,
+  "texto": "Si no acepta, vuelve a Senadores, que necesita dos tercios para sostener su cambio."
+ },
+ {
+  "n": 38,
+  "cap": "c5",
+  "ini": 241.74,
+  "fin": 247.03,
+  "texto": "Y si lo logra, Diputados necesita dos tercios de sus presentes para imponer su criterio."
+ },
+ {
+  "n": 39,
+  "cap": "c5",
+  "ini": 247.58,
+  "fin": 253.32,
+  "texto": "Si el Ejecutivo observa la ley, solo se reconsidera la parte objetada. El resto queda vigente."
+ },
+ {
+  "n": 40,
+  "cap": "c5",
+  "ini": 253.87,
+  "fin": 261.62,
+  "texto": "El Ejecutivo tiene diez días para promulgarla o devolverla. Si no hace nada, el proyecto es ley, y se publica al día siguiente."
+ },
+ {
+  "n": 41,
+  "cap": "c5",
+  "ini": 262.17,
+  "fin": 265.86,
+  "texto": "Y la Legislatura puede insistir, con dos tercios de cada cámara."
+ },
+ {
+  "n": 42,
+  "cap": "c6",
+  "ini": 267.16,
+  "fin": 270.8,
+  "texto": "Capítulo seis: el régimen federal de responsabilidad fiscal."
+ },
+ {
+  "n": 43,
+  "cap": "c6",
+  "ini": 271.35,
+  "fin": 278.57,
+  "texto": "Catamarca adhirió con la Ley cinco mil ciento cuarenta y cuatro. Busca reglas de comportamiento fiscal, y transparencia."
+ },
+ {
+  "n": 44,
+  "cap": "c6",
+  "ini": 279.12,
+  "fin": 283.49,
+  "texto": "El órgano de aplicación es el Consejo Federal de Responsabilidad Fiscal."
+ },
+ {
+  "n": 45,
+  "cap": "c6",
+  "ini": 284.04,
+  "fin": 290.52,
+  "texto": "Universalidad: el presupuesto autoriza todos los gastos y prevé todos los recursos, por sus montos íntegros."
+ },
+ {
+  "n": 46,
+  "cap": "c6",
+  "ini": 291.07,
+  "fin": 298.35,
+  "texto": "Presupuesto plurianual: proyecciones para el trienio siguiente. Es informativo: la Legislatura no lo aprueba ni lo rechaza."
+ },
+ {
+  "n": 47,
+  "cap": "c6",
+  "ini": 298.9,
+  "fin": 307.65,
+  "texto": "Publicidad: en la web van el presupuesto, las proyecciones y la cuenta de inversión. Y cada trimestre, la ejecución, la deuda y el empleo público."
+ },
+ {
+  "n": 48,
+  "cap": "c6",
+  "ini": 308.2,
+  "fin": 314.3,
+  "texto": "Presión tributaria: no aumentar la carga legal de impuestos, sobre todo sobre el trabajo y la producción."
+ },
+ {
+  "n": 49,
+  "cap": "c6",
+  "ini": 314.85,
+  "fin": 320.24,
+  "texto": "Gasto corriente primario: no puede crecer más que el índice de precios al consumidor, el IPC."
+ },
+ {
+  "n": 50,
+  "cap": "c6",
+  "ini": 320.79,
+  "fin": 327.83,
+  "texto": "El ejemplo del apunte: si el IPC del año fue treinta por ciento, ese gasto no puede crecer más de treinta por ciento."
+ },
+ {
+  "n": 51,
+  "cap": "c6",
+  "ini": 328.38,
+  "fin": 336.75,
+  "texto": "La regla se endurece si hay déficit corriente primario, o si los servicios de la deuda pasan el quince por ciento de los recursos corrientes netos."
+ },
+ {
+  "n": 52,
+  "cap": "c6",
+  "ini": 337.3,
+  "fin": 346.49,
+  "texto": "Empleo público: la relación entre cargos ocupados y habitantes no debe aumentar, tomando como base el treinta y uno de diciembre de dos mil diecisiete."
+ },
+ {
+  "n": 53,
+  "cap": "c6",
+  "ini": 347.04,
+  "fin": 354.83,
+  "texto": "Fin de mandato: en los dos últimos trimestres no se puede aumentar el gasto corriente permanente, como más sueldos, salvo excepciones."
+ },
+ {
+  "n": 54,
+  "cap": "c6",
+  "ini": 355.38,
+  "fin": 366.51,
+  "texto": "Servicios de la deuda: deben ser menores al quince por ciento de los recursos corrientes netos. Si se pasan, no se toma deuda nueva, salvo una refinanciación que mejore las condiciones."
+ },
+ {
+  "n": 55,
+  "cap": "c6",
+  "ini": 367.06,
+  "fin": 376.71,
+  "texto": "Y si se incumple, hay sanciones: se publica el incumplimiento, se restringe el voto en el Consejo, y se limitan los avales y las transferencias no coparticipables."
+ },
+ {
+  "n": 56,
+  "cap": "c7",
+  "ini": 378.01,
+  "fin": 383.28,
+  "texto": "Capítulo siete: los cálculos del resultado presupuestario. Vamos con números simples."
+ },
+ {
+  "n": 57,
+  "cap": "c7",
+  "ini": 383.83,
+  "fin": 387.94,
+  "texto": "Resultado económico: recursos corrientes, menos gastos corrientes."
+ },
+ {
+  "n": 58,
+  "cap": "c7",
+  "ini": 388.49,
+  "fin": 392.42,
+  "texto": "El ejemplo del apunte: cien, menos ochenta, da veinte. Es un ahorro."
+ },
+ {
+  "n": 59,
+  "cap": "c7",
+  "ini": 392.97,
+  "fin": 399.3,
+  "texto": "Resultado financiero: el resultado económico, más los recursos de capital, menos los gastos de capital."
+ },
+ {
+  "n": 60,
+  "cap": "c7",
+  "ini": 399.85,
+  "fin": 405.42,
+  "texto": "Con los números del apunte: veinte, más diez, menos cincuenta, da menos veinte. Es un déficit."
+ },
+ {
+  "n": 61,
+  "cap": "c7",
+  "ini": 405.97,
+  "fin": 413.2,
+  "texto": "Necesidad de financiamiento: el resultado financiero, más las fuentes financieras, menos las aplicaciones financieras."
+ },
+ {
+  "n": 62,
+  "cap": "c7",
+  "ini": 413.75,
+  "fin": 420.24,
+  "texto": "Para entenderlo, con números de ejemplo: menos veinte, más treinta de fuentes, menos diez de aplicaciones, da cero."
+ },
+ {
+  "n": 63,
+  "cap": "c7",
+  "ini": 420.79,
+  "fin": 430.62,
+  "texto": "Base devengado y base caja. Los recursos, en las dos, son los percibidos. Pero en base devengado se usan los gastos devengados, y en base caja, los gastos pagados."
+ },
+ {
+  "n": 64,
+  "cap": "c7",
+  "ini": 431.17,
+  "fin": 435.44,
+  "texto": "El ejemplo del apunte: una factura que llega en diciembre y se paga en enero."
+ },
+ {
+  "n": 65,
+  "cap": "c7",
+  "ini": 435.99,
+  "fin": 441.43,
+  "texto": "En base devengado, es gasto del año de diciembre. En base caja, es gasto del año de enero."
+ },
+ {
+  "n": 66,
+  "cap": "c7",
+  "ini": 441.98,
+  "fin": 446.97,
+  "texto": "Resultado primario: el resultado financiero, sin contar los intereses de la deuda."
+ },
+ {
+  "n": 67,
+  "cap": "c7",
+  "ini": 447.52,
+  "fin": 455.16,
+  "texto": "El ejemplo del apunte: un déficit de veinte, con cinco de intereses. Sin los intereses, el resultado primario es menos quince."
+ },
+ {
+  "n": 68,
+  "cap": "c7",
+  "ini": 455.71,
+  "fin": 469.45,
+  "texto": "Gasto corriente primario neto: el gasto corriente primario, menos lo financiado con préstamos de organismos internacionales, menos las transferencias a municipios, y menos los aportes no automáticos con destino específico."
+ },
+ {
+  "n": 69,
+  "cap": "c7",
+  "ini": 470.0,
+  "fin": 476.14,
+  "texto": "Para entenderlo, con números de ejemplo: cien, menos diez, menos veinte, menos cinco, da sesenta y cinco."
+ },
+ {
+  "n": 70,
+  "cap": "c7",
+  "ini": 476.69,
+  "fin": 484.29,
+  "texto": "Indicador de endeudamiento: los servicios de la deuda, divididos por los recursos corrientes netos de transferencias a municipios."
+ },
+ {
+  "n": 71,
+  "cap": "c7",
+  "ini": 484.84,
+  "fin": 490.83,
+  "texto": "El ejemplo del apunte: ciento veinte sobre mil da doce por ciento. Está por debajo del tope del quince."
+ },
+ {
+  "n": 72,
+  "cap": "c8",
+  "ini": 492.13,
+  "fin": 498.68,
+  "texto": "Capítulo ocho: las reestructuraciones. El apunte toma como ejemplo la Ley de Presupuesto dos mil veintitrés."
+ },
+ {
+  "n": 73,
+  "cap": "c8",
+  "ini": 499.23,
+  "fin": 505.59,
+  "texto": "El Poder Ejecutivo puede modificar sin límite los créditos de personal, transferencias y servicios de la deuda."
+ },
+ {
+  "n": 74,
+  "cap": "c8",
+  "ini": 506.14,
+  "fin": 513.52,
+  "texto": "En el resto de los incisos, no más de treinta y seis reestructuraciones. Y ese límite no se aplica en emergencia declarada."
+ },
+ {
+  "n": 75,
+  "cap": "c8",
+  "ini": 514.07,
+  "fin": 522.11,
+  "texto": "Los cargos y horas cátedra se pueden reestructurar si no cambia el total, y sin contratar personal en los últimos seis meses del mandato."
+ },
+ {
+  "n": 76,
+  "cap": "c8",
+  "ini": 522.66,
+  "fin": 534.18,
+  "texto": "Los poderes Legislativo y Judicial, y el Tribunal de Cuentas, pueden reestructurar sin alterar el total de su jurisdicción. Y lo comunican a la Dirección Provincial de Programación Presupuestaria."
+ },
+ {
+  "n": 77,
+  "cap": "c8",
+  "ini": 534.73,
+  "fin": 539.98,
+  "texto": "El Ejecutivo también puede tomar deuda nueva para cancelar otra, o para reestructurarla."
+ },
+ {
+  "n": 78,
+  "cap": "c8",
+  "ini": 540.53,
+  "fin": 545.67,
+  "texto": "Ojo: reestructurar cambia en qué se gasta, pero no permite gastar más de lo autorizado."
+ },
+ {
+  "n": 79,
+  "cap": "c8",
+  "ini": 546.22,
+  "fin": 554.07,
+  "texto": "El ejemplo del apunte: pasar crédito de servicios a bienes de consumo, dentro de un ministerio, cambia en qué se gasta, pero no el total."
+ },
+ {
+  "n": 80,
+  "cap": "cierre",
+  "ini": 555.37,
+  "fin": 558.08,
+  "texto": "Te dejo una pregunta del apunte, para practicar."
+ },
+ {
+  "n": 81,
+  "cap": "cierre",
+  "ini": 558.63,
+  "fin": 567.21,
+  "texto": "Un municipio tiene recursos corrientes de cien pesos, y gastos corrientes de ciento veinte, con intereses de diez. ¿Cuál es su resultado económico?"
+ },
+ {
+  "n": 82,
+  "cap": "cierre",
+  "ini": 567.76,
+  "fin": 570.43,
+  "texto": "Hacé la cuenta, y respondé en los comentarios."
+ }
+]
