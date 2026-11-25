@@ -1,0 +1,499 @@
+[
+ {
+  "n": 1,
+  "cap": "intro",
+  "ini": 0.0,
+  "fin": 5.76,
+  "texto": "Si el presupuesto es un plan, ¿quién hace que funcione con las mismas reglas en todos los organismos?"
+ },
+ {
+  "n": 2,
+  "cap": "intro",
+  "ini": 6.31,
+  "fin": 10.21,
+  "texto": "La respuesta es la Ley cuatro mil novecientos treinta y ocho."
+ },
+ {
+  "n": 3,
+  "cap": "intro",
+  "ini": 10.76,
+  "fin": 19.17,
+  "texto": "Es la ley de Administración Financiera, de Contrataciones y Administración de Bienes, y de los Sistemas de Control del Sector Público Provincial."
+ },
+ {
+  "n": 4,
+  "cap": "intro",
+  "ini": 19.72,
+  "fin": 22.51,
+  "texto": "Esta es la Unidad 3: cómo está armada esa ley."
+ },
+ {
+  "n": 5,
+  "cap": "c1",
+  "ini": 23.81,
+  "fin": 26.61,
+  "texto": "Capítulo uno: la administración financiera."
+ },
+ {
+  "n": 6,
+  "cap": "c1",
+  "ini": 27.16,
+  "fin": 35.41,
+  "texto": "Es el conjunto de sistemas que se ocupan de obtener los recursos públicos, y de aplicarlos para cumplir las funciones del Estado provincial."
+ },
+ {
+  "n": 7,
+  "cap": "c1",
+  "ini": 35.96,
+  "fin": 39.98,
+  "texto": "La ley regula tres grandes áreas. Lo dice su artículo tercero."
+ },
+ {
+  "n": 8,
+  "cap": "c1",
+  "ini": 40.53,
+  "fin": 47.59,
+  "texto": "Uno: la administración financiera. Dos: las contrataciones y la administración de bienes. Tres: los sistemas de control."
+ },
+ {
+  "n": 9,
+  "cap": "c1",
+  "ini": 48.14,
+  "fin": 51.34,
+  "texto": "¿A quién se aplica? A todo el sector público provincial."
+ },
+ {
+  "n": 10,
+  "cap": "c1",
+  "ini": 51.89,
+  "fin": 59.1,
+  "texto": "La administración central, los organismos descentralizados, la seguridad social, y las empresas y sociedades del Estado."
+ },
+ {
+  "n": 11,
+  "cap": "c1",
+  "ini": 59.65,
+  "fin": 65.68,
+  "texto": "También los poderes Legislativo y Judicial, y las entidades que reciben subsidios del Estado para un fin."
+ },
+ {
+  "n": 12,
+  "cap": "c2",
+  "ini": 66.98,
+  "fin": 70.14,
+  "texto": "Capítulo dos: los sujetos. Entidad y jurisdicción."
+ },
+ {
+  "n": 13,
+  "cap": "c2",
+  "ini": 70.69,
+  "fin": 76.15,
+  "texto": "Una entidad es una organización pública con personalidad jurídica y patrimonio propio."
+ },
+ {
+  "n": 14,
+  "cap": "c2",
+  "ini": 76.7,
+  "fin": 79.8,
+  "texto": "Puede tener sus bienes, contratar, y ser demandada."
+ },
+ {
+  "n": 15,
+  "cap": "c2",
+  "ini": 80.35,
+  "fin": 86.09,
+  "texto": "Una jurisdicción es parte de la administración central. No tiene personalidad jurídica propia."
+ },
+ {
+  "n": 16,
+  "cap": "c2",
+  "ini": 86.64,
+  "fin": 94.64,
+  "texto": "Son jurisdicciones el Poder Legislativo, el Poder Judicial, la Gobernación, los ministerios y secretarías, y el Tribunal de Cuentas."
+ },
+ {
+  "n": 17,
+  "cap": "c2",
+  "ini": 95.19,
+  "fin": 99.43,
+  "texto": "El ejemplo del apunte: el Ministerio de Educación es una jurisdicción."
+ },
+ {
+  "n": 18,
+  "cap": "c2",
+  "ini": 99.98,
+  "fin": 105.23,
+  "texto": "El i pe ve y la OSEP son entidades: tienen personalidad jurídica y patrimonio propio."
+ },
+ {
+  "n": 19,
+  "cap": "c3",
+  "ini": 106.53,
+  "fin": 110.65,
+  "texto": "Capítulo tres: los objetivos de la ley. Están en su artículo cuarto."
+ },
+ {
+  "n": 20,
+  "cap": "c3",
+  "ini": 111.2,
+  "fin": 117.51,
+  "texto": "Primero: garantizar la regularidad financiera, la legalidad, la economicidad, la eficiencia y la eficacia."
+ },
+ {
+  "n": 21,
+  "cap": "c3",
+  "ini": 118.06,
+  "fin": 122.75,
+  "texto": "Segundo: sistematizar la programación, la gestión y la evaluación de los recursos."
+ },
+ {
+  "n": 22,
+  "cap": "c3",
+  "ini": 123.3,
+  "fin": 130.26,
+  "texto": "Tercero: asegurar contrataciones que cuiden el interés fiscal, con libre concurrencia, publicidad y transparencia."
+ },
+ {
+  "n": 23,
+  "cap": "c3",
+  "ini": 130.81,
+  "fin": 135.65,
+  "texto": "Para entenderlo: que una compra se publique, y que puedan ofertar varios proveedores."
+ },
+ {
+  "n": 24,
+  "cap": "c3",
+  "ini": 136.2,
+  "fin": 138.74,
+  "texto": "Cuarto: resguardar el patrimonio del Estado."
+ },
+ {
+  "n": 25,
+  "cap": "c3",
+  "ini": 139.29,
+  "fin": 145.63,
+  "texto": "Y quinto: responsabilizar a los funcionarios por su gestión, por el uso de los recursos y por los resultados."
+ },
+ {
+  "n": 26,
+  "cap": "c3",
+  "ini": 146.18,
+  "fin": 151.17,
+  "texto": "Para entenderlo: quien maneja fondos públicos tiene que responder por lo que hizo con ellos."
+ },
+ {
+  "n": 27,
+  "cap": "c4",
+  "ini": 152.47,
+  "fin": 158.57,
+  "texto": "Capítulo cuatro: los cuatro sistemas del macrosistema financiero. Cada uno tiene su órgano rector."
+ },
+ {
+  "n": 28,
+  "cap": "c4",
+  "ini": 159.12,
+  "fin": 161.94,
+  "texto": "Presupuesto: la Subsecretaría de Presupuesto."
+ },
+ {
+  "n": 29,
+  "cap": "c4",
+  "ini": 162.49,
+  "fin": 165.37,
+  "texto": "Tesorería: la Tesorería General de la Provincia."
+ },
+ {
+  "n": 30,
+  "cap": "c4",
+  "ini": 165.92,
+  "fin": 169.58,
+  "texto": "Crédito público: la Oficina Provincial de Crédito Público."
+ },
+ {
+  "n": 31,
+  "cap": "c4",
+  "ini": 170.13,
+  "fin": 174.32,
+  "texto": "Y contabilidad gubernamental: la Contaduría General de la Provincia."
+ },
+ {
+  "n": 32,
+  "cap": "c4",
+  "ini": 174.87,
+  "fin": 179.28,
+  "texto": "En cada jurisdicción hay un Servicio Administrativo Financiero, el SAF."
+ },
+ {
+  "n": 33,
+  "cap": "c4",
+  "ini": 179.83,
+  "fin": 185.06,
+  "texto": "El SAF coordina a las unidades ejecutoras, y queda sujeto a cada órgano rector."
+ },
+ {
+  "n": 34,
+  "cap": "c4",
+  "ini": 185.61,
+  "fin": 191.86,
+  "texto": "El órgano coordinador de los SAF es el Ministerio de Hacienda y Finanzas. Lo dice el artículo quinto."
+ },
+ {
+  "n": 35,
+  "cap": "c4",
+  "ini": 192.41,
+  "fin": 195.91,
+  "texto": "El ejemplo del apunte: el SAF del Ministerio de Salud."
+ },
+ {
+  "n": 36,
+  "cap": "c4",
+  "ini": 196.46,
+  "fin": 204.03,
+  "texto": "Lleva el presupuesto, las compras, la contabilidad y la tesorería de ese ministerio, siguiendo las normas de cada órgano rector."
+ },
+ {
+  "n": 37,
+  "cap": "c5",
+  "ini": 205.33,
+  "fin": 208.85,
+  "texto": "Capítulo cinco: contrataciones y administración de bienes."
+ },
+ {
+  "n": 38,
+  "cap": "c5",
+  "ini": 209.4,
+  "fin": 215.55,
+  "texto": "Es otro macrosistema, con dos sistemas: el de contrataciones, y el de administración de bienes del Estado."
+ },
+ {
+  "n": 39,
+  "cap": "c5",
+  "ini": 216.1,
+  "fin": 221.56,
+  "texto": "Los dos los coordina el Ministerio de Hacienda y Finanzas. Se ven en detalle en la Unidad 8."
+ },
+ {
+  "n": 40,
+  "cap": "c5",
+  "ini": 222.11,
+  "fin": 229.47,
+  "texto": "Para entenderlo: comprar algo para el Estado pasa por contrataciones. Cuidar lo que el Estado ya tiene, por administración de bienes."
+ },
+ {
+  "n": 41,
+  "cap": "c6",
+  "ini": 230.77,
+  "fin": 233.18,
+  "texto": "Capítulo seis: los sistemas de control."
+ },
+ {
+  "n": 42,
+  "cap": "c6",
+  "ini": 233.73,
+  "fin": 242.26,
+  "texto": "El control interno lo ejercen la Contaduría General de la Provincia, como órgano rector, y las Unidades de Auditoría Interna de cada organismo."
+ },
+ {
+  "n": 43,
+  "cap": "c6",
+  "ini": 242.81,
+  "fin": 248.23,
+  "texto": "Es el control que el propio Poder Ejecutivo se hace a sí mismo, para detectar y corregir errores."
+ },
+ {
+  "n": 44,
+  "cap": "c6",
+  "ini": 248.78,
+  "fin": 253.79,
+  "texto": "El control externo lo ejerce el Tribunal de Cuentas, que está fuera del Poder Ejecutivo."
+ },
+ {
+  "n": 45,
+  "cap": "c6",
+  "ini": 254.34,
+  "fin": 260.68,
+  "texto": "El ejemplo del apunte: la auditoría interna de un ministerio revisa sus pagos, antes y después de hacerlos."
+ },
+ {
+  "n": 46,
+  "cap": "c6",
+  "ini": 261.23,
+  "fin": 266.41,
+  "texto": "Y el Tribunal de Cuentas examina después si esos fondos se gastaron conforme a la ley."
+ },
+ {
+  "n": 47,
+  "cap": "c6",
+  "ini": 266.96,
+  "fin": 274.11,
+  "texto": "El modelo es integral e integrado: controla los sistemas administrativos, y también la producción de bienes y servicios."
+ },
+ {
+  "n": 48,
+  "cap": "c7",
+  "ini": 275.41,
+  "fin": 278.16,
+  "texto": "Capítulo siete: el sistema presupuestario."
+ },
+ {
+  "n": 49,
+  "cap": "c7",
+  "ini": 278.71,
+  "fin": 285.35,
+  "texto": "Tiene un órgano rector, que dicta las normas. La ley lo llama Dirección Provincial de Programación Presupuestaria."
+ },
+ {
+  "n": 50,
+  "cap": "c7",
+  "ini": 285.9,
+  "fin": 290.53,
+  "texto": "Y tiene unidades sectoriales de presupuesto en cada jurisdicción, que las aplican."
+ },
+ {
+  "n": 51,
+  "cap": "c7",
+  "ini": 291.08,
+  "fin": 300.25,
+  "texto": "Para dirigirla, hace falta título universitario en Ciencias Económicas, y al menos cinco años de experiencia financiero-contable en la administración pública."
+ },
+ {
+  "n": 52,
+  "cap": "c7",
+  "ini": 300.8,
+  "fin": 309.46,
+  "texto": "El órgano rector participa en la política financiera, dicta normas técnicas, prepara el proyecto de ley de presupuesto, y analiza los anteproyectos."
+ },
+ {
+  "n": 53,
+  "cap": "c7",
+  "ini": 310.01,
+  "fin": 317.75,
+  "texto": "Las unidades sectoriales asesoran, coordinan los anteproyectos, registran la ejecución física, y elaboran indicadores de gestión."
+ },
+ {
+  "n": 54,
+  "cap": "c7",
+  "ini": 318.3,
+  "fin": 322.87,
+  "texto": "El ejemplo del apunte: la Dirección dicta las normas para armar el presupuesto."
+ },
+ {
+  "n": 55,
+  "cap": "c7",
+  "ini": 323.42,
+  "fin": 328.86,
+  "texto": "Y la unidad sectorial de un ministerio las aplica, al armar el anteproyecto de ese ministerio."
+ },
+ {
+  "n": 56,
+  "cap": "c8",
+  "ini": 330.16,
+  "fin": 333.15,
+  "texto": "Capítulo ocho: el sistema de inversión pública."
+ },
+ {
+  "n": 57,
+  "cap": "c8",
+  "ini": 333.7,
+  "fin": 342.63,
+  "texto": "Lo creó la Ley cuatro mil novecientos sesenta y ocho, de mil novecientos noventa y ocho, y la modificó la Ley cinco mil seiscientos cuarenta y tres."
+ },
+ {
+  "n": 58,
+  "cap": "c8",
+  "ini": 343.18,
+  "fin": 347.98,
+  "texto": "No forma parte de la administración financiera, pero se vincula con el presupuesto."
+ },
+ {
+  "n": 59,
+  "cap": "c8",
+  "ini": 348.53,
+  "fin": 354.79,
+  "texto": "Su objetivo: concretar las inversiones públicas más rentables, desde el punto de vista económico y social."
+ },
+ {
+  "n": 60,
+  "cap": "c8",
+  "ini": 355.34,
+  "fin": 362.93,
+  "texto": "El órgano rector es el Ministerio de Planificación y Modernización. Dicta las reglas para presentar y evaluar los proyectos."
+ },
+ {
+  "n": 61,
+  "cap": "c8",
+  "ini": 363.48,
+  "fin": 371.5,
+  "texto": "En cada jurisdicción hay una Unidad Sectorial de Inversión, la u ese i. Y en los municipios que adhieran, una Unidad Municipal de Inversión."
+ },
+ {
+  "n": 62,
+  "cap": "c8",
+  "ini": 372.05,
+  "fin": 375.55,
+  "texto": "Veamos el proceso con un ejemplo: el proyecto de una escuela."
+ },
+ {
+  "n": 63,
+  "cap": "c8",
+  "ini": 376.1,
+  "fin": 378.51,
+  "texto": "La jurisdicción lo formula y lo evalúa."
+ },
+ {
+  "n": 64,
+  "cap": "c8",
+  "ini": 379.06,
+  "fin": 384.24,
+  "texto": "La u ese i lo eleva a la máxima autoridad, que decide si conviene, y lo envía al Ministerio."
+ },
+ {
+  "n": 65,
+  "cap": "c8",
+  "ini": 384.79,
+  "fin": 388.19,
+  "texto": "El Ministerio emite el informe de pertinencia técnica."
+ },
+ {
+  "n": 66,
+  "cap": "c8",
+  "ini": 388.74,
+  "fin": 396.52,
+  "texto": "Después del análisis técnico y económico, manda un informe de resultados a la Dirección Provincial de Programación Presupuestaria."
+ },
+ {
+  "n": 67,
+  "cap": "c8",
+  "ini": 397.07,
+  "fin": 404.07,
+  "texto": "Y la Dirección, al asignar los recursos de inversión, verifica que los proyectos del presupuesto estén en ese informe."
+ },
+ {
+  "n": 68,
+  "cap": "c8",
+  "ini": 404.62,
+  "fin": 413.67,
+  "texto": "Todo queda registrado en el Banco Integrado de Proyectos, el BIP: la base de datos oficial de proyectos de la provincia, con su avance físico y financiero."
+ },
+ {
+  "n": 69,
+  "cap": "cierre",
+  "ini": 414.97,
+  "fin": 417.25,
+  "texto": "Repasemos con una pregunta del apunte."
+ },
+ {
+  "n": 70,
+  "cap": "cierre",
+  "ini": 417.8,
+  "fin": 421.79,
+  "texto": "Si el proyecto de una escuela no pasa por la u ese i, ¿puede avanzar? ¿Por qué?"
+ },
+ {
+  "n": 71,
+  "cap": "cierre",
+  "ini": 422.34,
+  "fin": 424.64,
+  "texto": "Pensalo, y respondé en los comentarios."
+ }
+]
