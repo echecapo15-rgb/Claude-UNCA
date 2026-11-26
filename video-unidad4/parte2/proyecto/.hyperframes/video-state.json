@@ -1,0 +1,738 @@
+{
+  "version": 1,
+  "historyId": "02949b68-1075-4276-b319-d8c67f8636a3",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/72/729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb"
+    },
+    "CLAUDE.md": {
+      "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/72/729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb"
+    },
+    "assets/fonts/OFL.txt": {
+      "hash": "377f4f9c19e935228552478eb68cc2ed82910988a60ba60e2ac73b09f32d02d1",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/37/377f4f9c19e935228552478eb68cc2ed82910988a60ba60e2ac73b09f32d02d1"
+    },
+    "assets/fonts/PatrickHand-Regular.ttf": {
+      "hash": "0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/0f/0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc"
+    },
+    "compositions/c0.html": {
+      "hash": "a8e52e62587060a8377aa03f3ae27e7f5094d7fc63f19f5837e99cc1003d16f1",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/a8/a8e52e62587060a8377aa03f3ae27e7f5094d7fc63f19f5837e99cc1003d16f1"
+    },
+    "compositions/c6.html": {
+      "hash": "b8cbc015aa72a59530c037c9f2d9e630aa4b2dceddafe0cbcdfc37504ec10113",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/b8/b8cbc015aa72a59530c037c9f2d9e630aa4b2dceddafe0cbcdfc37504ec10113"
+    },
+    "compositions/c7.html": {
+      "hash": "37e35b712da21708a3dca52799cd4c51a6b4f6e006473ef806e43b47a29108a1",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/37/37e35b712da21708a3dca52799cd4c51a6b4f6e006473ef806e43b47a29108a1"
+    },
+    "compositions/c8.html": {
+      "hash": "fa995768be6fec63608162aa5bd83f32ac0409fee240a56e8fab8e5ddc213f0e",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/fa/fa995768be6fec63608162aa5bd83f32ac0409fee240a56e8fab8e5ddc213f0e"
+    },
+    "compositions/c9.html": {
+      "hash": "a23e051a3c20d432305b049d1dd05de246b434860e91a625e353225037f628ec",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/a2/a23e051a3c20d432305b049d1dd05de246b434860e91a625e353225037f628ec"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "79d348b90d6aab400b482334bfbbbdf5b36f9b331b2775c439940e3a0486f93f",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/79/79d348b90d6aab400b482334bfbbbdf5b36f9b331b2775c439940e3a0486f93f"
+    },
+    "meta.json": {
+      "hash": "b13866e3ddd684931cd36b50ab5ddc146445b4eba4d43eafb14b0ff3eb03d472",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/b1/b13866e3ddd684931cd36b50ab5ddc146445b4eba4d43eafb14b0ff3eb03d472"
+    },
+    "package.json": {
+      "hash": "2d0ab0e144f2d22ee7d2ccc88578e0399115630fe27522535d5dca3f5b0a60c0",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/2d/2d0ab0e144f2d22ee7d2ccc88578e0399115630fe27522535d5dca3f5b0a60c0"
+    },
+    "assets/voz.wav": {
+      "hash": "cd48ff6af2d38589910ecf67b0adb66f893028e666d299dff348a707837ffc8f",
+      "content": "/root/.cache/hyperframes/history/02949b68-1075-4276-b319-d8c67f8636a3/blobs/cd/cd48ff6af2d38589910ecf67b0adb66f893028e666d299dff348a707837ffc8f"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "a6632ef8-4ca0-44b2-95e8-9e614d462cbb"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "a6632ef8-4ca0-44b2-95e8-9e614d462cbb",
+        "scope": "project",
+        "report": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/checks/a6632ef8-4ca0-44b2-95e8-9e614d462cbb.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1795653904007,
+        "contentHash": "c692a56fbe5412c6b16e9f496db833e16cf245d885e3e2c985778c62d4e32b44",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-30"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-0",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-00-at-3.5s.png",
+        "time": 3.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917952,
+        "contentHash": "0ee615f1d44f505722c39312da18e81a5621bb1dfa84f86c6514aee9e1c33819",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-1",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-01-at-10s.png",
+        "time": 10,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917953,
+        "contentHash": "4f2359abd087a014f7ab34b44d3196cfbd610f2955c458f8772a7be521129005",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-2",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-02-at-20s.png",
+        "time": 20,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917953,
+        "contentHash": "2a8da18ebfe7c21449df42383b664e79a320793e7787c776ff58cafa94b1360b",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-3",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-03-at-30s.png",
+        "time": 30,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917953,
+        "contentHash": "815571b521ac059f9b5c18ffd343589b3bc90133db001c32fff6dc4715912599",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-4",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-04-at-40s.png",
+        "time": 40,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917953,
+        "contentHash": "72a548755296093ddee7a9dd2ded49fbdb9b993d3d871ea884ade9319f08b1cc",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-5",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-05-at-52s.png",
+        "time": 52,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917953,
+        "contentHash": "4f80a229dd659f24f6947598c4fd83073e1ac9b7b8a3f719858bdc6f0d946828",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-6",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-06-at-62s.png",
+        "time": 62,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917953,
+        "contentHash": "715d1b18a2ae038aff441d3e3c1fad16de0357ce1c5815be10cc37d5b8d6ff68",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-7",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-07-at-70s.png",
+        "time": 70,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917953,
+        "contentHash": "e759e72e2b14d21790a150b18b9312b459a60527cb098a4c8ae8657c691c2cc6",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-8",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-08-at-85s.png",
+        "time": 85,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917953,
+        "contentHash": "8eefcae6fd0987333512368f611941270b6c76d7658818d7292de82d521966fd",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-9",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-09-at-95s.png",
+        "time": 95,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917953,
+        "contentHash": "66c19e882391531d4556339c5a8b892e22f9837451893687a5c18235f96cd173",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-10",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-10-at-105s.png",
+        "time": 105,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "53116605cd2cf000a73ddb9ea0a0b5ff0433e54b5a72584026bb05eb7cc05647",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-11",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-11-at-113s.png",
+        "time": 113,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "cb2e86693a8e4ac17ec86026a1d760172a0c2bb2f62df7065d2a323923b505ed",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-12",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-12-at-124s.png",
+        "time": 124,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "415976e9d0695eb177d93c3ebc52b3c805e1208d6e7c39791ba3e87fa4e75ff1",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-13",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-13-at-135s.png",
+        "time": 135,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "3afca7fdba0551dcda25e3a5c4d9d43e5f0072b377bd5536f08b824351f85847",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-14",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-14-at-146s.png",
+        "time": 146,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "b83257ae67b166ed0f43f6f9ed637144a5b8fbe5734c5dce15db6caa5c597d8c",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-15",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-15-at-158s.png",
+        "time": 158,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "0831e6f054247ae4e3b53d063807b4b291858b5274190392f5044a83e2f93316",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-16",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-16-at-170s.png",
+        "time": 170,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "c2567bb3d65489c7b04363a9864770cc267ad9fdd9011671c41e08944eb48f50",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-17",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-17-at-182s.png",
+        "time": 182,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "ac9692355dc1bc51c7900a839741a263469549155260d7165ee75cff72bb68c7",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-18",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-18-at-195s.png",
+        "time": 195,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "98a6cab59edc8d8430bee61f8b7422e50e65fef08ff1c1bdab0090fbe787d777",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-19",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-19-at-207s.png",
+        "time": 207,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "2796203ad2835e3e6bd12a3694a53df9f35dbc7f9fd0bfe36980a5ec203a7546",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-20",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-20-at-213s.png",
+        "time": 213,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "f0ef1b26b71728e4b39bf75e7ec4a291beed237684f18a3fc8c5f3de6791749b",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-21",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-21-at-226s.png",
+        "time": 226,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "8816123b70318a00200b3fa0a1402b23d2863afa0b20f14f33aa68becaa686a6",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-22",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-22-at-236s.png",
+        "time": 236,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "e32cb015a0f43a33615e1586292c99168438a8665f67bd9fee6bfffad8cfd2ab",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-23",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-23-at-247s.png",
+        "time": 247,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "88129c3ece4ed49d322e21cf9e98a20b77911bf2d8db83542017300fd82ca7e9",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-24",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-24-at-258s.png",
+        "time": 258,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917954,
+        "contentHash": "ad17eda22bcce68786f4bbba4affb20bd96d17de75005cd6d468584d9ef2bf84",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-25",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-25-at-270s.png",
+        "time": 270,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917955,
+        "contentHash": "b5b5b785ccfa81e2a8851111144b1b077c374f17a09ea64b23471a274a532106",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-26",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-26-at-280s.png",
+        "time": 280,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917955,
+        "contentHash": "83fec3cd031666e94ed7dcda4cf822f3dfd36b8c3d84c59634cc18191816ff54",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-27",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-27-at-290s.png",
+        "time": 290,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917955,
+        "contentHash": "dce783ab219fd898022ab2d0138971533583aac9a23c640863074d4edb09f217",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-28",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-28-at-300s.png",
+        "time": 300,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917955,
+        "contentHash": "fb4284b58551b83d8c33e642a556154cb8f5e4016f2a085fe9d1c5d75f7e1d0c",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-29",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-29-at-308s.png",
+        "time": 308,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917955,
+        "contentHash": "64c2c4263c38495d3c7fa0958fa5a83d5b48af7fa7af01ca3695d7be49379187",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "bd6c3599-2aab-4217-abe6-5d5ff649510e-30",
+        "image": "/home/user/Claude-UNCA/video-unidad4/parte2/proyecto/.hyperframes/artifacts/snapshots/3fad30f2-c267-4595-bec6-0606a4857cca/frame-30-at-309.82s.png",
+        "time": 309.82,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795653917955,
+        "contentHash": "64c2c4263c38495d3c7fa0958fa5a83d5b48af7fa7af01ca3695d7be49379187",
+        "revision": null,
+        "inputFingerprint": "8295bd97832cbe16941f35bfddc1e3069885cc7860ae55489c146e2d1447e2ef",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  }
+}
