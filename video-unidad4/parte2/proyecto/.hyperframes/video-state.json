@@ -734,5 +734,16 @@
         "attribution": "unversioned"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "3a61d984-ab59-40fb-8a4b-abb01e28fb5d",
+      "completedAt": 1795654680807,
+      "output": "/home/user/Claude-UNCA/video-unidad4/parte2/unidad4-parte2-draft.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
